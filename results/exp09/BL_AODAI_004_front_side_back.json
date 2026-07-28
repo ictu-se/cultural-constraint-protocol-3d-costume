@@ -1,0 +1,79 @@
+{
+  "asset_id": "BL_AODAI_004",
+  "view_config": "front_side_back",
+  "views": [
+    "front",
+    "side",
+    "back"
+  ],
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF Q4_K_M",
+  "temperature": 0,
+  "schema_attempts": 1,
+  "elapsed_seconds": 14.16,
+  "image_sha256": {
+    "BL_AODAI_004_front.png": "6183f2f56756a0c2eb232a6b5a3eb1ebfd589ac85ccd18ba4797657f6e56f57e",
+    "BL_AODAI_004_side.png": "7c8d34e9b84ebaaaee461d2a0b572b3cb3b68ed3c2a168b1a2d5626833b48aa3",
+    "BL_AODAI_004_back.png": "a7360273482c3a2894c6312ccba8d8bb668eceaa8fdc3178e3606d641c9aa2f0"
+  },
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment appears to be constructed from a single, continuous form with no visible seams or panel divisions in any view."
+      ],
+      "limitations": [
+        "No evidence of construction joints or seams is visible in any of the provided views. The form is monolithic, suggesting a single sculpted piece or a seamless digital model."
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "The garment has a fitted, columnar silhouette with a defined bust, waist, and hip area, tapering to a narrow waist and flaring slightly at the hem in the front view."
+      ],
+      "limitations": [
+        "The silhouette is consistent across views, but the exact fit and drape cannot be fully assessed without seeing how it behaves under movement or from other angles."
+      ]
+    },
+    "sewing_pattern": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No visible seams, stitching, or pattern lines are present in any view. The surface appears uniformly shaded, making it impossible to identify any sewing pattern."
+      ]
+    },
+    "material_drape": {
+      "score": 1,
+      "visible_evidence": [
+        "The material appears to be rigidly formed with no visible folds, creases, or draping effects, suggesting it is not a flexible textile but rather a solid or semi-solid sculpted form."
+      ],
+      "limitations": [
+        "The lack of draping or softness in the material is evident, but this is a property of the 3D model's rigidity, not a material's physical behavior."
+      ]
+    },
+    "motif_texture": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No surface patterns, textures, or motifs are visible on the garment. The surface is uniformly matte and featureless."
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No cultural, historical, or regional indicators are present. The object is a generic 3D model without contextual or period-specific features."
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No evidence of how or why the garment would be worn is visible. The object is presented as a standalone 3D asset without contextual information."
+      ]
+    },
+    "overall_uncertainty": "The object is a 3D model with a monolithic, seamless form. Visible evidence suggests it is not constructed from multiple panels or materials, and its rigid appearance contradicts typical textile drape. No cultural or contextual information is present to support any claim of authenticity or period.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [\"The garment appears to be constructed from a single, continuous form with no visible seams or panel divisions in any view.\"], \"limitations\": [\"No evidence of construction joints or seams is visible in any of the provided views. The form is monolithic, suggesting a single sculpted piece or a seamless digital model.\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"The garment has a fitted, columnar silhouette with a defined bust, waist, and hip area, tapering to a narrow waist and flaring slightly at the hem in the front view.\"], \"limitations\": [\"The silhouette is consistent across views, but the exact fit and drape cannot be fully assessed without seeing how it behaves under movement or from other angles.\"]},\n  \"sewing_pattern\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No visible seams, stitching, or pattern lines are present in any view. The surface appears uniformly shaded, making it impossible to identify any sewing pattern.\"]},\n  \"material_drape\": {\"score\": 1, \"visible_evidence\": [\"The material appears to be rigidly formed with no visible folds, creases, or draping effects, suggesting it is not a flexible textile but rather a solid or semi-solid sculpted form.\"], \"limitations\": [\"The lack of draping or softness in the material is evident, but this is a property of the 3D model's rigidity, not a material's physical behavior.\"]},\n  \"motif_texture\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No surface patterns, textures, or motifs are visible on the garment. The surface is uniformly matte and featureless.\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No cultural, historical, or regional indicators are present. The object is a generic 3D model without contextual or period-specific features.\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No evidence of how or why the garment would be worn is visible. The object is presented as a standalone 3D asset without contextual information.\"]},\n  \"overall_uncertainty\": \"The object is a 3D model with a monolithic, seamless form. Visible evidence suggests it is not constructed from multiple panels or materials, and its rigid appearance contradicts typical textile drape. No cultural or contextual information is present to support any claim of authenticity or period.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.553.637 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.04.000.062 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.04.709.873 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.04.709.910 W WARN: This is an experimental CLI for testing multimodal capability.\n0.04.709.910 W       For normal use cases, please use the standard llama-cli\n0.04.831.870 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 5)\n0.05.074.344 I mtmd batch encoding done in 243 ms\n0.05.455.136 I encoding mtmd batch, n_chunks = 1 (done = 3, total = 5)\n0.05.681.286 I mtmd batch encoding done in 226 ms\n"
+}

@@ -1,0 +1,6 @@
+regime,method,winner_count
+balanced,expert_reference_upper_bound,1200
+construction_strict,expert_reference_upper_bound,1200
+heritage_strict,expert_reference_upper_bound,1200
+motif_strict,expert_reference_upper_bound,1200
+visual_lenient,expert_reference_upper_bound,1200

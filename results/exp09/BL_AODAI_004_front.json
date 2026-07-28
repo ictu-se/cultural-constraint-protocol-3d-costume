@@ -1,0 +1,85 @@
+{
+  "asset_id": "BL_AODAI_004",
+  "view_config": "front",
+  "views": [
+    "front"
+  ],
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF Q4_K_M",
+  "temperature": 0,
+  "schema_attempts": 1,
+  "elapsed_seconds": 11.419,
+  "image_sha256": {
+    "BL_AODAI_004_front.png": "6183f2f56756a0c2eb232a6b5a3eb1ebfd589ac85ccd18ba4797657f6e56f57e"
+  },
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [
+        "two gold-colored circular fasteners on torso",
+        "two pink vertical lines at sides"
+      ],
+      "limitations": [
+        "no evidence of seams, panels, or construction methods",
+        "no evidence of attachment points for arms or head"
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "smooth, continuous form from head to hem",
+        "defined waist and hip curve"
+      ],
+      "limitations": [
+        "no side or back views to confirm symmetry",
+        "no evidence of internal structure or support"
+      ]
+    },
+    "sewing_pattern": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "no visible stitching, seams, or panel lines",
+        "no evidence of construction method"
+      ]
+    },
+    "material_drape": {
+      "score": 1,
+      "visible_evidence": [
+        "smooth surface with no visible folds or creases",
+        "uniform shading suggesting single material"
+      ],
+      "limitations": [
+        "no evidence of fabric physics or drape behavior",
+        "no texture or seam lines to indicate material boundaries"
+      ]
+    },
+    "motif_texture": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "no visible patterns, textures, or surface details beyond uniform color and shading",
+        "no evidence of decorative elements"
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "no cultural or historical context provided",
+        "no documentary or stylistic evidence"
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "no evidence of intended use or wearing scenario",
+        "no contextual clues"
+      ]
+    },
+    "overall_uncertainty": "The object appears as a stylized, abstract 3D model with no visible evidence of construction, material, or cultural context. The gold fasteners and pink lines are surface features, not construction indicators. No seams, folds, or texture patterns are visible to support any claim of material or sewing pattern.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [\"two gold-colored circular fasteners on torso\", \"two pink vertical lines at sides\"], \"limitations\": [\"no evidence of seams, panels, or construction methods\", \"no evidence of attachment points for arms or head\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"smooth, continuous form from head to hem\", \"defined waist and hip curve\"], \"limitations\": [\"no side or back views to confirm symmetry\", \"no evidence of internal structure or support\"]},\n  \"sewing_pattern\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"no visible stitching, seams, or panel lines\", \"no evidence of construction method\"]},\n  \"material_drape\": {\"score\": 1, \"visible_evidence\": [\"smooth surface with no visible folds or creases\", \"uniform shading suggesting single material\"], \"limitations\": [\"no evidence of fabric physics or drape behavior\", \"no texture or seam lines to indicate material boundaries\"]},\n  \"motif_texture\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"no visible patterns, textures, or surface details beyond uniform color and shading\", \"no evidence of decorative elements\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"no cultural or historical context provided\", \"no documentary or stylistic evidence\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"no evidence of intended use or wearing scenario\", \"no contextual clues\"]},\n  \"overall_uncertainty\": \"The object appears as a stylized, abstract 3D model with no visible evidence of construction, material, or cultural context. The gold fasteners and pink lines are surface features, not construction indicators. No seams, folds, or texture patterns are visible to support any claim of material or sewing pattern.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.554.249 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.03.756.741 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.04.420.031 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.04.420.063 W WARN: This is an experimental CLI for testing multimodal capability.\n0.04.420.065 W       For normal use cases, please use the standard llama-cli\n0.04.545.378 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 3)\n0.04.791.109 I mtmd batch encoding done in 246 ms\n"
+}

@@ -1,0 +1,16 @@
+profile_or_scope,criterion,claim_status,documentary_source,source_locator,observable_3d_or_metadata_cue,notes
+ao_dai_modern_school,garment_components,documented,Huynh 2023,doi:10.59600/ijcae.v1i2.11,"tunic, sleeves, trousers, declared school context",General historical grounding; not a numerical ground truth
+ao_dai_modern_wedding,wearing_context,documented,Huynh 2023,doi:10.59600/ijcae.v1i2.11,"declared ceremonial context and garment ensemble",Context field requires object-level evidence for deployment
+ao_dai_early_20c,regional_period_consistency,documented,Do 2024,pp.112-119,"declared period, silhouette, panel construction",Historical source anchors evidence fields only
+ao_ngu_than_ceremonial,garment_components,documented,Do 2024,pp.112-119,"five-panel construction and declared ceremonial use",No expert-calibrated score
+ao_tu_than_festival,garment_components,documented,Do 2024,pp.112-119,"four-panel form and declared festival context",No expert-calibrated score
+khan_dong_aodai_performance,wearing_context,documented,Huynh 2023,doi:10.59600/ijcae.v1i2.11,"headwear plus garment ensemble and declared performance context",Object-level record still preferred
+hmong_festival_reference,motif_and_texture,documented,Diep Trung Binh 2005,National Library of Vietnam catalog,"motif family, textile construction, placement",Community-specific claims require finer records
+cham_formal_reference,motif_and_texture,documented,Howard 2008,Textile Society of America proceedings,"supplementary-warp textile technique and motif evidence",Museum representation context also cited
+cham_formal_reference,regional_period_consistency,documented,Nakamura and Sutherland 2019,doi:10.29311/mas.v17i1.2819,"declared community, region, museum provenance",Does not define a numeric score
+source_sensitive_placeholder_a,all,placeholder,none,pending object-level collection ID,"schema and missing-source handling only",Not a documented costume category
+source_sensitive_placeholder_b,all,placeholder,none,pending object-level collection ID,"schema and missing-source handling only",Not a documented costume category
+generic_ethnic_minorities_prompt,all,stress_prompt,none,not applicable,"under-specification and missing provenance",Must not be interpreted as a community representation
+mixed_period_stress_case,regional_period_consistency,stress_prompt,none,not applicable,"deliberate metadata conflict",Diagnostic anachronism test only
+all_profiles,sewing_pattern_plausibility,technical,GarmentCode 2023,doi:10.1145/3618351,"panel connectivity, seams, sewability",Technical construction evidence only
+all_profiles,digital_provenance,technical,Remondino 2011,doi:10.3390/rs3061104,"source, license, identifiers, acquisition and transformation history",Digital-heritage documentation principle

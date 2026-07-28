@@ -1,0 +1,20 @@
+{
+  "created_at_utc": "2026-07-27T14:02:09+00:00",
+  "seed": 20260711,
+  "scenario_count": 6000,
+  "profile_count": 12,
+  "method_count": 8,
+  "record_count": 576000,
+  "assessable_record_count": 480000,
+  "rejected_record_count": 96000,
+  "winner_aggregation": "mean audit score over eight documentary profiles for each method within each scenario",
+  "score_scale": "ordinal 0,1,2,3 with an explicitly separate latent response",
+  "regimes": [
+    "balanced",
+    "construction_strict",
+    "motif_strict",
+    "heritage_strict",
+    "visual_lenient"
+  ],
+  "note": "Software-fixture simulation with researcher-authored parameters. Not empirical method comparison, construct validation, or expert evidence."
+}

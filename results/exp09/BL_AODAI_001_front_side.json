@@ -1,0 +1,80 @@
+{
+  "asset_id": "BL_AODAI_001",
+  "view_config": "front_side",
+  "views": [
+    "front",
+    "side"
+  ],
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF Q4_K_M",
+  "temperature": 0,
+  "elapsed_seconds": 15.161,
+  "image_sha256": {
+    "BL_AODAI_001_front.png": "8aebc650aee56bfe453209257e5127fa42de75173498cd8c2a6864cb7e191338",
+    "BL_AODAI_001_side.png": "be1cc846a866de9c3f7469e70548161a9a71de68a6a3534f747e4361adbb2278"
+  },
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment has a central vertical seam or structural division running from neck to hem, visible as a distinct edge in the front view."
+      ],
+      "limitations": [
+        "No side or back views confirm if this seam is continuous or if other seams exist. The rendering style obscures construction details."
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "The garment has a fitted, columnar silhouette with a high neckline, long sleeves, and a floor-length cut, consistent across the visible front view."
+      ],
+      "limitations": [
+        "No side or back views are provided to confirm symmetry or full silhouette profile."
+      ]
+    },
+    "sewing_pattern": {
+      "score": 1,
+      "visible_evidence": [
+        "A vertical seam is visible down the center front, suggesting a construction line, though no stitching or pattern markings are visible."
+      ],
+      "limitations": [
+        "No evidence of stitching, pattern repeats, or seam allowances. The seam may be a structural feature, not a sewing pattern."
+      ]
+    },
+    "material_drape": {
+      "score": 1,
+      "visible_evidence": [
+        "The material appears smooth and taut with minimal folds, suggesting a rigid or form-fitting construction rather than draped fabric."
+      ],
+      "limitations": [
+        "No evidence of natural fabric drape or creasing. The surface is uniformly shaded, which may indicate a rigid or stylized material."
+      ]
+    },
+    "motif_texture": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment is uniformly colored teal with no visible patterns, textures, or surface embellishments."
+      ],
+      "limitations": [
+        "No motifs, textures, or surface details are visible. The uniform color may be intentional or due to rendering."
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No documentary or cultural context is provided. The object is a 3D render without historical or regional markers."
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No context for wearing is provided. The object is presented on a mannequin-like form without cultural or situational cues."
+      ]
+    },
+    "overall_uncertainty": "The object is a stylized 3D render with visible seams and a rigid silhouette, but lacks evidence of material drape, sewing patterns, or cultural context. The uniform color and smooth surface suggest a digital or conceptual design rather than a physical garment.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [\"The garment has a central vertical seam or structural division running from neck to hem, visible as a distinct edge in the front view.\"], \"limitations\": [\"No side or back views confirm if this seam is continuous or if other seams exist. The rendering style obscures construction details.\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"The garment has a fitted, columnar silhouette with a high neckline, long sleeves, and a floor-length cut, consistent across the visible front view.\"], \"limitations\": [\"No side or back views are provided to confirm symmetry or full silhouette profile.\"]},\n  \"sewing_pattern\": {\"score\": 1, \"visible_evidence\": [\"A vertical seam is visible down the center front, suggesting a construction line, though no stitching or pattern markings are visible.\"], \"limitations\": [\"No evidence of stitching, pattern repeats, or seam allowances. The seam may be a structural feature, not a sewing pattern.\"]},\n  \"material_drape\": {\"score\": 1, \"visible_evidence\": [\"The material appears smooth and taut with minimal folds, suggesting a rigid or form-fitting construction rather than draped fabric.\"], \"limitations\": [\"No evidence of natural fabric drape or creasing. The surface is uniformly shaded, which may indicate a rigid or stylized material.\"]},\n  \"motif_texture\": {\"score\": 1, \"visible_evidence\": [\"The garment is uniformly colored teal with no visible patterns, textures, or surface embellishments.\"], \"limitations\": [\"No motifs, textures, or surface details are visible. The uniform color may be intentional or due to rendering.\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No documentary or cultural context is provided. The object is a 3D render without historical or regional markers.\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No context for wearing is provided. The object is presented on a mannequin-like form without cultural or situational cues.\"]},\n  \"overall_uncertainty\": \"The object is a stylized 3D render with visible seams and a rigid silhouette, but lacks evidence of material drape, sewing patterns, or cultural context. The uniform color and smooth surface suggest a digital or conceptual design rather than a physical garment.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.599.291 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.04.890.193 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.05.964.117 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.05.964.140 W WARN: This is an experimental CLI for testing multimodal capability.\n0.05.964.141 W       For normal use cases, please use the standard llama-cli\n0.06.130.406 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 3)\n0.06.487.784 I mtmd batch encoding done in 357 ms\n"
+}

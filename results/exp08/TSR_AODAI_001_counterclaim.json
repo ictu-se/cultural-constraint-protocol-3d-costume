@@ -1,0 +1,83 @@
+{
+  "asset_id": "TSR_AODAI_001",
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF",
+  "quantization": "Q4_K_M",
+  "vision_projector": "Q8_0",
+  "runtime": "llama.cpp b10103, Vulkan GPU offload requested",
+  "temperature": 0,
+  "prompt_variant": "counterclaim",
+  "image_views": [
+    "experiments/exp06_triposr_reconstruction_ultra/renders/TSR_AODAI_001_side.png",
+    "experiments/exp06_triposr_reconstruction_ultra/renders/TSR_AODAI_001_back.png",
+    "experiments/exp06_triposr_reconstruction_ultra/renders/TSR_AODAI_001_front.png"
+  ],
+  "image_sha256": {
+    "TSR_AODAI_001_side.png": "509419921115a30b5a0a799162371d3551756493facdbe4f2a1ba05f4d116a81",
+    "TSR_AODAI_001_back.png": "5c1ff98ab6546ebc680123fa2be469ddbbc1af9fda2ace8e4e1d26c5c2181341",
+    "TSR_AODAI_001_front.png": "37ea514f380f0e2117bf4af52badce49515c0df573d913ab169f7c56fbabeab0"
+  },
+  "elapsed_seconds": 13.077,
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [
+        "The torso appears as a single, fused mass with no discernible seams or panel divisions. The orange-brown area suggests a single textured surface rather than separate components."
+      ],
+      "limitations": [
+        "The render artifacts and lack of clear construction lines prevent definitive identification of component boundaries."
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "The overall shape is consistent across views, showing a humanoid form with defined head, torso, limbs, and garment. The proportions appear coherent."
+      ],
+      "limitations": [
+        "The silhouette is ambiguous due to the translucent, blended rendering style which obscures sharp edges and structural definition."
+      ]
+    },
+    "sewing_pattern": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No visible stitching, seams, or patterned lines are present. The render style blends surfaces, making it impossible to confirm or deny sewing patterns."
+      ]
+    },
+    "material_drape": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment shows folds and flow, particularly around the lower body and arms, suggesting drape. However, the translucency and blending artifacts make it unclear if this is realistic drape or a render effect."
+      ],
+      "limitations": [
+        "The material appears to be a single textured surface with no evidence of multiple materials or distinct fabric types."
+      ]
+    },
+    "motif_texture": {
+      "score": 1,
+      "visible_evidence": [
+        "The orange-brown torso has a textured surface with raised details, possibly representing a motif or pattern. However, the blending and lack of clear definition make it ambiguous whether this is intentional texture or render artifact."
+      ],
+      "limitations": [
+        "The texture is not clearly defined or repeatable, and the render style could be producing the appearance of a motif."
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No cultural or historical context is provided. The render style and lack of contextual cues prevent any regional or period assessment."
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No evidence of how or why the object is worn is visible. The render style and lack of contextual cues prevent any wearing context assessment."
+      ]
+    },
+    "overall_uncertainty": "The render artifacts and blending effects significantly obscure the physical construction and material properties, making it difficult to distinguish between intentional design and technical rendering limitations.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [\"The torso appears as a single, fused mass with no discernible seams or panel divisions. The orange-brown area suggests a single textured surface rather than separate components.\"], \"limitations\": [\"The render artifacts and lack of clear construction lines prevent definitive identification of component boundaries.\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"The overall shape is consistent across views, showing a humanoid form with defined head, torso, limbs, and garment. The proportions appear coherent.\"], \"limitations\": [\"The silhouette is ambiguous due to the translucent, blended rendering style which obscures sharp edges and structural definition.\"]},\n  \"sewing_pattern\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No visible stitching, seams, or patterned lines are present. The render style blends surfaces, making it impossible to confirm or deny sewing patterns.\"]},\n  \"material_drape\": {\"score\": 1, \"visible_evidence\": [\"The garment shows folds and flow, particularly around the lower body and arms, suggesting drape. However, the translucency and blending artifacts make it unclear if this is realistic drape or a render effect.\"], \"limitations\": [\"The material appears to be a single textured surface with no evidence of multiple materials or distinct fabric types.\"]},\n  \"motif_texture\": {\"score\": 1, \"visible_evidence\": [\"The orange-brown torso has a textured surface with raised details, possibly representing a motif or pattern. However, the blending and lack of clear definition make it ambiguous whether this is intentional texture or render artifact.\"], \"limitations\": [\"The texture is not clearly defined or repeatable, and the render style could be producing the appearance of a motif.\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No cultural or historical context is provided. The render style and lack of contextual cues prevent any regional or period assessment.\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No evidence of how or why the object is worn is visible. The render style and lack of contextual cues prevent any wearing context assessment.\"]},\n  \"overall_uncertainty\": \"The render artifacts and blending effects significantly obscure the physical construction and material properties, making it difficult to distinguish between intentional design and technical rendering limitations.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.525.654 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.03.300.992 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.03.800.839 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.03.800.873 W WARN: This is an experimental CLI for testing multimodal capability.\n0.03.800.873 W       For normal use cases, please use the standard llama-cli\n0.04.462.204 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 5)\n0.04.695.603 I mtmd batch encoding done in 233 ms\n0.05.043.905 I encoding mtmd batch, n_chunks = 1 (done = 3, total = 5)\n0.05.250.314 I mtmd batch encoding done in 207 ms\n"
+}

@@ -1,0 +1,11 @@
+{
+  "asset_count": 2,
+  "tool": "TripoSR",
+  "tool_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+  "model_id": "stabilityai/TripoSR",
+  "source_licenses": [
+    "CC BY-SA 4.0",
+    "study-generated research output"
+  ],
+  "claim_boundary": "Single-image reconstructions test whether the audit exposes missing back-view, pattern, construction, and contextual evidence. They are not expert-validated Vietnamese costume reconstructions."
+}

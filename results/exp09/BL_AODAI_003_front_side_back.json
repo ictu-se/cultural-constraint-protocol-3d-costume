@@ -1,0 +1,83 @@
+{
+  "asset_id": "BL_AODAI_003",
+  "view_config": "front_side_back",
+  "views": [
+    "front",
+    "side",
+    "back"
+  ],
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF Q4_K_M",
+  "temperature": 0,
+  "schema_attempts": 1,
+  "elapsed_seconds": 14.162,
+  "image_sha256": {
+    "BL_AODAI_003_front.png": "45a07f3833c379c39e4892674bb6b5ccf884cbc591d9440f5bb7d5dc65d999aa",
+    "BL_AODAI_003_side.png": "33952565856bcc603d516568c81c55afff59abb1eb3d08ce31d1caaf39417fde",
+    "BL_AODAI_003_back.png": "b29cf58dcc55048eb027013ef3c2efdd90540a1b5e8bb5f984daf3b4115fbafc"
+  },
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment has a distinct upper torso section, a lower torso section, and a skirt-like lower portion, with visible seams or panel divisions at the waist and hip areas."
+      ],
+      "limitations": [
+        "The render does not show internal construction or fastening mechanisms. The seams are inferred from shape transitions, not physical evidence."
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "The garment has a fitted, columnar silhouette from the shoulders down to the waist, then flares slightly at the hips and skirt, consistent with a structured dress form."
+      ],
+      "limitations": [
+        "No evidence of asymmetry or dynamic movement. The silhouette is static and stylized, not indicative of real-world wear."
+      ]
+    },
+    "sewing_pattern": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment appears to be constructed from multiple panels, indicated by the distinct vertical seams and the way the fabric folds at the waist and hip areas."
+      ],
+      "limitations": [
+        "No visible stitching, thread, or seam allowances. The panel divisions are inferred from the 3D model's geometry, not physical construction."
+      ]
+    },
+    "material_drape": {
+      "score": 1,
+      "visible_evidence": [
+        "The material appears smooth and taut, with minimal natural folds or creases, suggesting a rigid or form-fitting material rather than a draped textile."
+      ],
+      "limitations": [
+        "No evidence of fabric weight, texture, or natural drape. The surface is uniformly smooth, which may be a rendering artifact."
+      ]
+    },
+    "motif_texture": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment has two small, gold-colored, bird-like motifs on the chest and waist areas, which appear to be decorative elements."
+      ],
+      "limitations": [
+        "The motifs are stylized and not clearly identifiable as a specific cultural or historical motif. Their placement and design are ambiguous without context."
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No documentary or cultural profile is supplied to assess regional or period consistency. The design is abstract and lacks historical or cultural markers."
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No evidence of how or why the garment would be worn. The render shows no context for use, such as a setting, occasion, or wearer."
+      ]
+    },
+    "overall_uncertainty": "The garment's construction and material properties are inferred from 3D model geometry rather than physical evidence. The motifs are stylized and lack cultural context. The render does not show natural fabric behavior or historical context.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [\"The garment has a distinct upper torso section, a lower torso section, and a skirt-like lower portion, with visible seams or panel divisions at the waist and hip areas.\"], \"limitations\": [\"The render does not show internal construction or fastening mechanisms. The seams are inferred from shape transitions, not physical evidence.\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"The garment has a fitted, columnar silhouette from the shoulders down to the waist, then flares slightly at the hips and skirt, consistent with a structured dress form.\"], \"limitations\": [\"No evidence of asymmetry or dynamic movement. The silhouette is static and stylized, not indicative of real-world wear.\"]},\n  \"sewing_pattern\": {\"score\": 1, \"visible_evidence\": [\"The garment appears to be constructed from multiple panels, indicated by the distinct vertical seams and the way the fabric folds at the waist and hip areas.\"], \"limitations\": [\"No visible stitching, thread, or seam allowances. The panel divisions are inferred from the 3D model's geometry, not physical construction.\"]},\n  \"material_drape\": {\"score\": 1, \"visible_evidence\": [\"The material appears smooth and taut, with minimal natural folds or creases, suggesting a rigid or form-fitting material rather than a draped textile.\"], \"limitations\": [\"No evidence of fabric weight, texture, or natural drape. The surface is uniformly smooth, which may be a rendering artifact.\"]},\n  \"motif_texture\": {\"score\": 1, \"visible_evidence\": [\"The garment has two small, gold-colored, bird-like motifs on the chest and waist areas, which appear to be decorative elements.\"], \"limitations\": [\"The motifs are stylized and not clearly identifiable as a specific cultural or historical motif. Their placement and design are ambiguous without context.\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No documentary or cultural profile is supplied to assess regional or period consistency. The design is abstract and lacks historical or cultural markers.\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No evidence of how or why the garment would be worn. The render shows no context for use, such as a setting, occasion, or wearer.\"]},\n  \"overall_uncertainty\": \"The garment's construction and material properties are inferred from 3D model geometry rather than physical evidence. The motifs are stylized and lack cultural context. The render does not show natural fabric behavior or historical context.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.542.890 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.03.683.339 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.04.294.843 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.04.294.884 W WARN: This is an experimental CLI for testing multimodal capability.\n0.04.294.885 W       For normal use cases, please use the standard llama-cli\n0.04.431.507 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 5)\n0.04.708.967 I mtmd batch encoding done in 278 ms\n0.05.133.571 I encoding mtmd batch, n_chunks = 1 (done = 3, total = 5)\n0.05.353.103 I mtmd batch encoding done in 220 ms\n"
+}

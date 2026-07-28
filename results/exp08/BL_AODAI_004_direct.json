@@ -1,0 +1,85 @@
+{
+  "asset_id": "BL_AODAI_004",
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF",
+  "quantization": "Q4_K_M",
+  "vision_projector": "Q8_0",
+  "runtime": "llama.cpp b10103, Vulkan GPU offload requested",
+  "temperature": 0,
+  "prompt_variant": "direct",
+  "image_views": [
+    "experiments/exp05_named_tool_aodai_assets/renders/BL_AODAI_004_front.png",
+    "experiments/exp05_named_tool_aodai_assets/renders/BL_AODAI_004_side.png",
+    "experiments/exp05_named_tool_aodai_assets/renders/BL_AODAI_004_back.png"
+  ],
+  "image_sha256": {
+    "BL_AODAI_004_front.png": "6183f2f56756a0c2eb232a6b5a3eb1ebfd589ac85ccd18ba4797657f6e56f57e",
+    "BL_AODAI_004_side.png": "7c8d34e9b84ebaaaee461d2a0b572b3cb3b68ed3c2a168b1a2d5626833b48aa3",
+    "BL_AODAI_004_back.png": "a7360273482c3a2894c6312ccba8d8bb668eceaa8fdc3178e3606d641c9aa2f0"
+  },
+  "elapsed_seconds": 13.877,
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment appears to be a single-piece form-fitting dress with no visible seams or panel divisions on the front or back views. The shoulder and armhole areas are smoothly integrated into the torso, lacking any evidence of separate construction pieces or closures."
+      ],
+      "limitations": [
+        "No side or back views show construction details. The render style obscures physical evidence of seams or panel joins."
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "The garment has a continuous, form-fitting silhouette that conforms to the underlying mannequin's shape, with smooth curves from the bust to the hem. The waist is defined but not sharply segmented, and the hemline is straight and falls to the ankles."
+      ],
+      "limitations": [
+        "No side or back views are provided to confirm the silhouette's consistency from all angles."
+      ]
+    },
+    "sewing_pattern": {
+      "score": 1,
+      "visible_evidence": [
+        "No visible stitching lines, seam allowances, or pattern grain lines are present on any surface. The garment appears as a single, seamless form."
+      ],
+      "limitations": [
+        "The absence of visible construction lines is not proof of actual sewing patterns or panel construction; it may be a render artifact or a single-piece design."
+      ]
+    },
+    "material_drape": {
+      "score": 2,
+      "visible_evidence": [
+        "The material appears to drape smoothly and conform to the mannequin's contours, with no visible puckering, creasing, or rigid paneling. The surface is uniformly shaded, suggesting a continuous, flexible material."
+      ],
+      "limitations": [
+        "The render does not show material physics or texture that would confirm draping behavior under real-world conditions."
+      ]
+    },
+    "motif_texture": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment is uniformly colored with no visible patterns, prints, or surface textures. The surface is smooth and matte, with no discernible motifs or decorative elements."
+      ],
+      "limitations": [
+        "The absence of visible motifs or textures is not proof of a lack of design; it may be intentional or due to render settings."
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No documentary or cultural context is provided to assess regional or period consistency."
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No evidence of wearing context is visible; the object is displayed on a mannequin without any cultural or situational cues."
+      ]
+    },
+    "overall_uncertainty": "The render style obscures physical construction details, making it impossible to definitively assess the garment's actual construction or material behavior. The object appears to be a single-piece, form-fitting design with no visible seams or patterns, but this may be an artifact of the 3D modeling process.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [\"The garment appears to be a single-piece form-fitting dress with no visible seams or panel divisions on the front or back views. The shoulder and armhole areas are smoothly integrated into the torso, lacking any evidence of separate construction pieces or closures.\"], \"limitations\": [\"No side or back views show construction details. The render style obscures physical evidence of seams or panel joins.\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"The garment has a continuous, form-fitting silhouette that conforms to the underlying mannequin's shape, with smooth curves from the bust to the hem. The waist is defined but not sharply segmented, and the hemline is straight and falls to the ankles.\"], \"limitations\": [\"No side or back views are provided to confirm the silhouette's consistency from all angles.\"]},\n  \"sewing_pattern\": {\"score\": 1, \"visible_evidence\": [\"No visible stitching lines, seam allowances, or pattern grain lines are present on any surface. The garment appears as a single, seamless form.\"], \"limitations\": [\"The absence of visible construction lines is not proof of actual sewing patterns or panel construction; it may be a render artifact or a single-piece design.\"]},\n  \"material_drape\": {\"score\": 2, \"visible_evidence\": [\"The material appears to drape smoothly and conform to the mannequin's contours, with no visible puckering, creasing, or rigid paneling. The surface is uniformly shaded, suggesting a continuous, flexible material.\"], \"limitations\": [\"The render does not show material physics or texture that would confirm draping behavior under real-world conditions.\"]},\n  \"motif_texture\": {\"score\": 1, \"visible_evidence\": [\"The garment is uniformly colored with no visible patterns, prints, or surface textures. The surface is smooth and matte, with no discernible motifs or decorative elements.\"], \"limitations\": [\"The absence of visible motifs or textures is not proof of a lack of design; it may be intentional or due to render settings.\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No documentary or cultural context is provided to assess regional or period consistency.\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No evidence of wearing context is visible; the object is displayed on a mannequin without any cultural or situational cues.\"]},\n  \"overall_uncertainty\": \"The render style obscures physical construction details, making it impossible to definitively assess the garment's actual construction or material behavior. The object appears to be a single-piece, form-fitting design with no visible seams or patterns, but this may be an artifact of the 3D modeling process.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.590.129 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.03.367.972 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.03.856.437 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.03.856.472 W WARN: This is an experimental CLI for testing multimodal capability.\n0.03.856.473 W       For normal use cases, please use the standard llama-cli\n0.03.959.531 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 5)\n0.04.209.451 I mtmd batch encoding done in 250 ms\n0.04.587.678 I encoding mtmd batch, n_chunks = 1 (done = 3, total = 5)\n0.04.816.265 I mtmd batch encoding done in 229 ms\n"
+}

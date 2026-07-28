@@ -1,0 +1,33 @@
+{
+  "case_id": "BL_AODAI_004",
+  "intervention": "short sleeves",
+  "target_criterion": "components",
+  "criterion": "material_drape",
+  "atomic_proposition": "The candidate visibly changes material thickness, stiffness, folds, or drape independently of lighting.",
+  "order": "baseline_left",
+  "expected_changed": false,
+  "predicted_changed": true,
+  "correct": false,
+  "schema_attempts": 1,
+  "elapsed_seconds": 7.422,
+  "sheet_sha256": "e91b804d5961f8df4979ab0773daac1da97f38ff41322ab1c74f78fd57677342",
+  "source_sha256": {
+    "BL_AODAI_001_front.png": "8aebc650aee56bfe453209257e5127fa42de75173498cd8c2a6864cb7e191338",
+    "BL_AODAI_001_side.png": "be1cc846a866de9c3f7469e70548161a9a71de68a6a3534f747e4361adbb2278",
+    "BL_AODAI_004_front.png": "6183f2f56756a0c2eb232a6b5a3eb1ebfd589ac85ccd18ba4797657f6e56f57e",
+    "BL_AODAI_004_side.png": "7c8d34e9b84ebaaaee461d2a0b572b3cb3b68ed3c2a168b1a2d5626833b48aa3"
+  },
+  "assessment": {
+    "criterion": "material_drape",
+    "criterion_changed": true,
+    "visible_evidence": [
+      "In the front view, the candidate's garment has a more uniformly smooth surface with less visible drape compared to the reference, which shows more pronounced folds and curvature in the torso area.",
+      "In the side view, the candidate's flowing elements appear less voluminous and more rigidly shaped than the reference's more fluid, draped forms, suggesting a difference in stiffness or thickness."
+    ],
+    "alternative_artifact_explanation": [],
+    "confidence": "medium",
+    "claim_boundary": "atomic technical comparison; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"criterion\": \"material_drape\",\n  \"criterion_changed\": true,\n  \"visible_evidence\": [\n    \"In the front view, the candidate's garment has a more uniformly smooth surface with less visible drape compared to the reference, which shows more pronounced folds and curvature in the torso area.\",\n    \"In the side view, the candidate's flowing elements appear less voluminous and more rigidly shaped than the reference's more fluid, draped forms, suggesting a difference in stiffness or thickness.\"\n  ],\n  \"alternative_artifact_explanation\": [],\n  \"confidence\": \"medium\",\n  \"claim_boundary\": \"atomic technical comparison; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.591.502 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.03.205.111 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.03.915.230 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.03.915.271 W WARN: This is an experimental CLI for testing multimodal capability.\n0.03.915.272 W       For normal use cases, please use the standard llama-cli\n0.04.000.133 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 3)\n0.04.226.617 I mtmd batch encoding done in 226 ms\n"
+}

@@ -1,0 +1,28 @@
+{
+  "asset_count": 7,
+  "view_configurations": {
+    "front": [
+      "front"
+    ],
+    "front_side": [
+      "front",
+      "side"
+    ],
+    "front_side_back": [
+      "front",
+      "side",
+      "back"
+    ],
+    "four_view": [
+      "front",
+      "three_quarter",
+      "side",
+      "back"
+    ]
+  },
+  "assessment_count": 28,
+  "model_sha256": "67d1659bfe71b89d50b45a4ad1a9e5b997e5bb16ce5da66a6a6167abd569e9e2",
+  "mmproj_sha256": "c6ba85508d82f42590e6eb77d5340369ab6fecf107a7561d809523d8aa5f3bfd",
+  "claim_boundary": "View-sensitivity test; not cultural validation.",
+  "elapsed_seconds": 424.036
+}

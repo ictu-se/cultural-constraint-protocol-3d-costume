@@ -1,0 +1,80 @@
+{
+  "asset_id": "BL_AODAI_001",
+  "view_config": "front",
+  "views": [
+    "front"
+  ],
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF Q4_K_M",
+  "temperature": 0,
+  "elapsed_seconds": 16.736,
+  "image_sha256": {
+    "BL_AODAI_001_front.png": "8aebc650aee56bfe453209257e5127fa42de75173498cd8c2a6864cb7e191338"
+  },
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [
+        "two gold-colored circular fasteners with angled arms on the torso",
+        "two vertical pink lines along the sides of the garment"
+      ],
+      "limitations": [
+        "no evidence of seams, stitching, or panel construction; pink lines may be render artifacts or structural guides"
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "smooth, continuous form from neck to hem with no visible breaks or folds",
+        "elongated, fitted shape with defined waist and hip area"
+      ],
+      "limitations": [
+        "no side or back views to confirm symmetry or full contour"
+      ]
+    },
+    "sewing_pattern": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "no visible seams, stitching, or panel lines; cannot confirm construction method"
+      ]
+    },
+    "material_drape": {
+      "score": 1,
+      "visible_evidence": [
+        "smooth, uniform surface with no visible folds or creases",
+        "subtle curvature suggesting form-fitting design"
+      ],
+      "limitations": [
+        "no evidence of fabric physics or draping behavior; may be rigid or stylized"
+      ]
+    },
+    "motif_texture": {
+      "score": 1,
+      "visible_evidence": [
+        "two gold-colored circular fasteners with angled arms",
+        "two vertical pink lines along the sides"
+      ],
+      "limitations": [
+        "no visible pattern, texture, or surface detail beyond these elements; may be decorative or structural"
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "no cultural or historical indicators; cannot assess regional or period context"
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "no evidence of wearing context; object appears as a standalone 3D asset"
+      ]
+    },
+    "overall_uncertainty": "The object appears to be a stylized, form-fitting garment with decorative fasteners and side lines, but lacks evidence of construction, material behavior, or cultural context. The pink lines and gold fasteners may be render artifacts or structural elements rather than functional components.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [\"two gold-colored circular fasteners with angled arms on the torso\", \"two vertical pink lines along the sides of the garment\"], \"limitations\": [\"no evidence of seams, stitching, or panel construction; pink lines may be render artifacts or structural guides\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"smooth, continuous form from neck to hem with no visible breaks or folds\", \"elongated, fitted shape with defined waist and hip area\"], \"limitations\": [\"no side or back views to confirm symmetry or full contour\"]},\n  \"sewing_pattern\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"no visible seams, stitching, or panel lines; cannot confirm construction method\"]},\n  \"material_drape\": {\"score\": 1, \"visible_evidence\": [\"smooth, uniform surface with no visible folds or creases\", \"subtle curvature suggesting form-fitting design\"], \"limitations\": [\"no evidence of fabric physics or draping behavior; may be rigid or stylized\"]},\n  \"motif_texture\": {\"score\": 1, \"visible_evidence\": [\"two gold-colored circular fasteners with angled arms\", \"two vertical pink lines along the sides\"], \"limitations\": [\"no visible pattern, texture, or surface detail beyond these elements; may be decorative or structural\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"no cultural or historical indicators; cannot assess regional or period context\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"no evidence of wearing context; object appears as a standalone 3D asset\"]},\n  \"overall_uncertainty\": \"The object appears to be a stylized, form-fitting garment with decorative fasteners and side lines, but lacks evidence of construction, material behavior, or cultural context. The pink lines and gold fasteners may be render artifacts or structural elements rather than functional components.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.629.705 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.06.831.839 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.09.004.386 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.09.004.427 W WARN: This is an experimental CLI for testing multimodal capability.\n0.09.004.428 W       For normal use cases, please use the standard llama-cli\n0.09.134.855 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 3)\n0.09.432.066 I mtmd batch encoding done in 298 ms\n"
+}

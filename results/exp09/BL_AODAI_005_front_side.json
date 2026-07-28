@@ -1,0 +1,81 @@
+{
+  "asset_id": "BL_AODAI_005",
+  "view_config": "front_side",
+  "views": [
+    "front",
+    "side"
+  ],
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF Q4_K_M",
+  "temperature": 0,
+  "schema_attempts": 1,
+  "elapsed_seconds": 12.033,
+  "image_sha256": {
+    "BL_AODAI_005_front.png": "81a2c98a78b0a958b5b778bd82fc3aaf7b6dcdb9e344607d2ffe248ff78053b4",
+    "BL_AODAI_005_side.png": "b3a215bebbf2fafdc775ebafc862ef5bd4f434164d8cbcacfb2abf3e7363668c"
+  },
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [
+        "three gold-colored buttons vertically aligned on the front"
+      ],
+      "limitations": [
+        "no side or back views to confirm button placement continuity; no evidence of seams or panel construction"
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "teal-colored garment with long sleeves, high neck, and floor-length cut; structured torso and leg sections"
+      ],
+      "limitations": [
+        "no side or back views to confirm silhouette consistency; no evidence of fit or drape"
+      ]
+    },
+    "sewing_pattern": {
+      "score": 1,
+      "visible_evidence": [
+        "three gold-colored buttons vertically aligned on the front"
+      ],
+      "limitations": [
+        "no visible seams, stitching, or panel lines; no evidence of construction method"
+      ]
+    },
+    "material_drape": {
+      "score": 1,
+      "visible_evidence": [
+        "smooth, uniform teal surface with no visible folds or creases"
+      ],
+      "limitations": [
+        "no evidence of fabric physics or drape; no side or back views to confirm material behavior"
+      ]
+    },
+    "motif_texture": {
+      "score": 1,
+      "visible_evidence": [
+        "uniform teal color with no visible patterns or textures"
+      ],
+      "limitations": [
+        "no evidence of surface texture or motif; no side or back views to confirm consistency"
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "no documentary or cultural profile provided; no evidence of regional or period context"
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "no evidence of wearing context; no human or cultural assessment provided"
+      ]
+    },
+    "overall_uncertainty": "The object appears to be a stylized, non-functional 3D model with no visible evidence of construction, material behavior, or cultural context. The front view shows three buttons, but no seams or panel lines are visible to confirm construction. The silhouette is structured but lacks evidence of fit or drape. No side or back views are provided to confirm consistency or material behavior. All cultural and contextual criteria are NA due to absence of documentary or human assessment.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [\"three gold-colored buttons vertically aligned on the front\"], \"limitations\": [\"no side or back views to confirm button placement continuity; no evidence of seams or panel construction\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"teal-colored garment with long sleeves, high neck, and floor-length cut; structured torso and leg sections\"], \"limitations\": [\"no side or back views to confirm silhouette consistency; no evidence of fit or drape\"]},\n  \"sewing_pattern\": {\"score\": 1, \"visible_evidence\": [\"three gold-colored buttons vertically aligned on the front\"], \"limitations\": [\"no visible seams, stitching, or panel lines; no evidence of construction method\"]},\n  \"material_drape\": {\"score\": 1, \"visible_evidence\": [\"smooth, uniform teal surface with no visible folds or creases\"], \"limitations\": [\"no evidence of fabric physics or drape; no side or back views to confirm material behavior\"]},\n  \"motif_texture\": {\"score\": 1, \"visible_evidence\": [\"uniform teal color with no visible patterns or textures\"], \"limitations\": [\"no evidence of surface texture or motif; no side or back views to confirm consistency\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"no documentary or cultural profile provided; no evidence of regional or period context\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"no evidence of wearing context; no human or cultural assessment provided\"]},\n  \"overall_uncertainty\": \"The object appears to be a stylized, non-functional 3D model with no visible evidence of construction, material behavior, or cultural context. The front view shows three buttons, but no seams or panel lines are visible to confirm construction. The silhouette is structured but lacks evidence of fit or drape. No side or back views are provided to confirm consistency or material behavior. All cultural and contextual criteria are NA due to absence of documentary or human assessment.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.573.832 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.03.697.930 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.04.342.340 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.04.342.377 W WARN: This is an experimental CLI for testing multimodal capability.\n0.04.342.377 W       For normal use cases, please use the standard llama-cli\n0.04.422.301 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 3)\n0.04.663.036 I mtmd batch encoding done in 241 ms\n"
+}

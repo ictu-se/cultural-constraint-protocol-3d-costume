@@ -1,0 +1,77 @@
+{
+  "asset_id": "TSR_AODAI_001",
+  "view_config": "front",
+  "views": [
+    "front"
+  ],
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF Q4_K_M",
+  "temperature": 0,
+  "schema_attempts": 1,
+  "elapsed_seconds": 14.354,
+  "image_sha256": {
+    "TSR_AODAI_001_front.png": "37ea514f380f0e2117bf4af52badce49515c0df573d913ab169f7c56fbabeab0"
+  },
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [
+        "The torso has a distinct orange-brown patch that appears to be a separate applied texture or material overlay, contrasting with the grayish-white base material of the rest of the garment."
+      ],
+      "limitations": [
+        "No side or back views are provided to confirm if this feature is consistent across the entire garment or if it is an isolated artifact of rendering or material application."
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "The figure maintains a coherent, upright human-like silhouette with defined head, torso, limbs, and feet, consistent with a standing pose."
+      ],
+      "limitations": [
+        "No side or back views are provided to confirm silhouette consistency from all angles, but the front view shows no visible contradiction."
+      ]
+    },
+    "sewing_pattern": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No visible seams, stitching lines, or closure mechanisms are discernible in the provided front view. The texture appears to be a single applied surface or a composite material, making it impossible to assess sewing patterns."
+      ]
+    },
+    "material_drape": {
+      "score": 1,
+      "visible_evidence": [
+        "The lower garment appears to have a relatively stiff, non-flowing drape, with defined folds and creases that suggest a rigid or molded material rather than a soft, draped textile."
+      ],
+      "limitations": [
+        "The material's behavior is ambiguous due to the stylized rendering; it may be intended to simulate fabric but appears more like a sculpted or digitally textured surface."
+      ]
+    },
+    "motif_texture": {
+      "score": 1,
+      "visible_evidence": [
+        "The orange-brown patch on the torso has a rough, irregular texture that contrasts with the smoother grayish-white material of the rest of the garment, suggesting a different surface treatment or material."
+      ],
+      "limitations": [
+        "The texture is not clearly a repeating motif or pattern but rather a localized, possibly applied, surface variation. No other motifs are visible in the provided view."
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No documentary or cultural context is provided to assess regional or period consistency. The object's style is ambiguous and could be interpreted as modern, stylized, or from any era."
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No contextual clues (e.g., accessories, environment, posture cues) are visible to infer a specific wearing context. The figure is presented in isolation."
+      ]
+    },
+    "overall_uncertainty": "The object appears to be a stylized 3D model with a distinct material contrast on the torso, but the rendering style and lack of side/back views introduce uncertainty about material consistency, construction, and cultural context.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [\"The torso has a distinct orange-brown patch that appears to be a separate applied texture or material overlay, contrasting with the grayish-white base material of the rest of the garment.\"], \"limitations\": [\"No side or back views are provided to confirm if this feature is consistent across the entire garment or if it is an isolated artifact of rendering or material application.\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"The figure maintains a coherent, upright human-like silhouette with defined head, torso, limbs, and feet, consistent with a standing pose.\"], \"limitations\": [\"No side or back views are provided to confirm silhouette consistency from all angles, but the front view shows no visible contradiction.\"]},\n  \"sewing_pattern\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No visible seams, stitching lines, or closure mechanisms are discernible in the provided front view. The texture appears to be a single applied surface or a composite material, making it impossible to assess sewing patterns.\"]},\n  \"material_drape\": {\"score\": 1, \"visible_evidence\": [\"The lower garment appears to have a relatively stiff, non-flowing drape, with defined folds and creases that suggest a rigid or molded material rather than a soft, draped textile.\"], \"limitations\": [\"The material's behavior is ambiguous due to the stylized rendering; it may be intended to simulate fabric but appears more like a sculpted or digitally textured surface.\"]},\n  \"motif_texture\": {\"score\": 1, \"visible_evidence\": [\"The orange-brown patch on the torso has a rough, irregular texture that contrasts with the smoother grayish-white material of the rest of the garment, suggesting a different surface treatment or material.\"], \"limitations\": [\"The texture is not clearly a repeating motif or pattern but rather a localized, possibly applied, surface variation. No other motifs are visible in the provided view.\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No documentary or cultural context is provided to assess regional or period consistency. The object's style is ambiguous and could be interpreted as modern, stylized, or from any era.\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No contextual clues (e.g., accessories, environment, posture cues) are visible to infer a specific wearing context. The figure is presented in isolation.\"]},\n  \"overall_uncertainty\": \"The object appears to be a stylized 3D model with a distinct material contrast on the torso, but the rendering style and lack of side/back views introduce uncertainty about material consistency, construction, and cultural context.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.542.936 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.03.792.254 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.04.556.196 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.04.556.237 W WARN: This is an experimental CLI for testing multimodal capability.\n0.04.556.237 W       For normal use cases, please use the standard llama-cli\n0.04.855.837 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 3)\n0.05.089.799 I mtmd batch encoding done in 234 ms\n"
+}

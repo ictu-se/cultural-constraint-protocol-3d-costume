@@ -1,0 +1,85 @@
+{
+  "asset_id": "BL_AODAI_004",
+  "view_config": "four_view",
+  "views": [
+    "front",
+    "three_quarter",
+    "side",
+    "back"
+  ],
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF Q4_K_M",
+  "temperature": 0,
+  "schema_attempts": 1,
+  "elapsed_seconds": 16.039,
+  "image_sha256": {
+    "BL_AODAI_004_front.png": "6183f2f56756a0c2eb232a6b5a3eb1ebfd589ac85ccd18ba4797657f6e56f57e",
+    "BL_AODAI_004_three_quarter.png": "a7e0181fd9a935d4b0deddc14b62ca0918776b32524f43dbc1352a72d1ed41f3",
+    "BL_AODAI_004_side.png": "7c8d34e9b84ebaaaee461d2a0b572b3cb3b68ed3c2a168b1a2d5626833b48aa3",
+    "BL_AODAI_004_back.png": "a7360273482c3a2894c6312ccba8d8bb668eceaa8fdc3178e3606d641c9aa2f0"
+  },
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment appears to be constructed from a single continuous form with no visible seams or panel divisions in the front view. The shoulder and arm areas are integrated into the torso without distinct seams. The back view shows a similar seamless appearance, though the form is more complex with overlapping surfaces. The red lines are not seams but appear to be structural guides or alignment markers."
+      ],
+      "limitations": [
+        "The absence of visible seams or panel lines in the front view is not confirmed by the back view, which shows a different construction. The red lines are not part of the garment's physical structure."
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "The garment has a fitted, columnar silhouette with a defined waist and a flowing lower section. The shoulder area is structured with a draped or folded effect. The overall shape is consistent across the front and back views, though the back view shows more pronounced curvature and overlapping forms."
+      ],
+      "limitations": [
+        "The silhouette is inferred from the smooth, continuous surfaces. No evidence of stitching or panel construction is visible to confirm the form's physical integrity."
+      ]
+    },
+    "sewing_pattern": {
+      "score": 1,
+      "visible_evidence": [
+        "No visible seams, stitching lines, or panel boundaries are present in any view. The garment appears to be a single, continuous form. The red lines are not seams but appear to be structural guides or alignment markers."
+      ],
+      "limitations": [
+        "The absence of visible seams is not confirmed by the back view, which shows a different construction. The red lines are not part of the garment's physical structure."
+      ]
+    },
+    "material_drape": {
+      "score": 2,
+      "visible_evidence": [
+        "The material appears to flow smoothly over the form, with gentle curves and folds suggesting a soft, flexible fabric. The draping is consistent with a single continuous piece. The red lines are not part of the material drape but appear to be structural guides or alignment markers."
+      ],
+      "limitations": [
+        "The draping is inferred from the smooth, continuous surfaces. No evidence of stitching or panel construction is visible to confirm the form's physical integrity."
+      ]
+    },
+    "motif_texture": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment has a uniform, matte texture with no visible patterns, prints, or surface embellishments. The gold-colored elements appear to be decorative hardware or fasteners, not part of the fabric's texture."
+      ],
+      "limitations": [
+        "The absence of visible motifs or textures is not confirmed by the back view, which shows a different construction. The gold elements are not part of the fabric's texture but appear to be decorative hardware or fasteners."
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No documentary profile or qualified human assessment is supplied to determine regional or period consistency."
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No documentary profile or qualified human assessment is supplied to determine wearing context."
+      ]
+    },
+    "overall_uncertainty": "The garment appears to be a single, seamless form with no visible seams or panel divisions. The red lines are not seams but appear to be structural guides or alignment markers. The gold elements are decorative hardware or fasteners, not part of the fabric's texture. The silhouette is consistent across views, but the back view shows a different construction. The material drape is inferred from the smooth, continuous surfaces. No evidence of stitching or panel construction is visible to confirm the form's physical integrity.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [\"The garment appears to be constructed from a single continuous form with no visible seams or panel divisions in the front view. The shoulder and arm areas are integrated into the torso without distinct seams. The back view shows a similar seamless appearance, though the form is more complex with overlapping surfaces. The red lines are not seams but appear to be structural guides or alignment markers.\"], \"limitations\": [\"The absence of visible seams or panel lines in the front view is not confirmed by the back view, which shows a different construction. The red lines are not part of the garment's physical structure.\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"The garment has a fitted, columnar silhouette with a defined waist and a flowing lower section. The shoulder area is structured with a draped or folded effect. The overall shape is consistent across the front and back views, though the back view shows more pronounced curvature and overlapping forms.\"], \"limitations\": [\"The silhouette is inferred from the smooth, continuous surfaces. No evidence of stitching or panel construction is visible to confirm the form's physical integrity.\"]},\n  \"sewing_pattern\": {\"score\": 1, \"visible_evidence\": [\"No visible seams, stitching lines, or panel boundaries are present in any view. The garment appears to be a single, continuous form. The red lines are not seams but appear to be structural guides or alignment markers.\"], \"limitations\": [\"The absence of visible seams is not confirmed by the back view, which shows a different construction. The red lines are not part of the garment's physical structure.\"]},\n  \"material_drape\": {\"score\": 2, \"visible_evidence\": [\"The material appears to flow smoothly over the form, with gentle curves and folds suggesting a soft, flexible fabric. The draping is consistent with a single continuous piece. The red lines are not part of the material drape but appear to be structural guides or alignment markers.\"], \"limitations\": [\"The draping is inferred from the smooth, continuous surfaces. No evidence of stitching or panel construction is visible to confirm the form's physical integrity.\"]},\n  \"motif_texture\": {\"score\": 1, \"visible_evidence\": [\"The garment has a uniform, matte texture with no visible patterns, prints, or surface embellishments. The gold-colored elements appear to be decorative hardware or fasteners, not part of the fabric's texture.\"], \"limitations\": [\"The absence of visible motifs or textures is not confirmed by the back view, which shows a different construction. The gold elements are not part of the fabric's texture but appear to be decorative hardware or fasteners.\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No documentary profile or qualified human assessment is supplied to determine regional or period consistency.\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No documentary profile or qualified human assessment is supplied to determine wearing context.\"]},\n  \"overall_uncertainty\": \"The garment appears to be a single, seamless form with no visible seams or panel divisions. The red lines are not seams but appear to be structural guides or alignment markers. The gold elements are decorative hardware or fasteners, not part of the fabric's texture. The silhouette is consistent across views, but the back view shows a different construction. The material drape is inferred from the smooth, continuous surfaces. No evidence of stitching or panel construction is visible to confirm the form's physical integrity.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.539.685 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.03.258.229 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.03.935.282 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.03.935.323 W WARN: This is an experimental CLI for testing multimodal capability.\n0.03.935.323 W       For normal use cases, please use the standard llama-cli\n0.04.077.985 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 5)\n0.04.324.253 I mtmd batch encoding done in 246 ms\n0.04.703.623 I encoding mtmd batch, n_chunks = 1 (done = 3, total = 5)\n0.04.937.040 I mtmd batch encoding done in 234 ms\n"
+}

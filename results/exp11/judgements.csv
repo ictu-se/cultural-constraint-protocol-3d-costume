@@ -1,0 +1,41 @@
+case_id,intervention,target_criterion,criterion,order,expected_changed,predicted_changed,correct,schema_attempts,elapsed_seconds
+BL_AODAI_002,longer front/back panels,silhouette,components,baseline_left,False,False,True,1,7.542
+BL_AODAI_002,longer front/back panels,silhouette,silhouette,baseline_left,True,False,False,1,6.384
+BL_AODAI_002,longer front/back panels,silhouette,sewing_pattern,baseline_left,False,False,True,1,6.827
+BL_AODAI_002,longer front/back panels,silhouette,material_drape,baseline_left,False,False,True,1,6.499
+BL_AODAI_002,longer front/back panels,silhouette,motif_texture,baseline_left,False,False,True,1,6.41
+BL_AODAI_002,longer front/back panels,silhouette,components,variant_left,False,False,True,1,7.095
+BL_AODAI_002,longer front/back panels,silhouette,silhouette,variant_left,True,False,False,1,6.762
+BL_AODAI_002,longer front/back panels,silhouette,sewing_pattern,variant_left,False,False,True,1,6.535
+BL_AODAI_002,longer front/back panels,silhouette,material_drape,variant_left,False,False,True,1,6.382
+BL_AODAI_002,longer front/back panels,silhouette,motif_texture,variant_left,False,False,True,1,6.754
+BL_AODAI_003,flared hem,silhouette,components,baseline_left,False,False,True,1,6.955
+BL_AODAI_003,flared hem,silhouette,silhouette,baseline_left,True,False,False,1,7.252
+BL_AODAI_003,flared hem,silhouette,sewing_pattern,baseline_left,False,False,True,1,6.417
+BL_AODAI_003,flared hem,silhouette,material_drape,baseline_left,False,False,True,1,6.39
+BL_AODAI_003,flared hem,silhouette,motif_texture,baseline_left,False,False,True,1,6.389
+BL_AODAI_003,flared hem,silhouette,components,variant_left,False,False,True,1,6.709
+BL_AODAI_003,flared hem,silhouette,silhouette,variant_left,True,False,False,1,6.391
+BL_AODAI_003,flared hem,silhouette,sewing_pattern,variant_left,False,False,True,1,6.418
+BL_AODAI_003,flared hem,silhouette,material_drape,variant_left,False,False,True,1,6.862
+BL_AODAI_003,flared hem,silhouette,motif_texture,variant_left,False,False,True,1,6.361
+BL_AODAI_004,short sleeves,components,components,baseline_left,True,True,True,1,7.092
+BL_AODAI_004,short sleeves,components,silhouette,baseline_left,False,False,True,1,6.867
+BL_AODAI_004,short sleeves,components,sewing_pattern,baseline_left,False,False,True,1,6.401
+BL_AODAI_004,short sleeves,components,material_drape,baseline_left,False,True,False,1,7.422
+BL_AODAI_004,short sleeves,components,motif_texture,baseline_left,False,True,False,1,7.409
+BL_AODAI_004,short sleeves,components,components,variant_left,True,False,False,1,6.962
+BL_AODAI_004,short sleeves,components,silhouette,variant_left,False,False,True,1,6.454
+BL_AODAI_004,short sleeves,components,sewing_pattern,variant_left,False,False,True,1,6.386
+BL_AODAI_004,short sleeves,components,material_drape,variant_left,False,False,True,1,6.433
+BL_AODAI_004,short sleeves,components,motif_texture,variant_left,False,False,True,1,7.171
+BL_AODAI_005,slimmer body and higher side slit,silhouette,components,baseline_left,False,False,True,1,7.023
+BL_AODAI_005,slimmer body and higher side slit,silhouette,silhouette,baseline_left,True,False,False,1,6.418
+BL_AODAI_005,slimmer body and higher side slit,silhouette,sewing_pattern,baseline_left,False,False,True,1,6.5
+BL_AODAI_005,slimmer body and higher side slit,silhouette,material_drape,baseline_left,False,False,True,1,6.478
+BL_AODAI_005,slimmer body and higher side slit,silhouette,motif_texture,baseline_left,False,False,True,1,6.439
+BL_AODAI_005,slimmer body and higher side slit,silhouette,components,variant_left,False,False,True,1,6.478
+BL_AODAI_005,slimmer body and higher side slit,silhouette,silhouette,variant_left,True,True,True,1,7.14
+BL_AODAI_005,slimmer body and higher side slit,silhouette,sewing_pattern,variant_left,False,False,True,1,6.422
+BL_AODAI_005,slimmer body and higher side slit,silhouette,material_drape,variant_left,False,False,True,1,6.451
+BL_AODAI_005,slimmer body and higher side slit,silhouette,motif_texture,variant_left,False,False,True,1,6.416

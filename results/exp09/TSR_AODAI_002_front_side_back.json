@@ -1,0 +1,83 @@
+{
+  "asset_id": "TSR_AODAI_002",
+  "view_config": "front_side_back",
+  "views": [
+    "front",
+    "side",
+    "back"
+  ],
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF Q4_K_M",
+  "temperature": 0,
+  "schema_attempts": 1,
+  "elapsed_seconds": 18.976,
+  "image_sha256": {
+    "TSR_AODAI_002_front.png": "d2a895e7c6c88dc3c7cd1ce827a14c26d1746eeda6f6ae29625020289634d163",
+    "TSR_AODAI_002_side.png": "f1ff811afea485113d772321030e08027157266edfd0b31178899e1eef9bdbd9",
+    "TSR_AODAI_002_back.png": "30fa7806ffe88c2ba34400e6e57f983d9dc365f49263357ff4859d4e44c09a5e"
+  },
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment appears to be a single-piece, form-fitting bodice with a long, flowing skirt or robe-like lower section. The shoulder area is structured and puffy, suggesting a sleeveless or short-sleeved design with integrated shoulder pads or sculpted fabric. The waist is defined but not sharply cinched, and the lower section flows downward with soft folds."
+      ],
+      "limitations": [
+        "The view is from the back and side, so front components like a neckline or closure are not visible. The material's translucency and texture make it difficult to distinguish between structural seams and surface rendering artifacts."
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "The overall silhouette is elongated and vertical, with a fitted upper body that transitions into a voluminous, floor-length lower section. The shoulders are broad and sculpted, creating a dramatic, almost armor-like upper silhouette that contrasts with the fluid lower part. The form is consistent across the visible views, suggesting a unified design."
+      ],
+      "limitations": [
+        "The silhouette is inferred from the visible contours; no direct evidence of construction or material behavior is provided to confirm the shape's physical integrity or how it would behave in reality."
+      ]
+    },
+    "sewing_pattern": {
+      "score": 1,
+      "visible_evidence": [
+        "There are no visible seams, stitching lines, or panel boundaries that would indicate a traditional sewing pattern. The surface appears to be a single, continuous form with smooth transitions, possibly suggesting a 3D-printed or digitally sculpted object rather than a sewn garment."
+      ],
+      "limitations": [
+        "The absence of visible seams does not prove the object is not sewn; it could be a render or a seamless material. The translucent, painterly texture may obscure any underlying construction."
+      ]
+    },
+    "material_drape": {
+      "score": 2,
+      "visible_evidence": [
+        "The material exhibits soft, flowing folds and drapes, particularly in the lower section, which suggests a lightweight, fluid fabric. The upper body has more structured, sculpted areas, indicating a combination of drape and form-fitting material. The way the fabric conforms to the body's contours suggests a realistic simulation of drape, though the translucency may be an artistic effect."
+      ],
+      "limitations": [
+        "The material's appearance is likely a digital rendering; there is no physical evidence of fabric weight, weave, or elasticity to confirm the drape behavior."
+      ]
+    },
+    "motif_texture": {
+      "score": 1,
+      "visible_evidence": [
+        "The surface has a translucent, marbled texture with blended shades of blue, teal, and gray. There are no discernible patterns, prints, or motifs that can be identified as decorative elements. The texture appears to be a uniform, abstract finish applied to the entire surface."
+      ],
+      "limitations": [
+        "The texture may be a material shader or a digital effect rather than an actual fabric pattern. No evidence of repeating motifs or cultural symbols is visible."
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No documentary, historical, or cultural context is provided to identify a specific region or period. The design is abstract and does not correspond to any known historical garment style."
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No evidence of how or why the garment would be worn is visible. The object is presented as a standalone 3D model without context for its use or function."
+      ]
+    },
+    "overall_uncertainty": "The object appears to be a digitally rendered or sculpted 3D asset with abstract, non-traditional design elements. The material texture and silhouette suggest a conceptual or artistic piece rather than a historically accurate or culturally specific garment. The lack of visible seams and the presence of translucent, painterly textures indicate that the object may not be a realistic representation of a physical garment.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [\"The garment appears to be a single-piece, form-fitting bodice with a long, flowing skirt or robe-like lower section. The shoulder area is structured and puffy, suggesting a sleeveless or short-sleeved design with integrated shoulder pads or sculpted fabric. The waist is defined but not sharply cinched, and the lower section flows downward with soft folds.\"], \"limitations\": [\"The view is from the back and side, so front components like a neckline or closure are not visible. The material's translucency and texture make it difficult to distinguish between structural seams and surface rendering artifacts.\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"The overall silhouette is elongated and vertical, with a fitted upper body that transitions into a voluminous, floor-length lower section. The shoulders are broad and sculpted, creating a dramatic, almost armor-like upper silhouette that contrasts with the fluid lower part. The form is consistent across the visible views, suggesting a unified design.\"], \"limitations\": [\"The silhouette is inferred from the visible contours; no direct evidence of construction or material behavior is provided to confirm the shape's physical integrity or how it would behave in reality.\"]},\n  \"sewing_pattern\": {\"score\": 1, \"visible_evidence\": [\"There are no visible seams, stitching lines, or panel boundaries that would indicate a traditional sewing pattern. The surface appears to be a single, continuous form with smooth transitions, possibly suggesting a 3D-printed or digitally sculpted object rather than a sewn garment.\"], \"limitations\": [\"The absence of visible seams does not prove the object is not sewn; it could be a render or a seamless material. The translucent, painterly texture may obscure any underlying construction.\"]},\n  \"material_drape\": {\"score\": 2, \"visible_evidence\": [\"The material exhibits soft, flowing folds and drapes, particularly in the lower section, which suggests a lightweight, fluid fabric. The upper body has more structured, sculpted areas, indicating a combination of drape and form-fitting material. The way the fabric conforms to the body's contours suggests a realistic simulation of drape, though the translucency may be an artistic effect.\"], \"limitations\": [\"The material's appearance is likely a digital rendering; there is no physical evidence of fabric weight, weave, or elasticity to confirm the drape behavior.\"]},\n  \"motif_texture\": {\"score\": 1, \"visible_evidence\": [\"The surface has a translucent, marbled texture with blended shades of blue, teal, and gray. There are no discernible patterns, prints, or motifs that can be identified as decorative elements. The texture appears to be a uniform, abstract finish applied to the entire surface.\"], \"limitations\": [\"The texture may be a material shader or a digital effect rather than an actual fabric pattern. No evidence of repeating motifs or cultural symbols is visible.\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No documentary, historical, or cultural context is provided to identify a specific region or period. The design is abstract and does not correspond to any known historical garment style.\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No evidence of how or why the garment would be worn is visible. The object is presented as a standalone 3D model without context for its use or function.\"]},\n  \"overall_uncertainty\": \"The object appears to be a digitally rendered or sculpted 3D asset with abstract, non-traditional design elements. The material texture and silhouette suggest a conceptual or artistic piece rather than a historically accurate or culturally specific garment. The lack of visible seams and the presence of translucent, painterly textures indicate that the object may not be a realistic representation of a physical garment.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.613.471 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.04.249.888 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.05.049.439 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.05.049.461 W WARN: This is an experimental CLI for testing multimodal capability.\n0.05.049.461 W       For normal use cases, please use the standard llama-cli\n0.05.842.394 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 5)\n0.06.081.077 I mtmd batch encoding done in 239 ms\n0.06.443.418 I encoding mtmd batch, n_chunks = 1 (done = 3, total = 5)\n0.06.645.891 I mtmd batch encoding done in 202 ms\n"
+}

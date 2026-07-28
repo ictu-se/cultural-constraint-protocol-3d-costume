@@ -1,0 +1,81 @@
+{
+  "asset_id": "BL_AODAI_001",
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF",
+  "quantization": "Q4_K_M",
+  "vision_projector": "Q8_0",
+  "runtime": "llama.cpp b10103, Vulkan GPU offload requested",
+  "temperature": 0,
+  "prompt_variant": "direct",
+  "image_views": [
+    "experiments/exp05_named_tool_aodai_assets/renders/BL_AODAI_001_front.png",
+    "experiments/exp05_named_tool_aodai_assets/renders/BL_AODAI_001_side.png",
+    "experiments/exp05_named_tool_aodai_assets/renders/BL_AODAI_001_back.png"
+  ],
+  "image_sha256": {
+    "BL_AODAI_001_front.png": "8aebc650aee56bfe453209257e5127fa42de75173498cd8c2a6864cb7e191338",
+    "BL_AODAI_001_side.png": "be1cc846a866de9c3f7469e70548161a9a71de68a6a3534f747e4361adbb2278",
+    "BL_AODAI_001_back.png": "5dda690a69afa42c005a576bda47d4e2b21c44c0cbd2fe0282209aff3381dd4a"
+  },
+  "elapsed_seconds": 11.786,
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment has a single-piece, form-fitting structure with no visible seams or panel divisions on the front or back views."
+      ],
+      "limitations": [
+        "No evidence of construction details like seams, closures, or panel joins is visible in the provided renders."
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "The garment has a continuous, flowing silhouette with a defined bust, waist, and hip area, consistent across all views."
+      ],
+      "limitations": [
+        "The silhouette is stylized and abstract; no evidence of historical or cultural context is visible."
+      ]
+    },
+    "sewing_pattern": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No visible seams, stitching, or pattern lines are present in the renders. The object appears as a single sculpted form."
+      ]
+    },
+    "material_drape": {
+      "score": 1,
+      "visible_evidence": [
+        "The surface appears smooth and uniformly colored, with no visible folds, creases, or draping effects that would indicate fabric behavior."
+      ],
+      "limitations": [
+        "The material appears to be a solid, non-textured surface, not a draped fabric."
+      ]
+    },
+    "motif_texture": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No patterns, textures, or surface embellishments are visible on the garment."
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No cultural, historical, or regional indicators are present in the visual evidence."
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No context for wearing, such as accessories, posture, or environment, is visible."
+      ]
+    },
+    "overall_uncertainty": "The object is a stylized 3D model with no visible evidence of construction, material behavior, or cultural context. The score reflects the absence of observable details rather than a failure.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [\"The garment has a single-piece, form-fitting structure with no visible seams or panel divisions on the front or back views.\"], \"limitations\": [\"No evidence of construction details like seams, closures, or panel joins is visible in the provided renders.\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"The garment has a continuous, flowing silhouette with a defined bust, waist, and hip area, consistent across all views.\"], \"limitations\": [\"The silhouette is stylized and abstract; no evidence of historical or cultural context is visible.\"]},\n  \"sewing_pattern\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No visible seams, stitching, or pattern lines are present in the renders. The object appears as a single sculpted form.\"]},\n  \"material_drape\": {\"score\": 1, \"visible_evidence\": [\"The surface appears smooth and uniformly colored, with no visible folds, creases, or draping effects that would indicate fabric behavior.\"], \"limitations\": [\"The material appears to be a solid, non-textured surface, not a draped fabric.\"]},\n  \"motif_texture\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No patterns, textures, or surface embellishments are visible on the garment.\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No cultural, historical, or regional indicators are present in the visual evidence.\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No context for wearing, such as accessories, posture, or environment, is visible.\"]},\n  \"overall_uncertainty\": \"The object is a stylized 3D model with no visible evidence of construction, material behavior, or cultural context. The score reflects the absence of observable details rather than a failure.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.540.579 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.03.636.477 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.04.132.611 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.04.132.631 W WARN: This is an experimental CLI for testing multimodal capability.\n0.04.132.631 W       For normal use cases, please use the standard llama-cli\n0.04.213.960 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 5)\n0.04.470.554 I mtmd batch encoding done in 256 ms\n0.04.847.575 I encoding mtmd batch, n_chunks = 1 (done = 3, total = 5)\n0.05.071.149 I mtmd batch encoding done in 224 ms\n"
+}

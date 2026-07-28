@@ -1,0 +1,119 @@
+{
+  "model_sha256": "67d1659bfe71b89d50b45a4ad1a9e5b997e5bb16ce5da66a6a6167abd569e9e2",
+  "mmproj_sha256": "c6ba85508d82f42590e6eb77d5340369ab6fecf107a7561d809523d8aa5f3bfd",
+  "asset_count": 7,
+  "assessment_count": 21,
+  "prompt_variants": [
+    "direct",
+    "evidence_first",
+    "counterclaim"
+  ],
+  "claim_boundary": "AI-assisted visual audit only; no expert substitution, community endorsement, or cultural-authenticity certification.",
+  "results": [
+    {
+      "asset_id": "BL_AODAI_001",
+      "prompt_variant": "direct",
+      "elapsed_seconds": 11.786
+    },
+    {
+      "asset_id": "BL_AODAI_001",
+      "prompt_variant": "evidence_first",
+      "elapsed_seconds": 11.538
+    },
+    {
+      "asset_id": "BL_AODAI_001",
+      "prompt_variant": "counterclaim",
+      "elapsed_seconds": 13.192
+    },
+    {
+      "asset_id": "BL_AODAI_002",
+      "prompt_variant": "direct",
+      "elapsed_seconds": 11.864
+    },
+    {
+      "asset_id": "BL_AODAI_002",
+      "prompt_variant": "evidence_first",
+      "elapsed_seconds": 15.519
+    },
+    {
+      "asset_id": "BL_AODAI_002",
+      "prompt_variant": "counterclaim",
+      "elapsed_seconds": 14.041
+    },
+    {
+      "asset_id": "BL_AODAI_003",
+      "prompt_variant": "direct",
+      "elapsed_seconds": 14.163
+    },
+    {
+      "asset_id": "BL_AODAI_003",
+      "prompt_variant": "evidence_first",
+      "elapsed_seconds": 13.9
+    },
+    {
+      "asset_id": "BL_AODAI_003",
+      "prompt_variant": "counterclaim",
+      "elapsed_seconds": 13.731
+    },
+    {
+      "asset_id": "BL_AODAI_004",
+      "prompt_variant": "direct",
+      "elapsed_seconds": 13.877
+    },
+    {
+      "asset_id": "BL_AODAI_004",
+      "prompt_variant": "evidence_first",
+      "elapsed_seconds": 13.951
+    },
+    {
+      "asset_id": "BL_AODAI_004",
+      "prompt_variant": "counterclaim",
+      "elapsed_seconds": 14.004
+    },
+    {
+      "asset_id": "BL_AODAI_005",
+      "prompt_variant": "direct",
+      "elapsed_seconds": 14.405
+    },
+    {
+      "asset_id": "BL_AODAI_005",
+      "prompt_variant": "evidence_first",
+      "elapsed_seconds": 13.127
+    },
+    {
+      "asset_id": "BL_AODAI_005",
+      "prompt_variant": "counterclaim",
+      "elapsed_seconds": 13.76
+    },
+    {
+      "asset_id": "TSR_AODAI_001",
+      "prompt_variant": "direct",
+      "elapsed_seconds": 12.416
+    },
+    {
+      "asset_id": "TSR_AODAI_001",
+      "prompt_variant": "evidence_first",
+      "elapsed_seconds": 13.814
+    },
+    {
+      "asset_id": "TSR_AODAI_001",
+      "prompt_variant": "counterclaim",
+      "elapsed_seconds": 13.077
+    },
+    {
+      "asset_id": "TSR_AODAI_002",
+      "prompt_variant": "direct",
+      "elapsed_seconds": 14.033
+    },
+    {
+      "asset_id": "TSR_AODAI_002",
+      "prompt_variant": "evidence_first",
+      "elapsed_seconds": 13.639
+    },
+    {
+      "asset_id": "TSR_AODAI_002",
+      "prompt_variant": "counterclaim",
+      "elapsed_seconds": 13.876
+    }
+  ]
+}

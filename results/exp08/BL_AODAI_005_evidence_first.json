@@ -1,0 +1,92 @@
+{
+  "asset_id": "BL_AODAI_005",
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF",
+  "quantization": "Q4_K_M",
+  "vision_projector": "Q8_0",
+  "runtime": "llama.cpp b10103, Vulkan GPU offload requested",
+  "temperature": 0,
+  "prompt_variant": "evidence_first",
+  "image_views": [
+    "experiments/exp05_named_tool_aodai_assets/renders/BL_AODAI_005_back.png",
+    "experiments/exp05_named_tool_aodai_assets/renders/BL_AODAI_005_front.png",
+    "experiments/exp05_named_tool_aodai_assets/renders/BL_AODAI_005_side.png"
+  ],
+  "image_sha256": {
+    "BL_AODAI_005_back.png": "ea2d8aee5559022a2756fa2c8316c1f50354f393d832e13874a8ce51440a041a",
+    "BL_AODAI_005_front.png": "81a2c98a78b0a958b5b778bd82fc3aaf7b6dcdb9e344607d2ffe248ff78053b4",
+    "BL_AODAI_005_side.png": "b3a215bebbf2fafdc775ebafc862ef5bd4f434164d8cbcacfb2abf3e7363668c"
+  },
+  "elapsed_seconds": 13.127,
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [
+        "Three gold-colored buttons are visible on the front of the garment.",
+        "The garment has a distinct neckline and shoulder structure.",
+        "The garment appears to be a single piece with no visible seams or panel divisions on the front."
+      ],
+      "limitations": [
+        "No evidence of internal construction or panel seams is visible in any view.",
+        "The garment's form is abstract and does not clearly represent a real-world garment type."
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "The garment has a defined, elongated silhouette with a fitted bodice and flared lower section.",
+        "The shoulders are structured and the neckline is a high, rounded collar."
+      ],
+      "limitations": [
+        "The silhouette is stylized and does not correspond to any specific historical or cultural garment form."
+      ]
+    },
+    "sewing_pattern": {
+      "score": 1,
+      "visible_evidence": [
+        "No visible stitching lines, seams, or panel divisions are present on the front or side views.",
+        "The garment appears to be a single, continuous form."
+      ],
+      "limitations": [
+        "No evidence of any sewing pattern or construction method is visible."
+      ]
+    },
+    "material_drape": {
+      "score": 1,
+      "visible_evidence": [
+        "The material appears smooth and uniformly colored with no visible folds or creases.",
+        "The material conforms to the form of the underlying structure without showing natural drape."
+      ],
+      "limitations": [
+        "The material lacks any indication of fabric properties or how it would drape in reality."
+      ]
+    },
+    "motif_texture": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment has a uniform teal color with no visible patterns or textures.",
+        "The gold buttons are the only decorative elements visible."
+      ],
+      "limitations": [
+        "No evidence of any motif, texture, or surface pattern beyond the buttons is visible."
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No documentary or cultural context is provided to support any regional or period identification."
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No evidence of wearing context or cultural use is visible or implied."
+      ]
+    },
+    "overall_uncertainty": "The object is a stylized 3D model with no visible evidence of real-world garment construction, material properties, or cultural context. The score reflects the absence of required evidence for technical validation.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [\"Three gold-colored buttons are visible on the front of the garment.\", \"The garment has a distinct neckline and shoulder structure.\", \"The garment appears to be a single piece with no visible seams or panel divisions on the front.\"], \"limitations\": [\"No evidence of internal construction or panel seams is visible in any view.\", \"The garment's form is abstract and does not clearly represent a real-world garment type.\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"The garment has a defined, elongated silhouette with a fitted bodice and flared lower section.\", \"The shoulders are structured and the neckline is a high, rounded collar.\"], \"limitations\": [\"The silhouette is stylized and does not correspond to any specific historical or cultural garment form.\"]},\n  \"sewing_pattern\": {\"score\": 1, \"visible_evidence\": [\"No visible stitching lines, seams, or panel divisions are present on the front or side views.\", \"The garment appears to be a single, continuous form.\"], \"limitations\": [\"No evidence of any sewing pattern or construction method is visible.\"]},\n  \"material_drape\": {\"score\": 1, \"visible_evidence\": [\"The material appears smooth and uniformly colored with no visible folds or creases.\", \"The material conforms to the form of the underlying structure without showing natural drape.\"], \"limitations\": [\"The material lacks any indication of fabric properties or how it would drape in reality.\"]},\n  \"motif_texture\": {\"score\": 1, \"visible_evidence\": [\"The garment has a uniform teal color with no visible patterns or textures.\", \"The gold buttons are the only decorative elements visible.\"], \"limitations\": [\"No evidence of any motif, texture, or surface pattern beyond the buttons is visible.\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No documentary or cultural context is provided to support any regional or period identification.\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No evidence of wearing context or cultural use is visible or implied.\"]},\n  \"overall_uncertainty\": \"The object is a stylized 3D model with no visible evidence of real-world garment construction, material properties, or cultural context. The score reflects the absence of required evidence for technical validation.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.572.026 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.03.758.760 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.04.255.339 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.04.255.371 W WARN: This is an experimental CLI for testing multimodal capability.\n0.04.255.372 W       For normal use cases, please use the standard llama-cli\n0.04.337.102 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 5)\n0.04.589.353 I mtmd batch encoding done in 252 ms\n0.04.979.918 I encoding mtmd batch, n_chunks = 1 (done = 3, total = 5)\n0.05.209.166 I mtmd batch encoding done in 230 ms\n"
+}

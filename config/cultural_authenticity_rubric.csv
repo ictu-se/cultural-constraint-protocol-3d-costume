@@ -1,0 +1,8 @@
+criterion,score_0,score_1,score_2,score_3,notes
+garment_components,missing key components,has some components but confused,mostly correct components,all required components correct,"Example: ao dai should include tunic panels, sleeves, collar style if applicable, trousers"
+silhouette_and_proportion,wrong silhouette,recognizable but poor proportion,mostly correct proportion,accurate silhouette and proportions,"Check length, side slits, fit, sleeve shape, collar height"
+sewing_pattern_plausibility,not sewable,major seam/panel errors,minor pattern issues,sewable and structurally plausible,"Panel count, seam connectivity, symmetry, drape feasibility"
+material_and_drape,material impossible,weak material match,reasonable drape,material/drape match reference,"Silk, brocade, cotton, stiffness, transparency"
+motif_and_texture,incorrect or random motifs,partly relevant motifs,mostly relevant motifs,accurate motifs and placement,"Check cultural motif, scale, orientation, placement"
+regional_period_consistency,mixed or anachronistic,unclear consistency,mostly consistent,consistent with declared region/period,"Requires metadata and expert reference"
+wearing_context,wrong usage/context,unclear usage,mostly suitable,suitable for declared ceremony/context,"Daily, wedding, festival, royal, school, performance"

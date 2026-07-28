@@ -1,0 +1,83 @@
+{
+  "asset_id": "TSR_AODAI_002",
+  "view_config": "four_view",
+  "views": [
+    "front",
+    "three_quarter",
+    "side",
+    "back"
+  ],
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF Q4_K_M",
+  "temperature": 0,
+  "schema_attempts": 1,
+  "elapsed_seconds": 16.083,
+  "image_sha256": {
+    "TSR_AODAI_002_front.png": "d2a895e7c6c88dc3c7cd1ce827a14c26d1746eeda6f6ae29625020289634d163",
+    "TSR_AODAI_002_three_quarter.png": "6facc9626d6d99b8d64e75f1a74f568d3e3bfb20509e1da77e6f9d8f66fb94ad",
+    "TSR_AODAI_002_side.png": "f1ff811afea485113d772321030e08027157266edfd0b31178899e1eef9bdbd9",
+    "TSR_AODAI_002_back.png": "30fa7806ffe88c2ba34400e6e57f983d9dc365f49263357ff4859d4e44c09a5e"
+  },
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment appears to be a single-piece, form-fitting garment with no visible seams or panel divisions on the torso or limbs in any view."
+      ],
+      "limitations": [
+        "No evidence of construction details like seams, closures, or panel joins is visible in the provided renders."
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "The garment has a long, flowing silhouette with a high neckline, wide shoulder structure, and a fitted bodice that flares into a long skirt."
+      ],
+      "limitations": [
+        "The silhouette is consistent across views, but no evidence of regional-period consistency or wearing context is visible."
+      ]
+    },
+    "sewing_pattern": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No visible evidence of any sewing pattern, stitching, or panel construction is present in the renders."
+      ]
+    },
+    "material_drape": {
+      "score": 2,
+      "visible_evidence": [
+        "The material appears to have a soft, flowing drape with gentle folds along the skirt and arms, suggesting a lightweight fabric."
+      ],
+      "limitations": [
+        "The drape is rendered, but no physical evidence of material physics or sourcing is visible."
+      ]
+    },
+    "motif_texture": {
+      "score": 2,
+      "visible_evidence": [
+        "The garment features a mottled, translucent texture with blue and gray coloration, resembling a painted or digitally rendered surface."
+      ],
+      "limitations": [
+        "The texture is not clearly a natural fabric pattern or motif; it appears to be a digital effect."
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No documentary or cultural profile is supplied to assess regional or period consistency."
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No evidence of wearing context is visible; the object is presented on a mannequin without contextual cues."
+      ]
+    },
+    "overall_uncertainty": "The garment's construction and material properties are not verifiable from the provided renders. The texture and silhouette are consistent but lack physical evidence of seams, closures, or material sourcing. The object appears to be a digital 3D asset with stylized rendering.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [\"The garment appears to be a single-piece, form-fitting garment with no visible seams or panel divisions on the torso or limbs in any view.\"], \"limitations\": [\"No evidence of construction details like seams, closures, or panel joins is visible in the provided renders.\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"The garment has a long, flowing silhouette with a high neckline, wide shoulder structure, and a fitted bodice that flares into a long skirt.\"], \"limitations\": [\"The silhouette is consistent across views, but no evidence of regional-period consistency or wearing context is visible.\"]},\n  \"sewing_pattern\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No visible evidence of any sewing pattern, stitching, or panel construction is present in the renders.\"]},\n  \"material_drape\": {\"score\": 2, \"visible_evidence\": [\"The material appears to have a soft, flowing drape with gentle folds along the skirt and arms, suggesting a lightweight fabric.\"], \"limitations\": [\"The drape is rendered, but no physical evidence of material physics or sourcing is visible.\"]},\n  \"motif_texture\": {\"score\": 2, \"visible_evidence\": [\"The garment features a mottled, translucent texture with blue and gray coloration, resembling a painted or digitally rendered surface.\"], \"limitations\": [\"The texture is not clearly a natural fabric pattern or motif; it appears to be a digital effect.\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No documentary or cultural profile is supplied to assess regional or period consistency.\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No evidence of wearing context is visible; the object is presented on a mannequin without contextual cues.\"]},\n  \"overall_uncertainty\": \"The garment's construction and material properties are not verifiable from the provided renders. The texture and silhouette are consistent but lack physical evidence of seams, closures, or material sourcing. The object appears to be a digital 3D asset with stylized rendering.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.557.058 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.04.472.555 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.05.253.790 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.05.253.833 W WARN: This is an experimental CLI for testing multimodal capability.\n0.05.253.834 W       For normal use cases, please use the standard llama-cli\n0.06.333.810 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 5)\n0.06.707.006 I mtmd batch encoding done in 374 ms\n0.07.116.947 I encoding mtmd batch, n_chunks = 1 (done = 3, total = 5)\n0.07.379.918 I mtmd batch encoding done in 263 ms\n"
+}

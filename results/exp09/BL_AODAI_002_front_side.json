@@ -1,0 +1,80 @@
+{
+  "asset_id": "BL_AODAI_002",
+  "view_config": "front_side",
+  "views": [
+    "front",
+    "side"
+  ],
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF Q4_K_M",
+  "temperature": 0,
+  "elapsed_seconds": 13.188,
+  "image_sha256": {
+    "BL_AODAI_002_front.png": "790354fab7da095bf2d5266eec69d12e64d0dbac4d5f1f2a5c12bb5324350667",
+    "BL_AODAI_002_side.png": "77c391de38f7a2f6ae62d4e265e169d78c3778f92dcb82c7e1475c378625ff34"
+  },
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment has a central vertical seam or structural division visible from the front, with symmetrical armholes and a defined neckline."
+      ],
+      "limitations": [
+        "No side or back views confirm if this seam is continuous or if other seams exist; no evidence of fasteners or closures."
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "The garment has a fitted, columnar torso with a defined waist and flared lower section, suggesting a structured, modern design."
+      ],
+      "limitations": [
+        "No side or back views to confirm symmetry or full contour; no evidence of historical silhouette references."
+      ]
+    },
+    "sewing_pattern": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment appears to be constructed with a single central panel or a symmetrical two-panel design, indicated by the vertical alignment and matching armhole shapes."
+      ],
+      "limitations": [
+        "No visible stitching, seam allowances, or topstitching to confirm construction method; no evidence of pattern grain or seam types."
+      ]
+    },
+    "material_drape": {
+      "score": 1,
+      "visible_evidence": [
+        "The material appears smooth and taut with minimal wrinkling, suggesting a rigid or structured fabric, possibly synthetic or stiffened."
+      ],
+      "limitations": [
+        "No evidence of natural drape, folds, or creasing; no texture or surface detail to confirm material behavior."
+      ]
+    },
+    "motif_texture": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment is uniformly colored (deep red) with no visible patterns, prints, or surface textures."
+      ],
+      "limitations": [
+        "No evidence of embroidery, quilting, or surface embellishment; no visible texture mapping or material variation."
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No documentary or cultural context provided; no visual cues to identify historical or regional style."
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No visual cues to suggest specific wearing context (e.g., formal, casual, ceremonial); no human model or environment context."
+      ]
+    },
+    "overall_uncertainty": "The garment's construction and material behavior are inferred from its smooth, structured appearance, but no physical evidence of seams, closures, or material properties is visible. The design is modern and abstract, lacking cultural or historical context.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [\"The garment has a central vertical seam or structural division visible from the front, with symmetrical armholes and a defined neckline.\"], \"limitations\": [\"No side or back views confirm if this seam is continuous or if other seams exist; no evidence of fasteners or closures.\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"The garment has a fitted, columnar torso with a defined waist and flared lower section, suggesting a structured, modern design.\"], \"limitations\": [\"No side or back views to confirm symmetry or full contour; no evidence of historical silhouette references.\"]},\n  \"sewing_pattern\": {\"score\": 1, \"visible_evidence\": [\"The garment appears to be constructed with a single central panel or a symmetrical two-panel design, indicated by the vertical alignment and matching armhole shapes.\"], \"limitations\": [\"No visible stitching, seam allowances, or topstitching to confirm construction method; no evidence of pattern grain or seam types.\"]},\n  \"material_drape\": {\"score\": 1, \"visible_evidence\": [\"The material appears smooth and taut with minimal wrinkling, suggesting a rigid or structured fabric, possibly synthetic or stiffened.\"], \"limitations\": [\"No evidence of natural drape, folds, or creasing; no texture or surface detail to confirm material behavior.\"]},\n  \"motif_texture\": {\"score\": 1, \"visible_evidence\": [\"The garment is uniformly colored (deep red) with no visible patterns, prints, or surface textures.\"], \"limitations\": [\"No evidence of embroidery, quilting, or surface embellishment; no visible texture mapping or material variation.\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No documentary or cultural context provided; no visual cues to identify historical or regional style.\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No visual cues to suggest specific wearing context (e.g., formal, casual, ceremonial); no human model or environment context.\"]},\n  \"overall_uncertainty\": \"The garment's construction and material behavior are inferred from its smooth, structured appearance, but no physical evidence of seams, closures, or material properties is visible. The design is modern and abstract, lacking cultural or historical context.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.565.765 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.03.983.455 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.04.760.065 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.04.760.103 W WARN: This is an experimental CLI for testing multimodal capability.\n0.04.760.103 W       For normal use cases, please use the standard llama-cli\n0.04.864.288 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 3)\n0.05.140.102 I mtmd batch encoding done in 276 ms\n"
+}

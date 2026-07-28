@@ -1,0 +1,11 @@
+{
+  "asset_id": "ZG001_metadata_s15",
+  "parent_asset_id": "ZG001",
+  "intervention_type": "metadata",
+  "intervention_severity": 0.15,
+  "target_criterion": "metadata",
+  "source_record": "https://zenodo.org/records/5267549",
+  "license": "CC-BY-4.0",
+  "claim_status": "technical",
+  "generation_command": "python scripts/run_asset_level_benchmark.py"
+}

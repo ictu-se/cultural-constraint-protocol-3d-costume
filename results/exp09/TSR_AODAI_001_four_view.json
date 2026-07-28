@@ -1,0 +1,83 @@
+{
+  "asset_id": "TSR_AODAI_001",
+  "view_config": "four_view",
+  "views": [
+    "front",
+    "three_quarter",
+    "side",
+    "back"
+  ],
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF Q4_K_M",
+  "temperature": 0,
+  "schema_attempts": 1,
+  "elapsed_seconds": 14.136,
+  "image_sha256": {
+    "TSR_AODAI_001_front.png": "37ea514f380f0e2117bf4af52badce49515c0df573d913ab169f7c56fbabeab0",
+    "TSR_AODAI_001_three_quarter.png": "4ba63b269ce6e73660e737c427a2e2be1df7edc449e96801e3ff2435a1fe448f",
+    "TSR_AODAI_001_side.png": "509419921115a30b5a0a799162371d3551756493facdbe4f2a1ba05f4d116a81",
+    "TSR_AODAI_001_back.png": "5c1ff98ab6546ebc680123fa2be469ddbbc1af9fda2ace8e4e1d26c5c2181341"
+  },
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment's construction is obscured by heavy blurring and low-resolution rendering, making it impossible to identify distinct components like seams, pockets, or fasteners."
+      ],
+      "limitations": [
+        "The severe visual degradation prevents any reliable assessment of physical construction."
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "The overall shape of the figure is discernible as a human form with a head, torso, arms, and legs, despite the blur."
+      ],
+      "limitations": [
+        "The blurring obscures fine details of the silhouette, such as precise limb proportions or garment contours."
+      ]
+    },
+    "sewing_pattern": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No clear visual evidence of stitching, seams, or patterned fabric is visible due to the heavy blur and low resolution."
+      ]
+    },
+    "material_drape": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment appears to have folds and flow, particularly in the lower skirt portion, but these are indistinct due to the blur."
+      ],
+      "limitations": [
+        "The blur prevents confirmation of whether the drape is realistic or an artifact of the rendering."
+      ]
+    },
+    "motif_texture": {
+      "score": 1,
+      "visible_evidence": [
+        "The orange-brown section of the torso has a rough, textured appearance, but it is too blurred to confirm if it is a deliberate motif or a rendering artifact."
+      ],
+      "limitations": [
+        "The texture is ambiguous and could be a material property or a rendering error."
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No documentary or cultural context is provided to assess regional or period consistency."
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No evidence of wearing context is visible due to the lack of environmental or situational cues."
+      ]
+    },
+    "overall_uncertainty": "The severe blurring and low resolution of the render prevent any confident assessment of the object's physical construction, material properties, or cultural context. All visible features are ambiguous and could be artifacts of the rendering process.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [\"The garment's construction is obscured by heavy blurring and low-resolution rendering, making it impossible to identify distinct components like seams, pockets, or fasteners.\"], \"limitations\": [\"The severe visual degradation prevents any reliable assessment of physical construction.\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"The overall shape of the figure is discernible as a human form with a head, torso, arms, and legs, despite the blur.\"], \"limitations\": [\"The blurring obscures fine details of the silhouette, such as precise limb proportions or garment contours.\"]},\n  \"sewing_pattern\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No clear visual evidence of stitching, seams, or patterned fabric is visible due to the heavy blur and low resolution.\"]},\n  \"material_drape\": {\"score\": 1, \"visible_evidence\": [\"The garment appears to have folds and flow, particularly in the lower skirt portion, but these are indistinct due to the blur.\"], \"limitations\": [\"The blur prevents confirmation of whether the drape is realistic or an artifact of the rendering.\"]},\n  \"motif_texture\": {\"score\": 1, \"visible_evidence\": [\"The orange-brown section of the torso has a rough, textured appearance, but it is too blurred to confirm if it is a deliberate motif or a rendering artifact.\"], \"limitations\": [\"The texture is ambiguous and could be a material property or a rendering error.\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No documentary or cultural context is provided to assess regional or period consistency.\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No evidence of wearing context is visible due to the lack of environmental or situational cues.\"]},\n  \"overall_uncertainty\": \"The severe blurring and low resolution of the render prevent any confident assessment of the object's physical construction, material properties, or cultural context. All visible features are ambiguous and could be artifacts of the rendering process.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.589.018 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.03.814.012 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.04.675.216 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.04.675.265 W WARN: This is an experimental CLI for testing multimodal capability.\n0.04.675.265 W       For normal use cases, please use the standard llama-cli\n0.05.726.759 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 5)\n0.05.994.505 I mtmd batch encoding done in 268 ms\n0.06.354.172 I encoding mtmd batch, n_chunks = 1 (done = 3, total = 5)\n0.06.564.851 I mtmd batch encoding done in 210 ms\n"
+}

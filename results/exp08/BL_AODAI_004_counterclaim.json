@@ -1,0 +1,81 @@
+{
+  "asset_id": "BL_AODAI_004",
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF",
+  "quantization": "Q4_K_M",
+  "vision_projector": "Q8_0",
+  "runtime": "llama.cpp b10103, Vulkan GPU offload requested",
+  "temperature": 0,
+  "prompt_variant": "counterclaim",
+  "image_views": [
+    "experiments/exp05_named_tool_aodai_assets/renders/BL_AODAI_004_side.png",
+    "experiments/exp05_named_tool_aodai_assets/renders/BL_AODAI_004_back.png",
+    "experiments/exp05_named_tool_aodai_assets/renders/BL_AODAI_004_front.png"
+  ],
+  "image_sha256": {
+    "BL_AODAI_004_side.png": "7c8d34e9b84ebaaaee461d2a0b572b3cb3b68ed3c2a168b1a2d5626833b48aa3",
+    "BL_AODAI_004_back.png": "a7360273482c3a2894c6312ccba8d8bb668eceaa8fdc3178e3606d641c9aa2f0",
+    "BL_AODAI_004_front.png": "6183f2f56756a0c2eb232a6b5a3eb1ebfd589ac85ccd18ba4797657f6e56f57e"
+  },
+  "elapsed_seconds": 14.004,
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment appears as a single, continuous form with no visible seams or panel divisions in any view. The 'shoulder' and 'arm' sections are integrated into the torso, suggesting fused geometry rather than separate components. The red lines may be render artifacts or guides, not physical construction elements."
+      ],
+      "limitations": [
+        "No physical evidence of seams, stitching, or panel construction is visible. The form could be a single sculpted piece or a model with merged geometry."
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "The garment has a unified, flowing silhouette with a defined waist and hip area. The front view shows a smooth, continuous curve from shoulder to hem. The side and back views confirm the silhouette's consistency across angles."
+      ],
+      "limitations": [
+        "The silhouette is rendered, so it may not reflect real-world draping or fabric behavior. The form could be a stylized or abstract representation."
+      ]
+    },
+    "sewing_pattern": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No visible seams, stitching, or pattern lines are present. The object's surface is uniformly shaded, making it impossible to confirm or deny the presence of a sewing pattern."
+      ]
+    },
+    "material_drape": {
+      "score": 1,
+      "visible_evidence": [
+        "The surface appears smooth and uniformly shaded, lacking the natural folds, creases, or tension lines expected from draped fabric. The red lines may be render artifacts or guides, not indicators of material behavior."
+      ],
+      "limitations": [
+        "The absence of realistic drape suggests the material is either non-existent or rendered as a solid form. The red lines could be visual guides, not physical material indicators."
+      ]
+    },
+    "motif_texture": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No visible patterns, textures, or surface details are present. The object's surface is uniformly shaded, making it impossible to confirm or deny the presence of any motif or texture."
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No cultural, historical, or stylistic markers are visible. The object is abstract and cannot be associated with any specific region or period without external context."
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No evidence of how or why the garment would be worn is visible. The object is presented as a standalone 3D model without contextual information."
+      ]
+    },
+    "overall_uncertainty": "The object appears to be a stylized, abstract 3D model with fused geometry and no visible seams or material properties. The red lines may be render artifacts or guides. The form could be a single sculpted piece rather than a garment with distinct components. The lack of realistic material drape and texture makes it impossible to validate any construction or cultural claims.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [\"The garment appears as a single, continuous form with no visible seams or panel divisions in any view. The 'shoulder' and 'arm' sections are integrated into the torso, suggesting fused geometry rather than separate components. The red lines may be render artifacts or guides, not physical construction elements.\"], \"limitations\": [\"No physical evidence of seams, stitching, or panel construction is visible. The form could be a single sculpted piece or a model with merged geometry.\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"The garment has a unified, flowing silhouette with a defined waist and hip area. The front view shows a smooth, continuous curve from shoulder to hem. The side and back views confirm the silhouette's consistency across angles.\"], \"limitations\": [\"The silhouette is rendered, so it may not reflect real-world draping or fabric behavior. The form could be a stylized or abstract representation.\"]},\n  \"sewing_pattern\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No visible seams, stitching, or pattern lines are present. The object's surface is uniformly shaded, making it impossible to confirm or deny the presence of a sewing pattern.\"]},\n  \"material_drape\": {\"score\": 1, \"visible_evidence\": [\"The surface appears smooth and uniformly shaded, lacking the natural folds, creases, or tension lines expected from draped fabric. The red lines may be render artifacts or guides, not indicators of material behavior.\"], \"limitations\": [\"The absence of realistic drape suggests the material is either non-existent or rendered as a solid form. The red lines could be visual guides, not physical material indicators.\"]},\n  \"motif_texture\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No visible patterns, textures, or surface details are present. The object's surface is uniformly shaded, making it impossible to confirm or deny the presence of any motif or texture.\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No cultural, historical, or stylistic markers are visible. The object is abstract and cannot be associated with any specific region or period without external context.\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No evidence of how or why the garment would be worn is visible. The object is presented as a standalone 3D model without contextual information.\"]},\n  \"overall_uncertainty\": \"The object appears to be a stylized, abstract 3D model with fused geometry and no visible seams or material properties. The red lines may be render artifacts or guides. The form could be a single sculpted piece rather than a garment with distinct components. The lack of realistic material drape and texture makes it impossible to validate any construction or cultural claims.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.543.284 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.03.323.576 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.03.832.913 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.03.832.949 W WARN: This is an experimental CLI for testing multimodal capability.\n0.03.832.950 W       For normal use cases, please use the standard llama-cli\n0.03.915.379 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 5)\n0.04.171.639 I mtmd batch encoding done in 256 ms\n0.04.551.633 I encoding mtmd batch, n_chunks = 1 (done = 3, total = 5)\n0.04.776.451 I mtmd batch encoding done in 225 ms\n"
+}

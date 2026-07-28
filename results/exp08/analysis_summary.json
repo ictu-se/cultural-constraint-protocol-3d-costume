@@ -1,0 +1,12 @@
+{
+  "assets": 7,
+  "prompt_variants": 3,
+  "criterion_records": 147,
+  "asset_criterion_groups": 49,
+  "exact_prompt_stability_rate": 0.6531,
+  "cultural_NA_preservation_rate": 1.0,
+  "comparable_visual_groups": 34,
+  "median_absolute_error_vs_author_technical_scores": 0.0,
+  "mean_absolute_error_vs_author_technical_scores": 0.2353,
+  "interpretation": "Agreement is with one author technical assessment, not human cultural validation. The VLM remains an automated evidence gate."
+}

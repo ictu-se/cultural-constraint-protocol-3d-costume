@@ -1,0 +1,85 @@
+{
+  "asset_id": "BL_AODAI_004",
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF",
+  "quantization": "Q4_K_M",
+  "vision_projector": "Q8_0",
+  "runtime": "llama.cpp b10103, Vulkan GPU offload requested",
+  "temperature": 0,
+  "prompt_variant": "evidence_first",
+  "image_views": [
+    "experiments/exp05_named_tool_aodai_assets/renders/BL_AODAI_004_back.png",
+    "experiments/exp05_named_tool_aodai_assets/renders/BL_AODAI_004_front.png",
+    "experiments/exp05_named_tool_aodai_assets/renders/BL_AODAI_004_side.png"
+  ],
+  "image_sha256": {
+    "BL_AODAI_004_back.png": "a7360273482c3a2894c6312ccba8d8bb668eceaa8fdc3178e3606d641c9aa2f0",
+    "BL_AODAI_004_front.png": "6183f2f56756a0c2eb232a6b5a3eb1ebfd589ac85ccd18ba4797657f6e56f57e",
+    "BL_AODAI_004_side.png": "7c8d34e9b84ebaaaee461d2a0b572b3cb3b68ed3c2a168b1a2d5626833b48aa3"
+  },
+  "elapsed_seconds": 13.951,
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment has a single-piece, form-fitting structure with no visible seams or panel divisions on the front view.",
+        "The side view reveals a single, continuous form with no visible seams or panel divisions.",
+        "The back view shows a single, continuous form with no visible seams or panel divisions."
+      ],
+      "limitations": [
+        "No evidence of construction methods, seams, or panel joins is visible in any view. The object appears as a single sculpted form, not a constructed garment."
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "The silhouette is form-fitting and elongated, with a defined waist and hip area.",
+        "The garment extends to the ankles and has a straight hemline."
+      ],
+      "limitations": [
+        "No evidence of regional-period consistency or wearing context is visible. The silhouette is generic and cannot be validated against any cultural or historical profile."
+      ]
+    },
+    "sewing_pattern": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No visible evidence of any sewing pattern, seam lines, or construction details is present. The object appears as a single sculpted form, not a constructed garment."
+      ]
+    },
+    "material_drape": {
+      "score": 1,
+      "visible_evidence": [
+        "The material appears smooth and uniformly draped without visible folds or creases.",
+        "The material conforms tightly to the body form, suggesting a rigid or semi-rigid material."
+      ],
+      "limitations": [
+        "No evidence of material physics or draping behavior is visible. The object appears as a single sculpted form, not a constructed garment."
+      ]
+    },
+    "motif_texture": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No visible evidence of any motif, texture, or surface pattern is present. The object is uniformly colored and smooth."
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No evidence of regional-period consistency is visible. The object is generic and cannot be validated against any cultural or historical profile."
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No evidence of wearing context is visible. The object is generic and cannot be validated against any cultural or historical profile."
+      ]
+    },
+    "overall_uncertainty": "The object appears to be a single sculpted form, not a constructed garment. No evidence of construction, material physics, or cultural context is visible. The score reflects the absence of visible evidence for construction and material behavior.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [\"The garment has a single-piece, form-fitting structure with no visible seams or panel divisions on the front view.\", \"The side view reveals a single, continuous form with no visible seams or panel divisions.\", \"The back view shows a single, continuous form with no visible seams or panel divisions.\"], \"limitations\": [\"No evidence of construction methods, seams, or panel joins is visible in any view. The object appears as a single sculpted form, not a constructed garment.\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"The silhouette is form-fitting and elongated, with a defined waist and hip area.\", \"The garment extends to the ankles and has a straight hemline.\"], \"limitations\": [\"No evidence of regional-period consistency or wearing context is visible. The silhouette is generic and cannot be validated against any cultural or historical profile.\"]},\n  \"sewing_pattern\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No visible evidence of any sewing pattern, seam lines, or construction details is present. The object appears as a single sculpted form, not a constructed garment.\"]},\n  \"material_drape\": {\"score\": 1, \"visible_evidence\": [\"The material appears smooth and uniformly draped without visible folds or creases.\", \"The material conforms tightly to the body form, suggesting a rigid or semi-rigid material.\"], \"limitations\": [\"No evidence of material physics or draping behavior is visible. The object appears as a single sculpted form, not a constructed garment.\"]},\n  \"motif_texture\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No visible evidence of any motif, texture, or surface pattern is present. The object is uniformly colored and smooth.\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No evidence of regional-period consistency is visible. The object is generic and cannot be validated against any cultural or historical profile.\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No evidence of wearing context is visible. The object is generic and cannot be validated against any cultural or historical profile.\"]},\n  \"overall_uncertainty\": \"The object appears to be a single sculpted form, not a constructed garment. No evidence of construction, material physics, or cultural context is visible. The score reflects the absence of visible evidence for construction and material behavior.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.699.900 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.03.983.032 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.04.557.756 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.04.557.779 W WARN: This is an experimental CLI for testing multimodal capability.\n0.04.557.779 W       For normal use cases, please use the standard llama-cli\n0.04.641.187 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 5)\n0.04.918.517 I mtmd batch encoding done in 277 ms\n0.05.350.725 I encoding mtmd batch, n_chunks = 1 (done = 3, total = 5)\n0.05.588.383 I mtmd batch encoding done in 238 ms\n"
+}

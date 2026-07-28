@@ -1,0 +1,77 @@
+{
+  "asset_id": "TSR_AODAI_002",
+  "view_config": "front",
+  "views": [
+    "front"
+  ],
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF Q4_K_M",
+  "temperature": 0,
+  "schema_attempts": 1,
+  "elapsed_seconds": 13.088,
+  "image_sha256": {
+    "TSR_AODAI_002_front.png": "d2a895e7c6c88dc3c7cd1ce827a14c26d1746eeda6f6ae29625020289634d163"
+  },
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment appears to be a single-piece form-fitting structure with no visible seams, panels, or construction lines that would indicate separate components or assembly points."
+      ],
+      "limitations": [
+        "No side or back views confirm whether seams or panel boundaries exist outside the visible front; the form is abstract and lacks clear construction cues."
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "The garment has a continuous, flowing silhouette from shoulders to hem with no visible breaks or structural divisions that would contradict a unified form."
+      ],
+      "limitations": [
+        "The abstract nature of the form and lack of contextual reference prevent definitive assessment of silhouette appropriateness for any real-world use."
+      ]
+    },
+    "sewing_pattern": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No visible seams, stitching, or patterned lines are present to indicate sewing construction. The surface appears uniformly textured or painted, not stitched."
+      ]
+    },
+    "material_drape": {
+      "score": 2,
+      "visible_evidence": [
+        "The surface exhibits smooth, flowing contours with subtle shading that suggests a draped or molded material, consistent with a single continuous form."
+      ],
+      "limitations": [
+        "The material appears to be a rendered surface rather than a physical textile, so drape is simulated, not observed."
+      ]
+    },
+    "motif_texture": {
+      "score": 1,
+      "visible_evidence": [
+        "The surface has a mottled, gradient texture with color variations from light blue to dark gray, but no discernible repeating pattern, emblem, or decorative motif."
+      ],
+      "limitations": [
+        "The texture is abstract and could be a material finish or digital shader, not a culturally specific motif or textile pattern."
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No documentary, historical, or cultural context is provided to assess regional or period consistency."
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No evidence of wearing context, such as posture, accessories, or environment, is visible to infer how or why the garment would be worn."
+      ]
+    },
+    "overall_uncertainty": "The object is a stylized, abstract 3D render with no visible evidence of construction, cultural context, or material authenticity. The surface texture and form are ambiguous and may be digital effects rather than physical materials.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [\"The garment appears to be a single-piece form-fitting structure with no visible seams, panels, or construction lines that would indicate separate components or assembly points.\"], \"limitations\": [\"No side or back views confirm whether seams or panel boundaries exist outside the visible front; the form is abstract and lacks clear construction cues.\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"The garment has a continuous, flowing silhouette from shoulders to hem with no visible breaks or structural divisions that would contradict a unified form.\"], \"limitations\": [\"The abstract nature of the form and lack of contextual reference prevent definitive assessment of silhouette appropriateness for any real-world use.\"]},\n  \"sewing_pattern\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No visible seams, stitching, or patterned lines are present to indicate sewing construction. The surface appears uniformly textured or painted, not stitched.\"]},\n  \"material_drape\": {\"score\": 2, \"visible_evidence\": [\"The surface exhibits smooth, flowing contours with subtle shading that suggests a draped or molded material, consistent with a single continuous form.\"], \"limitations\": [\"The material appears to be a rendered surface rather than a physical textile, so drape is simulated, not observed.\"]},\n  \"motif_texture\": {\"score\": 1, \"visible_evidence\": [\"The surface has a mottled, gradient texture with color variations from light blue to dark gray, but no discernible repeating pattern, emblem, or decorative motif.\"], \"limitations\": [\"The texture is abstract and could be a material finish or digital shader, not a culturally specific motif or textile pattern.\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No documentary, historical, or cultural context is provided to assess regional or period consistency.\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No evidence of wearing context, such as posture, accessories, or environment, is visible to infer how or why the garment would be worn.\"]},\n  \"overall_uncertainty\": \"The object is a stylized, abstract 3D render with no visible evidence of construction, cultural context, or material authenticity. The surface texture and form are ambiguous and may be digital effects rather than physical materials.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.643.520 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.03.745.880 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.04.535.828 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.04.535.881 W WARN: This is an experimental CLI for testing multimodal capability.\n0.04.535.881 W       For normal use cases, please use the standard llama-cli\n0.04.800.236 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 3)\n0.05.029.253 I mtmd batch encoding done in 229 ms\n"
+}

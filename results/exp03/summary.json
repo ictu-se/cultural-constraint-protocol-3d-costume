@@ -1,0 +1,23 @@
+{
+  "seeds": [
+    20260711,
+    20260808,
+    20260905,
+    20261002,
+    20261099,
+    20261196,
+    20261293,
+    20261390,
+    20261487,
+    20261584
+  ],
+  "scenarios_per_seed": 500,
+  "profiles_used": 8,
+  "score_scale": "ordinal 0,1,2,3",
+  "mean_pairwise_spearman": 1.0,
+  "min_pairwise_spearman": 1.0,
+  "macro_precision": 0.9264,
+  "macro_recall": 0.9502,
+  "macro_f1": 0.9382,
+  "note": "Software unit tests and sensitivity analysis only. Fixed ranks reflect researcher-authored capability vectors and are not empirical robustness evidence."
+}

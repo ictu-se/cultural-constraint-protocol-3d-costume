@@ -1,0 +1,79 @@
+{
+  "asset_id": "TSR_AODAI_001",
+  "view_config": "front_side",
+  "views": [
+    "front",
+    "side"
+  ],
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF Q4_K_M",
+  "temperature": 0,
+  "schema_attempts": 1,
+  "elapsed_seconds": 16.339,
+  "image_sha256": {
+    "TSR_AODAI_001_front.png": "37ea514f380f0e2117bf4af52badce49515c0df573d913ab169f7c56fbabeab0",
+    "TSR_AODAI_001_side.png": "509419921115a30b5a0a799162371d3551756493facdbe4f2a1ba05f4d116a81"
+  },
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [
+        "The figure's garment appears to be constructed from multiple layered parts, including a distinct upper torso section with a reddish-orange hue and a lower white section with textured surface details."
+      ],
+      "limitations": [
+        "The image does not show clear seams or construction joints that would confirm component assembly. The color and texture transitions are ambiguous and may be due to rendering or material application, not physical construction."
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "The overall shape of the figure is consistent with a human-like form standing upright, with a defined head, torso, limbs, and feet. The garment drapes in a way that suggests a coherent silhouette."
+      ],
+      "limitations": [
+        "No side or back views are provided to confirm silhouette consistency from all angles, but the front view shows a plausible human form."
+      ]
+    },
+    "sewing_pattern": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No visible stitching, seam lines, or patterned fabric structure can be observed. The image may be a render or stylized model, not a photograph of a physical garment."
+      ]
+    },
+    "material_drape": {
+      "score": 2,
+      "visible_evidence": [
+        "The garment exhibits soft folds and flow, particularly around the lower body and sleeves, suggesting a draped material. The upper torso section has a more rigid or structured appearance, possibly indicating a different material or construction."
+      ],
+      "limitations": [
+        "The drape is rendered, not physically observed; the transitions between material types are ambiguous and may be due to texture mapping or lighting effects."
+      ]
+    },
+    "motif_texture": {
+      "score": 1,
+      "visible_evidence": [
+        "The lower garment has a repeating pattern of raised circular or bulbous textures, which may be a decorative motif. The upper torso section has a smoother surface with some embossed details."
+      ],
+      "limitations": [
+        "The texture is not clearly defined as a cultural or historical motif; it may be a generic decorative pattern or a rendering artifact. The visibility of the motif is limited by the image resolution and lighting."
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No documentary or cultural context is provided to identify regional or period characteristics. The visual evidence is insufficient for such an assessment."
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No contextual information (e.g., setting, activity, social role) is visible or implied. The figure is isolated on a neutral background, making wearing context impossible to determine."
+      ]
+    },
+    "overall_uncertainty": "The asset appears to be a 3D render with stylized textures and color blocking. Visible evidence suggests layered construction and draped material, but the lack of physical detail and the ambiguity of texture transitions limit confidence in material and construction assessment. The figure's form is plausible but not verifiable without additional views or physical inspection.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [\"The figure's garment appears to be constructed from multiple layered parts, including a distinct upper torso section with a reddish-orange hue and a lower white section with textured surface details.\"], \"limitations\": [\"The image does not show clear seams or construction joints that would confirm component assembly. The color and texture transitions are ambiguous and may be due to rendering or material application, not physical construction.\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"The overall shape of the figure is consistent with a human-like form standing upright, with a defined head, torso, limbs, and feet. The garment drapes in a way that suggests a coherent silhouette.\"], \"limitations\": [\"No side or back views are provided to confirm silhouette consistency from all angles, but the front view shows a plausible human form.\"]},\n  \"sewing_pattern\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No visible stitching, seam lines, or patterned fabric structure can be observed. The image may be a render or stylized model, not a photograph of a physical garment.\"]},\n  \"material_drape\": {\"score\": 2, \"visible_evidence\": [\"The garment exhibits soft folds and flow, particularly around the lower body and sleeves, suggesting a draped material. The upper torso section has a more rigid or structured appearance, possibly indicating a different material or construction.\"], \"limitations\": [\"The drape is rendered, not physically observed; the transitions between material types are ambiguous and may be due to texture mapping or lighting effects.\"]},\n  \"motif_texture\": {\"score\": 1, \"visible_evidence\": [\"The lower garment has a repeating pattern of raised circular or bulbous textures, which may be a decorative motif. The upper torso section has a smoother surface with some embossed details.\"], \"limitations\": [\"The texture is not clearly defined as a cultural or historical motif; it may be a generic decorative pattern or a rendering artifact. The visibility of the motif is limited by the image resolution and lighting.\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No documentary or cultural context is provided to identify regional or period characteristics. The visual evidence is insufficient for such an assessment.\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No contextual information (e.g., setting, activity, social role) is visible or implied. The figure is isolated on a neutral background, making wearing context impossible to determine.\"]},\n  \"overall_uncertainty\": \"The asset appears to be a 3D render with stylized textures and color blocking. Visible evidence suggests layered construction and draped material, but the lack of physical detail and the ambiguity of texture transitions limit confidence in material and construction assessment. The figure's form is plausible but not verifiable without additional views or physical inspection.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.804.015 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.04.252.062 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.05.182.602 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.05.182.647 W WARN: This is an experimental CLI for testing multimodal capability.\n0.05.182.648 W       For normal use cases, please use the standard llama-cli\n0.05.759.917 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 3)\n0.06.021.344 I mtmd batch encoding done in 261 ms\n"
+}

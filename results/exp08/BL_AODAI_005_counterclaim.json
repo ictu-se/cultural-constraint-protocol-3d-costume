@@ -1,0 +1,83 @@
+{
+  "asset_id": "BL_AODAI_005",
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF",
+  "quantization": "Q4_K_M",
+  "vision_projector": "Q8_0",
+  "runtime": "llama.cpp b10103, Vulkan GPU offload requested",
+  "temperature": 0,
+  "prompt_variant": "counterclaim",
+  "image_views": [
+    "experiments/exp05_named_tool_aodai_assets/renders/BL_AODAI_005_side.png",
+    "experiments/exp05_named_tool_aodai_assets/renders/BL_AODAI_005_back.png",
+    "experiments/exp05_named_tool_aodai_assets/renders/BL_AODAI_005_front.png"
+  ],
+  "image_sha256": {
+    "BL_AODAI_005_side.png": "b3a215bebbf2fafdc775ebafc862ef5bd4f434164d8cbcacfb2abf3e7363668c",
+    "BL_AODAI_005_back.png": "ea2d8aee5559022a2756fa2c8316c1f50354f393d832e13874a8ce51440a041a",
+    "BL_AODAI_005_front.png": "81a2c98a78b0a958b5b778bd82fc3aaf7b6dcdb9e344607d2ffe248ff78053b4"
+  },
+  "elapsed_seconds": 13.76,
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment appears as a single, continuous form with no visible seams or panel divisions in any view. The arms and torso are fused geometry, not separate components. The three gold buttons are rendered as distinct objects attached to the surface, not integrated into the form."
+      ],
+      "limitations": [
+        "No evidence of construction or paneling is visible. Render artifacts may simulate seams or folds, but none are confirmed as physical construction."
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "The garment has a defined, elongated silhouette with a fitted bodice, flared hips, and a straight hem. The shape is consistent across all views, suggesting a unified form."
+      ],
+      "limitations": [
+        "The silhouette is a render artifact; no evidence of fabric drape or physical structure is visible to confirm realism."
+      ]
+    },
+    "sewing_pattern": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No visible seams, stitching, or panel lines are present. The form appears as a single, continuous surface. Sewing patterns cannot be assessed without evidence of construction."
+      ]
+    },
+    "material_drape": {
+      "score": 1,
+      "visible_evidence": [
+        "The surface is smooth and lacks texture or folds that would indicate fabric drape. The form appears rigid and sculpted, not draped over a form."
+      ],
+      "limitations": [
+        "The absence of draping is a render artifact. No evidence of material physics or fabric behavior is visible."
+      ]
+    },
+    "motif_texture": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment has three gold buttons, which are distinct from the teal surface. The buttons are rendered as separate objects, not integrated into the material or texture."
+      ],
+      "limitations": [
+        "The buttons may be render artifacts or fused geometry. No evidence of texture or motif identity is visible beyond the buttons."
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No cultural or historical context is visible. The garment's form is abstract and cannot be linked to any specific region or period without external knowledge."
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No evidence of wearing context is visible. The garment is displayed on a generic mannequin form without cultural or situational context."
+      ]
+    },
+    "overall_uncertainty": "The object is a 3D render with no visible evidence of construction, material, or cultural context. All features are subject to being render artifacts or fused geometry. The score reflects the absence of physical evidence for construction and material behavior.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [\"The garment appears as a single, continuous form with no visible seams or panel divisions in any view. The arms and torso are fused geometry, not separate components. The three gold buttons are rendered as distinct objects attached to the surface, not integrated into the form.\"], \"limitations\": [\"No evidence of construction or paneling is visible. Render artifacts may simulate seams or folds, but none are confirmed as physical construction.\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"The garment has a defined, elongated silhouette with a fitted bodice, flared hips, and a straight hem. The shape is consistent across all views, suggesting a unified form.\"], \"limitations\": [\"The silhouette is a render artifact; no evidence of fabric drape or physical structure is visible to confirm realism.\"]},\n  \"sewing_pattern\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No visible seams, stitching, or panel lines are present. The form appears as a single, continuous surface. Sewing patterns cannot be assessed without evidence of construction.\"]},\n  \"material_drape\": {\"score\": 1, \"visible_evidence\": [\"The surface is smooth and lacks texture or folds that would indicate fabric drape. The form appears rigid and sculpted, not draped over a form.\"], \"limitations\": [\"The absence of draping is a render artifact. No evidence of material physics or fabric behavior is visible.\"]},\n  \"motif_texture\": {\"score\": 1, \"visible_evidence\": [\"The garment has three gold buttons, which are distinct from the teal surface. The buttons are rendered as separate objects, not integrated into the material or texture.\"], \"limitations\": [\"The buttons may be render artifacts or fused geometry. No evidence of texture or motif identity is visible beyond the buttons.\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No cultural or historical context is visible. The garment's form is abstract and cannot be linked to any specific region or period without external knowledge.\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No evidence of wearing context is visible. The garment is displayed on a generic mannequin form without cultural or situational context.\"]},\n  \"overall_uncertainty\": \"The object is a 3D render with no visible evidence of construction, material, or cultural context. All features are subject to being render artifacts or fused geometry. The score reflects the absence of physical evidence for construction and material behavior.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.539.058 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.03.831.229 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.04.325.009 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.04.325.041 W WARN: This is an experimental CLI for testing multimodal capability.\n0.04.325.041 W       For normal use cases, please use the standard llama-cli\n0.04.410.508 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 5)\n0.04.662.904 I mtmd batch encoding done in 252 ms\n0.05.040.884 I encoding mtmd batch, n_chunks = 1 (done = 3, total = 5)\n0.05.271.027 I mtmd batch encoding done in 231 ms\n"
+}

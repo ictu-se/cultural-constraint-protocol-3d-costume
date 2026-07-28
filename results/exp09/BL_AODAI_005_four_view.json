@@ -1,0 +1,85 @@
+{
+  "asset_id": "BL_AODAI_005",
+  "view_config": "four_view",
+  "views": [
+    "front",
+    "three_quarter",
+    "side",
+    "back"
+  ],
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF Q4_K_M",
+  "temperature": 0,
+  "schema_attempts": 1,
+  "elapsed_seconds": 17.533,
+  "image_sha256": {
+    "BL_AODAI_005_front.png": "81a2c98a78b0a958b5b778bd82fc3aaf7b6dcdb9e344607d2ffe248ff78053b4",
+    "BL_AODAI_005_three_quarter.png": "9db3a24704e9224c9bb402a43c0e454f6511aa2fc98b4be4074a1ed0355c03bf",
+    "BL_AODAI_005_side.png": "b3a215bebbf2fafdc775ebafc862ef5bd4f434164d8cbcacfb2abf3e7363668c",
+    "BL_AODAI_005_back.png": "ea2d8aee5559022a2756fa2c8316c1f50354f393d832e13874a8ce51440a041a"
+  },
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment appears to be constructed from a single continuous piece of teal material, with no visible seams or panel divisions in the front or back views. The shoulder and arm sections appear to be integrated into the torso and skirt without separate components. The gold buttons are attached to the surface, not indicating panel construction."
+      ],
+      "limitations": [
+        "The side view shows the garment is a single continuous form, but the internal structure is not visible. The presence of the pink rods suggests a mannequin or support structure, not part of the garment."
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "The garment has a fitted, columnar silhouette from the shoulders to the hem, with a slight flare at the bottom. The front view shows a defined waist and hip area, while the back view shows a smooth, continuous curve. The overall shape is consistent across views."
+      ],
+      "limitations": [
+        "The silhouette is stylized and abstract, not representative of any specific historical or cultural garment. The lack of visible fabric folds or drape makes it difficult to assess how it would behave on a human form."
+      ]
+    },
+    "sewing_pattern": {
+      "score": 1,
+      "visible_evidence": [
+        "There are no visible seams, stitching lines, or panel divisions on the front or back of the garment. The gold buttons are attached to the surface, not indicating a sewing pattern or closure method."
+      ],
+      "limitations": [
+        "The absence of visible seams does not confirm the garment is constructed without seams. The side view shows the garment is a single continuous form, but the internal structure is not visible."
+      ]
+    },
+    "material_drape": {
+      "score": 1,
+      "visible_evidence": [
+        "The material appears to be smooth and form-fitting, with no visible folds, creases, or draping. The surface is uniform and lacks texture or variation in how the material hangs."
+      ],
+      "limitations": [
+        "The material is rendered as a smooth, seamless surface, which does not reflect the physical behavior of real fabric. The lack of visible drape or folds makes it difficult to assess how the material would behave in reality."
+      ]
+    },
+    "motif_texture": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment has a uniform teal color with no visible patterns, textures, or motifs. The gold buttons are the only decorative elements, and they are not part of a larger motif or texture."
+      ],
+      "limitations": [
+        "The absence of visible texture or pattern does not confirm the garment is plain. The rendering may be simplified, and the texture may be present but not visible in the current views."
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No documentary profile or qualified human assessment is supplied to determine regional or period consistency. The garment is abstract and stylized, not representative of any specific historical or cultural garment."
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No documentary profile or qualified human assessment is supplied to determine wearing context. The garment is abstract and stylized, not representative of any specific historical or cultural garment."
+      ]
+    },
+    "overall_uncertainty": "The garment is a stylized, abstract 3D model with no visible seams, patterns, or textures. The material appears to be a single continuous piece, but the internal structure is not visible. The silhouette is consistent across views, but the lack of fabric drape makes it difficult to assess how it would behave on a human form. The gold buttons are the only decorative elements, and they are not part of a larger motif or texture. The garment is not representative of any specific historical or cultural garment, so regional-period consistency and wearing context cannot be determined.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [\"The garment appears to be constructed from a single continuous piece of teal material, with no visible seams or panel divisions in the front or back views. The shoulder and arm sections appear to be integrated into the torso and skirt without separate components. The gold buttons are attached to the surface, not indicating panel construction.\"], \"limitations\": [\"The side view shows the garment is a single continuous form, but the internal structure is not visible. The presence of the pink rods suggests a mannequin or support structure, not part of the garment.\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"The garment has a fitted, columnar silhouette from the shoulders to the hem, with a slight flare at the bottom. The front view shows a defined waist and hip area, while the back view shows a smooth, continuous curve. The overall shape is consistent across views.\"], \"limitations\": [\"The silhouette is stylized and abstract, not representative of any specific historical or cultural garment. The lack of visible fabric folds or drape makes it difficult to assess how it would behave on a human form.\"]},\n  \"sewing_pattern\": {\"score\": 1, \"visible_evidence\": [\"There are no visible seams, stitching lines, or panel divisions on the front or back of the garment. The gold buttons are attached to the surface, not indicating a sewing pattern or closure method.\"], \"limitations\": [\"The absence of visible seams does not confirm the garment is constructed without seams. The side view shows the garment is a single continuous form, but the internal structure is not visible.\"]},\n  \"material_drape\": {\"score\": 1, \"visible_evidence\": [\"The material appears to be smooth and form-fitting, with no visible folds, creases, or draping. The surface is uniform and lacks texture or variation in how the material hangs.\"], \"limitations\": [\"The material is rendered as a smooth, seamless surface, which does not reflect the physical behavior of real fabric. The lack of visible drape or folds makes it difficult to assess how the material would behave in reality.\"]},\n  \"motif_texture\": {\"score\": 1, \"visible_evidence\": [\"The garment has a uniform teal color with no visible patterns, textures, or motifs. The gold buttons are the only decorative elements, and they are not part of a larger motif or texture.\"], \"limitations\": [\"The absence of visible texture or pattern does not confirm the garment is plain. The rendering may be simplified, and the texture may be present but not visible in the current views.\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No documentary profile or qualified human assessment is supplied to determine regional or period consistency. The garment is abstract and stylized, not representative of any specific historical or cultural garment.\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No documentary profile or qualified human assessment is supplied to determine wearing context. The garment is abstract and stylized, not representative of any specific historical or cultural garment.\"]},\n  \"overall_uncertainty\": \"The garment is a stylized, abstract 3D model with no visible seams, patterns, or textures. The material appears to be a single continuous piece, but the internal structure is not visible. The silhouette is consistent across views, but the lack of fabric drape makes it difficult to assess how it would behave on a human form. The gold buttons are the only decorative elements, and they are not part of a larger motif or texture. The garment is not representative of any specific historical or cultural garment, so regional-period consistency and wearing context cannot be determined.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.524.968 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.03.476.032 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.04.219.605 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.04.219.643 W WARN: This is an experimental CLI for testing multimodal capability.\n0.04.219.643 W       For normal use cases, please use the standard llama-cli\n0.04.353.631 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 5)\n0.04.608.308 I mtmd batch encoding done in 255 ms\n0.05.003.314 I encoding mtmd batch, n_chunks = 1 (done = 3, total = 5)\n0.05.240.780 I mtmd batch encoding done in 237 ms\n"
+}

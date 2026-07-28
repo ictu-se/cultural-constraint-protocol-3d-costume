@@ -1,0 +1,7 @@
+kind,spearman_severity_target,monotonicity_violations,mean_offtarget_leakage
+component,1.0,0,0.4895790772264883
+silhouette,1.0,0,0.0
+topology,0.9486832980505139,0,0.3690662654351913
+material,1.0,0,0.0
+motif,1.0,0,0.0
+metadata,1.0,0,0.0

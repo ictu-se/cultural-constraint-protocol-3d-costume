@@ -1,0 +1,75 @@
+{
+  "asset_id": "BL_AODAI_003",
+  "view_config": "front_side",
+  "views": [
+    "front",
+    "side"
+  ],
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF Q4_K_M",
+  "temperature": 0,
+  "schema_attempts": 1,
+  "elapsed_seconds": 12.645,
+  "image_sha256": {
+    "BL_AODAI_003_front.png": "45a07f3833c379c39e4892674bb6b5ccf884cbc591d9440f5bb7d5dc65d999aa",
+    "BL_AODAI_003_side.png": "33952565856bcc603d516568c81c55afff59abb1eb3d08ce31d1caaf39417fde"
+  },
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment has a central vertical seam or structural division down the front, indicated by the alignment of the blue panels and the placement of the gold accents"
+      ],
+      "limitations": [
+        "No evidence of fastening mechanisms or closure points is visible; the construction is abstract and stylized"
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "The garment has a fitted, elongated silhouette with defined shoulder, torso, and leg sections; the overall form is consistent across the visible views"
+      ],
+      "limitations": [
+        "No side or back views confirm the silhouette's continuity; the front view alone cannot validate full form"
+      ]
+    },
+    "sewing_pattern": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment appears to be constructed from multiple panels, suggested by the distinct blue sections and the vertical alignment of the gold accents"
+      ],
+      "limitations": [
+        "No visible stitching, seam lines, or topstitching is present to confirm sewing; the panel divisions are structural, not necessarily sewn"
+      ]
+    },
+    "material_drape": {
+      "score": 1,
+      "visible_evidence": [
+        "The material appears smooth and taut, with minimal folds or creases, suggesting a rigid or molded construction rather than draped fabric"
+      ]
+    },
+    "motif_texture": {
+      "score": 1,
+      "visible_evidence": [
+        "Two gold-colored, stylized bird-like motifs are visible on the torso and lower section; these are clearly rendered elements"
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No cultural, historical, or stylistic markers are visible to support any regional or period identification"
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No contextual elements such as accessories, environment, or human form are present to infer wearing context"
+      ]
+    },
+    "overall_uncertainty": "The object is a stylized, abstract 3D model with no visible evidence of actual garment construction, material behavior, or cultural context. The score reflects the presence of structural elements that suggest paneling and motifs, but lacks evidence of physical construction or cultural grounding.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [\"The garment has a central vertical seam or structural division down the front, indicated by the alignment of the blue panels and the placement of the gold accents\"], \"limitations\": [\"No evidence of fastening mechanisms or closure points is visible; the construction is abstract and stylized\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"The garment has a fitted, elongated silhouette with defined shoulder, torso, and leg sections; the overall form is consistent across the visible views\"], \"limitations\": [\"No side or back views confirm the silhouette's continuity; the front view alone cannot validate full form\"]},\n  \"sewing_pattern\": {\"score\": 1, \"visible_evidence\": [\"The garment appears to be constructed from multiple panels, suggested by the distinct blue sections and the vertical alignment of the gold accents\"], \"limitations\": [\"No visible stitching, seam lines, or topstitching is present to confirm sewing; the panel divisions are structural, not necessarily sewn\"]},\n  \"material_drape\": {\"score\": 1, \"visible_evidence\": [\"The material appears smooth and taut, with minimal folds or creases, suggesting a rigid or molded construction rather than draped fabric\"]}, \n  \"motif_texture\": {\"score\": 1, \"visible_evidence\": [\"Two gold-colored, stylized bird-like motifs are visible on the torso and lower section; these are clearly rendered elements\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No cultural, historical, or stylistic markers are visible to support any regional or period identification\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No contextual elements such as accessories, environment, or human form are present to infer wearing context\"]},\n  \"overall_uncertainty\": \"The object is a stylized, abstract 3D model with no visible evidence of actual garment construction, material behavior, or cultural context. The score reflects the presence of structural elements that suggest paneling and motifs, but lacks evidence of physical construction or cultural grounding.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.536.111 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.03.731.860 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.04.365.444 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.04.365.478 W WARN: This is an experimental CLI for testing multimodal capability.\n0.04.365.478 W       For normal use cases, please use the standard llama-cli\n0.04.468.462 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 3)\n0.04.753.313 I mtmd batch encoding done in 285 ms\n"
+}

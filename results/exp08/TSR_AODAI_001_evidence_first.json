@@ -1,0 +1,81 @@
+{
+  "asset_id": "TSR_AODAI_001",
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF",
+  "quantization": "Q4_K_M",
+  "vision_projector": "Q8_0",
+  "runtime": "llama.cpp b10103, Vulkan GPU offload requested",
+  "temperature": 0,
+  "prompt_variant": "evidence_first",
+  "image_views": [
+    "experiments/exp06_triposr_reconstruction_ultra/renders/TSR_AODAI_001_back.png",
+    "experiments/exp06_triposr_reconstruction_ultra/renders/TSR_AODAI_001_front.png",
+    "experiments/exp06_triposr_reconstruction_ultra/renders/TSR_AODAI_001_side.png"
+  ],
+  "image_sha256": {
+    "TSR_AODAI_001_back.png": "5c1ff98ab6546ebc680123fa2be469ddbbc1af9fda2ace8e4e1d26c5c2181341",
+    "TSR_AODAI_001_front.png": "37ea514f380f0e2117bf4af52badce49515c0df573d913ab169f7c56fbabeab0",
+    "TSR_AODAI_001_side.png": "509419921115a30b5a0a799162371d3551756493facdbe4f2a1ba05f4d116a81"
+  },
+  "elapsed_seconds": 13.814,
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [],
+      "limitations": [
+        "No visible seams, closures, or construction lines. The form appears as a single sculpted mass with no evidence of assembled parts or stitching. The 'components' criterion cannot be assessed due to lack of visible evidence of assembly or construction."
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "The figure has a recognizable human-like silhouette with a head, torso, limbs, and feet. The posture is upright and walking. The overall shape is consistent across views."
+      ],
+      "limitations": [
+        "No evidence of internal structure or articulation. The silhouette is a single sculpted form, not a constructed garment or wearable item."
+      ]
+    },
+    "sewing_pattern": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No visible seams, stitching, or patterned construction. The object appears as a single sculpted piece. Sewing patterns require visible fabric or textile construction, which is absent."
+      ]
+    },
+    "material_drape": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment has folds and creases, particularly in the lower part and around the arms, suggesting a draped material. The upper torso has a more rigid, sculpted appearance."
+      ],
+      "limitations": [
+        "The drape is not convincingly rendered as fabric physics. The transitions between rigid and draped areas are abrupt and lack realistic material behavior. The 'material_drape' criterion is not fully supported by visible evidence."
+      ]
+    },
+    "motif_texture": {
+      "score": 1,
+      "visible_evidence": [
+        "The surface has textured areas, including raised patterns on the lower garment and the torso. The upper torso has a distinct orange-brown coloration with a rough texture."
+      ],
+      "limitations": [
+        "The texture is not clearly a motif or pattern but appears as a sculpted or painted surface. The 'motif_texture' criterion requires identifiable decorative patterns, which are not clearly visible or defined."
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No documentary or cultural context is provided. The object's style is ambiguous and cannot be linked to any specific region or period without external reference."
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No evidence of how or why the object is worn. The object is presented as a standalone figure without context for use or function."
+      ]
+    },
+    "overall_uncertainty": "The object is a single sculpted form with ambiguous material properties and no visible evidence of construction or cultural context. The visible evidence is insufficient to confirm or deny the presence of seams, patterns, or material behavior.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [], \"limitations\": [\"No visible seams, closures, or construction lines. The form appears as a single sculpted mass with no evidence of assembled parts or stitching. The 'components' criterion cannot be assessed due to lack of visible evidence of assembly or construction.\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"The figure has a recognizable human-like silhouette with a head, torso, limbs, and feet. The posture is upright and walking. The overall shape is consistent across views.\"], \"limitations\": [\"No evidence of internal structure or articulation. The silhouette is a single sculpted form, not a constructed garment or wearable item.\"]},\n  \"sewing_pattern\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No visible seams, stitching, or patterned construction. The object appears as a single sculpted piece. Sewing patterns require visible fabric or textile construction, which is absent.\"]},\n  \"material_drape\": {\"score\": 1, \"visible_evidence\": [\"The garment has folds and creases, particularly in the lower part and around the arms, suggesting a draped material. The upper torso has a more rigid, sculpted appearance.\"], \"limitations\": [\"The drape is not convincingly rendered as fabric physics. The transitions between rigid and draped areas are abrupt and lack realistic material behavior. The 'material_drape' criterion is not fully supported by visible evidence.\"]},\n  \"motif_texture\": {\"score\": 1, \"visible_evidence\": [\"The surface has textured areas, including raised patterns on the lower garment and the torso. The upper torso has a distinct orange-brown coloration with a rough texture.\"], \"limitations\": [\"The texture is not clearly a motif or pattern but appears as a sculpted or painted surface. The 'motif_texture' criterion requires identifiable decorative patterns, which are not clearly visible or defined.\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No documentary or cultural context is provided. The object's style is ambiguous and cannot be linked to any specific region or period without external reference.\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No evidence of how or why the object is worn. The object is presented as a standalone figure without context for use or function.\"]},\n  \"overall_uncertainty\": \"The object is a single sculpted form with ambiguous material properties and no visible evidence of construction or cultural context. The visible evidence is insufficient to confirm or deny the presence of seams, patterns, or material behavior.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.535.236 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.03.324.663 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.03.825.456 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.03.825.491 W WARN: This is an experimental CLI for testing multimodal capability.\n0.03.825.492 W       For normal use cases, please use the standard llama-cli\n0.04.483.313 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 5)\n0.04.722.646 I mtmd batch encoding done in 239 ms\n0.05.070.001 I encoding mtmd batch, n_chunks = 1 (done = 3, total = 5)\n0.05.276.053 I mtmd batch encoding done in 206 ms\n"
+}

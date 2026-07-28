@@ -1,0 +1,81 @@
+{
+  "asset_id": "BL_AODAI_002",
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF",
+  "quantization": "Q4_K_M",
+  "vision_projector": "Q8_0",
+  "runtime": "llama.cpp b10103, Vulkan GPU offload requested",
+  "temperature": 0,
+  "prompt_variant": "direct",
+  "image_views": [
+    "experiments/exp05_named_tool_aodai_assets/renders/BL_AODAI_002_front.png",
+    "experiments/exp05_named_tool_aodai_assets/renders/BL_AODAI_002_side.png",
+    "experiments/exp05_named_tool_aodai_assets/renders/BL_AODAI_002_back.png"
+  ],
+  "image_sha256": {
+    "BL_AODAI_002_front.png": "790354fab7da095bf2d5266eec69d12e64d0dbac4d5f1f2a5c12bb5324350667",
+    "BL_AODAI_002_side.png": "77c391de38f7a2f6ae62d4e265e169d78c3778f92dcb82c7e1475c378625ff34",
+    "BL_AODAI_002_back.png": "ea93f25ae2184134a9e5cf5c0172faada812ab4d327602f5ca67de33b68f965e"
+  },
+  "elapsed_seconds": 11.864,
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment has a distinct neckband, sleeves, and a hemline, but no visible fasteners, closures, or structural seams are discernible in the provided views."
+      ],
+      "limitations": [
+        "No evidence of construction details like zippers, buttons, or stitching is visible in any render."
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "The garment has a fitted, columnar silhouette with a defined bust, waist, and hip area, and a straight hemline, consistent across all views."
+      ],
+      "limitations": [
+        "The smooth, rendered surfaces prevent observation of fabric grain or drape behavior."
+      ]
+    },
+    "sewing_pattern": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No visible seams, stitching lines, or patterned construction details are present in any view. The object appears as a single, continuous form."
+      ]
+    },
+    "material_drape": {
+      "score": 1,
+      "visible_evidence": [
+        "The surface exhibits smooth, uniform shading with no visible folds, creases, or texture that would indicate fabric drape or weight."
+      ],
+      "limitations": [
+        "The material appears as a solid, non-textured surface, lacking any evidence of draping or physical behavior."
+      ]
+    },
+    "motif_texture": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No patterns, textures, or surface embellishments are visible on the garment's surface."
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No cultural, historical, or stylistic context is provided or visible in the renders."
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No evidence of how or why the garment would be worn is visible in the provided images."
+      ]
+    },
+    "overall_uncertainty": "The object is a stylized, abstract 3D model with no visible evidence of construction, material behavior, or cultural context. All assessments are based on the rendered surfaces and lack physical or contextual proof.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [\"The garment has a distinct neckband, sleeves, and a hemline, but no visible fasteners, closures, or structural seams are discernible in the provided views.\"], \"limitations\": [\"No evidence of construction details like zippers, buttons, or stitching is visible in any render.\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"The garment has a fitted, columnar silhouette with a defined bust, waist, and hip area, and a straight hemline, consistent across all views.\"], \"limitations\": [\"The smooth, rendered surfaces prevent observation of fabric grain or drape behavior.\"]},\n  \"sewing_pattern\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No visible seams, stitching lines, or patterned construction details are present in any view. The object appears as a single, continuous form.\"]},\n  \"material_drape\": {\"score\": 1, \"visible_evidence\": [\"The surface exhibits smooth, uniform shading with no visible folds, creases, or texture that would indicate fabric drape or weight.\"], \"limitations\": [\"The material appears as a solid, non-textured surface, lacking any evidence of draping or physical behavior.\"]},\n  \"motif_texture\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No patterns, textures, or surface embellishments are visible on the garment's surface.\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No cultural, historical, or stylistic context is provided or visible in the renders.\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No evidence of how or why the garment would be worn is visible in the provided images.\"]},\n  \"overall_uncertainty\": \"The object is a stylized, abstract 3D model with no visible evidence of construction, material behavior, or cultural context. All assessments are based on the rendered surfaces and lack physical or contextual proof.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.523.765 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.03.270.370 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.03.782.552 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.03.782.574 W WARN: This is an experimental CLI for testing multimodal capability.\n0.03.782.574 W       For normal use cases, please use the standard llama-cli\n0.03.870.950 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 5)\n0.04.123.691 I mtmd batch encoding done in 252 ms\n0.04.506.430 I encoding mtmd batch, n_chunks = 1 (done = 3, total = 5)\n0.04.734.959 I mtmd batch encoding done in 229 ms\n"
+}

@@ -1,0 +1,85 @@
+{
+  "asset_id": "BL_AODAI_005",
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF",
+  "quantization": "Q4_K_M",
+  "vision_projector": "Q8_0",
+  "runtime": "llama.cpp b10103, Vulkan GPU offload requested",
+  "temperature": 0,
+  "prompt_variant": "direct",
+  "image_views": [
+    "experiments/exp05_named_tool_aodai_assets/renders/BL_AODAI_005_front.png",
+    "experiments/exp05_named_tool_aodai_assets/renders/BL_AODAI_005_side.png",
+    "experiments/exp05_named_tool_aodai_assets/renders/BL_AODAI_005_back.png"
+  ],
+  "image_sha256": {
+    "BL_AODAI_005_front.png": "81a2c98a78b0a958b5b778bd82fc3aaf7b6dcdb9e344607d2ffe248ff78053b4",
+    "BL_AODAI_005_side.png": "b3a215bebbf2fafdc775ebafc862ef5bd4f434164d8cbcacfb2abf3e7363668c",
+    "BL_AODAI_005_back.png": "ea2d8aee5559022a2756fa2c8316c1f50354f393d832e13874a8ce51440a041a"
+  },
+  "elapsed_seconds": 14.405,
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment has a central vertical seam indicated by the alignment of three gold buttons and the smooth transition of the teal fabric along the torso's midline."
+      ],
+      "limitations": [
+        "The render does not show the garment's construction from multiple panels or the physical attachment of the sleeves and skirt to the torso. The presence of the buttons suggests a closure mechanism, but no evidence of seams or panel joins is visible beyond the central line."
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "The garment has a fitted, columnar silhouette with a high neckline, long sleeves, and a straight hemline, consistent across all views."
+      ],
+      "limitations": [
+        "The silhouette is stylized and lacks contextual evidence for a specific historical or cultural period. The form is abstract and does not clearly indicate a real-world garment type."
+      ]
+    },
+    "sewing_pattern": {
+      "score": 1,
+      "visible_evidence": [
+        "The central vertical seam is visible as a line of symmetry where the fabric folds over itself, marked by the three gold buttons."
+      ],
+      "limitations": [
+        "No evidence of stitching, seam allowances, or panel construction is visible. The seam is inferred from the button placement and fabric alignment, which may not represent actual sewing."
+      ]
+    },
+    "material_drape": {
+      "score": 2,
+      "visible_evidence": [
+        "The teal fabric appears to flow smoothly over the form, with gentle curves suggesting a soft, drapeable material, especially around the hips and shoulders."
+      ],
+      "limitations": [
+        "The material's behavior is simulated, not observed. The absence of creases, folds, or tension lines makes it impossible to confirm the material's physical properties or drape characteristics."
+      ]
+    },
+    "motif_texture": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment is uniformly teal with no visible patterns or textures, except for the three gold buttons which are decorative elements."
+      ],
+      "limitations": [
+        "The absence of any surface pattern or texture is not a defect, but the render does not show any evidence of a specific motif or texture beyond the solid color and buttons."
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No documentary or cultural context is provided to support any regional or period association. The garment is abstract and lacks historical or cultural markers."
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No evidence of a specific wearing context is visible. The garment is presented on a generic mannequin form without any cultural, social, or functional context."
+      ]
+    },
+    "overall_uncertainty": "The garment is a stylized 3D model with visible seams and buttons, but lacks evidence of actual construction, material physics, or cultural context. The score reflects the visible agreement with the rendered form while acknowledging the absence of physical or contextual evidence.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [\"The garment has a central vertical seam indicated by the alignment of three gold buttons and the smooth transition of the teal fabric along the torso's midline.\"], \"limitations\": [\"The render does not show the garment's construction from multiple panels or the physical attachment of the sleeves and skirt to the torso. The presence of the buttons suggests a closure mechanism, but no evidence of seams or panel joins is visible beyond the central line.\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"The garment has a fitted, columnar silhouette with a high neckline, long sleeves, and a straight hemline, consistent across all views.\"], \"limitations\": [\"The silhouette is stylized and lacks contextual evidence for a specific historical or cultural period. The form is abstract and does not clearly indicate a real-world garment type.\"]},\n  \"sewing_pattern\": {\"score\": 1, \"visible_evidence\": [\"The central vertical seam is visible as a line of symmetry where the fabric folds over itself, marked by the three gold buttons.\"], \"limitations\": [\"No evidence of stitching, seam allowances, or panel construction is visible. The seam is inferred from the button placement and fabric alignment, which may not represent actual sewing.\"]},\n  \"material_drape\": {\"score\": 2, \"visible_evidence\": [\"The teal fabric appears to flow smoothly over the form, with gentle curves suggesting a soft, drapeable material, especially around the hips and shoulders.\"], \"limitations\": [\"The material's behavior is simulated, not observed. The absence of creases, folds, or tension lines makes it impossible to confirm the material's physical properties or drape characteristics.\"]},\n  \"motif_texture\": {\"score\": 1, \"visible_evidence\": [\"The garment is uniformly teal with no visible patterns or textures, except for the three gold buttons which are decorative elements.\"], \"limitations\": [\"The absence of any surface pattern or texture is not a defect, but the render does not show any evidence of a specific motif or texture beyond the solid color and buttons.\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No documentary or cultural context is provided to support any regional or period association. The garment is abstract and lacks historical or cultural markers.\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No evidence of a specific wearing context is visible. The garment is presented on a generic mannequin form without any cultural, social, or functional context.\"]},\n  \"overall_uncertainty\": \"The garment is a stylized 3D model with visible seams and buttons, but lacks evidence of actual construction, material physics, or cultural context. The score reflects the visible agreement with the rendered form while acknowledging the absence of physical or contextual evidence.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.528.372 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.03.790.751 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.04.308.082 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.04.308.119 W WARN: This is an experimental CLI for testing multimodal capability.\n0.04.308.120 W       For normal use cases, please use the standard llama-cli\n0.04.409.205 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 5)\n0.04.659.930 I mtmd batch encoding done in 250 ms\n0.05.039.644 I encoding mtmd batch, n_chunks = 1 (done = 3, total = 5)\n0.05.271.948 I mtmd batch encoding done in 232 ms\n"
+}

@@ -1,0 +1,84 @@
+{
+  "asset_id": "BL_AODAI_001",
+  "view_config": "four_view",
+  "views": [
+    "front",
+    "three_quarter",
+    "side",
+    "back"
+  ],
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF Q4_K_M",
+  "temperature": 0,
+  "elapsed_seconds": 17.252,
+  "image_sha256": {
+    "BL_AODAI_001_front.png": "8aebc650aee56bfe453209257e5127fa42de75173498cd8c2a6864cb7e191338",
+    "BL_AODAI_001_three_quarter.png": "809881d352902a32e87d1cabf78e21422f1afb4bb2fdbf501b57567348bf0273",
+    "BL_AODAI_001_side.png": "be1cc846a866de9c3f7469e70548161a9a71de68a6a3534f747e4361adbb2278",
+    "BL_AODAI_001_back.png": "5dda690a69afa42c005a576bda47d4e2b21c44c0cbd2fe0282209aff3381dd4a"
+  },
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment appears to be a single continuous form with no visible seams or panel divisions in any view. The structure suggests a seamless, molded construction."
+      ],
+      "limitations": [
+        "No evidence of construction joints or seams is visible in any of the provided views. The form is smooth and continuous, which may indicate a single-piece or seamless design, but this cannot be confirmed without physical inspection or source data."
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "The garment has a defined, elongated silhouette with a fitted bodice, flared hips, and a floor-length hem. The front view shows a central seam-like line at the waist and hip area, but this is likely a design feature or rendering artifact rather than a true seam."
+      ],
+      "limitations": [
+        "The silhouette is consistent across views, but the exact nature of the central line at the waist/hip is ambiguous. It could be a design element or a rendering artifact, not a true seam or closure."
+      ]
+    },
+    "sewing_pattern": {
+      "score": 1,
+      "visible_evidence": [
+        "No visible stitching, seam lines, or patterned construction is apparent in any view. The surface is uniformly shaded and smooth."
+      ],
+      "limitations": [
+        "The absence of any visible sewing pattern or seam lines is evident, but this does not confirm the garment is constructed without seams. It may be a single piece or have hidden seams."
+      ]
+    },
+    "material_drape": {
+      "score": 1,
+      "visible_evidence": [
+        "The material appears to have a smooth, flowing drape with no visible creases or folds that would suggest a specific fabric behavior. The surface is uniformly shaded, suggesting a rigid or molded material."
+      ],
+      "limitations": [
+        "The drape is not clearly visible due to the smooth, rendered surface. The material may be rigid or have a uniform texture, but this cannot be confirmed without physical inspection."
+      ]
+    },
+    "motif_texture": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment has a uniform teal color with no visible patterns, textures, or motifs. The only visible details are small gold accents at the waist and hip, which appear to be decorative elements rather than motifs."
+      ],
+      "limitations": [
+        "The absence of any visible motif or texture is evident, but this does not confirm the garment is entirely plain. The gold accents are decorative but not a motif."
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No documentary or cultural profile is supplied to assess regional or period consistency. The design is abstract and cannot be linked to any specific historical or cultural context."
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No wearing context is implied or visible. The garment is displayed on a mannequin-like form without any indication of how it would be worn or its intended use."
+      ]
+    },
+    "overall_uncertainty": "The garment appears to be a single, seamless, abstract design with no visible seams, patterns, or textures. The smooth, rendered surface suggests a rigid or molded material, but this cannot be confirmed without physical inspection. The design is consistent across views, but the exact nature of the central line at the waist/hip is ambiguous. The absence of any cultural or historical context makes regional and wearing context assessments impossible.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [\"The garment appears to be a single continuous form with no visible seams or panel divisions in any view. The structure suggests a seamless, molded construction.\"], \"limitations\": [\"No evidence of construction joints or seams is visible in any of the provided views. The form is smooth and continuous, which may indicate a single-piece or seamless design, but this cannot be confirmed without physical inspection or source data.\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"The garment has a defined, elongated silhouette with a fitted bodice, flared hips, and a floor-length hem. The front view shows a central seam-like line at the waist and hip area, but this is likely a design feature or rendering artifact rather than a true seam.\"], \"limitations\": [\"The silhouette is consistent across views, but the exact nature of the central line at the waist/hip is ambiguous. It could be a design element or a rendering artifact, not a true seam or closure.\"]},\n  \"sewing_pattern\": {\"score\": 1, \"visible_evidence\": [\"No visible stitching, seam lines, or patterned construction is apparent in any view. The surface is uniformly shaded and smooth.\"], \"limitations\": [\"The absence of any visible sewing pattern or seam lines is evident, but this does not confirm the garment is constructed without seams. It may be a single piece or have hidden seams.\"]},\n  \"material_drape\": {\"score\": 1, \"visible_evidence\": [\"The material appears to have a smooth, flowing drape with no visible creases or folds that would suggest a specific fabric behavior. The surface is uniformly shaded, suggesting a rigid or molded material.\"], \"limitations\": [\"The drape is not clearly visible due to the smooth, rendered surface. The material may be rigid or have a uniform texture, but this cannot be confirmed without physical inspection.\"]},\n  \"motif_texture\": {\"score\": 1, \"visible_evidence\": [\"The garment has a uniform teal color with no visible patterns, textures, or motifs. The only visible details are small gold accents at the waist and hip, which appear to be decorative elements rather than motifs.\"], \"limitations\": [\"The absence of any visible motif or texture is evident, but this does not confirm the garment is entirely plain. The gold accents are decorative but not a motif.\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No documentary or cultural profile is supplied to assess regional or period consistency. The design is abstract and cannot be linked to any specific historical or cultural context.\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No wearing context is implied or visible. The garment is displayed on a mannequin-like form without any indication of how it would be worn or its intended use.\"]},\n  \"overall_uncertainty\": \"The garment appears to be a single, seamless, abstract design with no visible seams, patterns, or textures. The smooth, rendered surface suggests a rigid or molded material, but this cannot be confirmed without physical inspection. The design is consistent across views, but the exact nature of the central line at the waist/hip is ambiguous. The absence of any cultural or historical context makes regional and wearing context assessments impossible.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.594.606 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.04.558.048 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.05.196.628 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.05.196.663 W WARN: This is an experimental CLI for testing multimodal capability.\n0.05.196.663 W       For normal use cases, please use the standard llama-cli\n0.05.331.053 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 5)\n0.05.596.654 I mtmd batch encoding done in 265 ms\n0.06.011.331 I encoding mtmd batch, n_chunks = 1 (done = 3, total = 5)\n0.06.262.984 I mtmd batch encoding done in 252 ms\n"
+}

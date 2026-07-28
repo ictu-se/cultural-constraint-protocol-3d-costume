@@ -1,0 +1,83 @@
+{
+  "asset_id": "BL_AODAI_005",
+  "view_config": "front_side_back",
+  "views": [
+    "front",
+    "side",
+    "back"
+  ],
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF Q4_K_M",
+  "temperature": 0,
+  "schema_attempts": 1,
+  "elapsed_seconds": 14.744,
+  "image_sha256": {
+    "BL_AODAI_005_front.png": "81a2c98a78b0a958b5b778bd82fc3aaf7b6dcdb9e344607d2ffe248ff78053b4",
+    "BL_AODAI_005_side.png": "b3a215bebbf2fafdc775ebafc862ef5bd4f434164d8cbcacfb2abf3e7363668c",
+    "BL_AODAI_005_back.png": "ea2d8aee5559022a2756fa2c8316c1f50354f393d832e13874a8ce51440a041a"
+  },
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment has a central vertical seam indicated by the alignment of three gold buttons and the smooth, continuous surface of the teal fabric along the midline."
+      ],
+      "limitations": [
+        "The front view shows a seam, but the side and back views do not provide sufficient evidence to confirm if this seam is continuous or if there are additional seams elsewhere. The construction is not fully visible from all angles."
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "The garment has a fitted, columnar silhouette with a high neckline, long sleeves, and a straight hemline, consistent across all views."
+      ],
+      "limitations": [
+        "The silhouette is clearly defined, but the exact fit and drape cannot be fully assessed without seeing how it interacts with the form in motion or from other angles."
+      ]
+    },
+    "sewing_pattern": {
+      "score": 1,
+      "visible_evidence": [
+        "The front view shows a central seam with three gold buttons, suggesting a front closure or panel construction."
+      ],
+      "limitations": [
+        "The side and back views do not show any visible seams or stitching lines, making it impossible to confirm if the garment is constructed from multiple panels or if the front seam is continuous with the back."
+      ]
+    },
+    "material_drape": {
+      "score": 2,
+      "visible_evidence": [
+        "The fabric appears smooth and flows vertically down the body, with gentle curves suggesting a form-fitting drape, visible in all views."
+      ],
+      "limitations": [
+        "The material is rendered with a uniform texture and no visible folds or creases, which may not reflect real-world drape behavior."
+      ]
+    },
+    "motif_texture": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment is a solid teal color with no visible patterns or textures, except for the gold buttons."
+      ],
+      "limitations": [
+        "The absence of any motif or texture is evident, but the render may not accurately represent the material's surface properties in real life."
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No documentary or cultural context is provided to assess regional or period consistency."
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No information is provided about the intended wearing context or cultural use."
+      ]
+    },
+    "overall_uncertainty": "The garment's construction is partially visible, but the side and back views do not confirm the full extent of seams or paneling. The material appears smooth and form-fitting, but lacks realistic drape details. No cultural context is provided.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [\"The garment has a central vertical seam indicated by the alignment of three gold buttons and the smooth, continuous surface of the teal fabric along the midline.\"], \"limitations\": [\"The front view shows a seam, but the side and back views do not provide sufficient evidence to confirm if this seam is continuous or if there are additional seams elsewhere. The construction is not fully visible from all angles.\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"The garment has a fitted, columnar silhouette with a high neckline, long sleeves, and a straight hemline, consistent across all views.\"], \"limitations\": [\"The silhouette is clearly defined, but the exact fit and drape cannot be fully assessed without seeing how it interacts with the form in motion or from other angles.\"]},\n  \"sewing_pattern\": {\"score\": 1, \"visible_evidence\": [\"The front view shows a central seam with three gold buttons, suggesting a front closure or panel construction.\"], \"limitations\": [\"The side and back views do not show any visible seams or stitching lines, making it impossible to confirm if the garment is constructed from multiple panels or if the front seam is continuous with the back.\"]},\n  \"material_drape\": {\"score\": 2, \"visible_evidence\": [\"The fabric appears smooth and flows vertically down the body, with gentle curves suggesting a form-fitting drape, visible in all views.\"], \"limitations\": [\"The material is rendered with a uniform texture and no visible folds or creases, which may not reflect real-world drape behavior.\"]},\n  \"motif_texture\": {\"score\": 1, \"visible_evidence\": [\"The garment is a solid teal color with no visible patterns or textures, except for the gold buttons.\"], \"limitations\": [\"The absence of any motif or texture is evident, but the render may not accurately represent the material's surface properties in real life.\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No documentary or cultural context is provided to assess regional or period consistency.\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No information is provided about the intended wearing context or cultural use.\"]},\n  \"overall_uncertainty\": \"The garment's construction is partially visible, but the side and back views do not confirm the full extent of seams or paneling. The material appears smooth and form-fitting, but lacks realistic drape details. No cultural context is provided.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.718.226 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.04.162.209 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.04.858.344 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.04.858.381 W WARN: This is an experimental CLI for testing multimodal capability.\n0.04.858.382 W       For normal use cases, please use the standard llama-cli\n0.04.953.352 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 5)\n0.05.200.184 I mtmd batch encoding done in 247 ms\n0.05.590.738 I encoding mtmd batch, n_chunks = 1 (done = 3, total = 5)\n0.05.820.505 I mtmd batch encoding done in 230 ms\n"
+}

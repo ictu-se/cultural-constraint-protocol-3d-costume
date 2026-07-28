@@ -1,0 +1,74 @@
+{
+  "asset_id": "TSR_AODAI_002",
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF",
+  "quantization": "Q4_K_M",
+  "vision_projector": "Q8_0",
+  "runtime": "llama.cpp b10103, Vulkan GPU offload requested",
+  "temperature": 0,
+  "image_views": [
+    "experiments/exp06_triposr_reconstruction_ultra/renders/TSR_AODAI_002_front.png",
+    "experiments/exp06_triposr_reconstruction_ultra/renders/TSR_AODAI_002_side.png",
+    "experiments/exp06_triposr_reconstruction_ultra/renders/TSR_AODAI_002_back.png"
+  ],
+  "image_sha256": {
+    "TSR_AODAI_002_front.png": "d2a895e7c6c88dc3c7cd1ce827a14c26d1746eeda6f6ae29625020289634d163",
+    "TSR_AODAI_002_side.png": "f1ff811afea485113d772321030e08027157266edfd0b31178899e1eef9bdbd9",
+    "TSR_AODAI_002_back.png": "30fa7806ffe88c2ba34400e6e57f983d9dc365f49263357ff4859d4e44c09a5e"
+  },
+  "elapsed_seconds": 11.531,
+  "assessment": {
+    "components": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No evidence of component construction or seams visible in renders. No documentary profile or qualified human assessment supplied."
+      ]
+    },
+    "silhouette": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No evidence of silhouette consistency across views. No documentary profile or qualified human assessment supplied."
+      ]
+    },
+    "sewing_pattern": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No evidence of sewing pattern or seams. No documentary profile or qualified human assessment supplied."
+      ]
+    },
+    "material_drape": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No evidence of material drape or physics. No documentary profile or qualified human assessment supplied."
+      ]
+    },
+    "motif_texture": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No evidence of motif or texture. No documentary profile or qualified human assessment supplied."
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No evidence of regional or period consistency. No documentary profile or qualified human assessment supplied."
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No evidence of wearing context. No documentary profile or qualified human assessment supplied."
+      ]
+    },
+    "overall_uncertainty": "The provided renders show a stylized 3D asset with abstract coloration and form. No evidence of construction, material behavior, or cultural context is visible. All scores are 'NA' due to lack of documentary or human assessment, and the rules prohibit inference beyond visible evidence.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No evidence of component construction or seams visible in renders. No documentary profile or qualified human assessment supplied.\"]},\n  \"silhouette\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No evidence of silhouette consistency across views. No documentary profile or qualified human assessment supplied.\"]},\n  \"sewing_pattern\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No evidence of sewing pattern or seams. No documentary profile or qualified human assessment supplied.\"]},\n  \"material_drape\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No evidence of material drape or physics. No documentary profile or qualified human assessment supplied.\"]},\n  \"motif_texture\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No evidence of motif or texture. No documentary profile or qualified human assessment supplied.\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No evidence of regional or period consistency. No documentary profile or qualified human assessment supplied.\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No evidence of wearing context. No documentary profile or qualified human assessment supplied.\"]},\n  \"overall_uncertainty\": \"The provided renders show a stylized 3D asset with abstract coloration and form. No evidence of construction, material behavior, or cultural context is visible. All scores are 'NA' due to lack of documentary or human assessment, and the rules prohibit inference beyond visible evidence.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.524.112 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.03.466.492 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.04.136.473 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.04.136.504 W WARN: This is an experimental CLI for testing multimodal capability.\n0.04.136.505 W       For normal use cases, please use the standard llama-cli\n0.04.823.394 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 5)\n0.05.049.635 I mtmd batch encoding done in 226 ms\n0.05.396.839 I encoding mtmd batch, n_chunks = 1 (done = 3, total = 5)\n0.05.594.146 I mtmd batch encoding done in 198 ms\n"
+}

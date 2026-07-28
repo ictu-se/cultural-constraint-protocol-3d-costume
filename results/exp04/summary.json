@@ -1,0 +1,39 @@
+{
+  "assets": 20,
+  "records": 960,
+  "calibration_assets": 12,
+  "test_assets": 8,
+  "category_balance": {
+    "calibration": {
+      "trousers": 6,
+      "skirts": 6
+    },
+    "test": {
+      "trousers": 4,
+      "skirts": 4
+    }
+  },
+  "bootstrap_unit": "parent asset",
+  "license": "CC-BY-4.0",
+  "source_record": "https://zenodo.org/records/5267549",
+  "criterion_max_diagnostic": {
+    "method": "criterion_max_diagnostic",
+    "threshold": 0.005,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "specificity": 1.0,
+    "roc_auc": 1.0,
+    "pr_auc": 1.0000000000000002,
+    "f1_ci_low": 1.0,
+    "f1_ci_high": 1.0
+  },
+  "localization_accuracy": 0.8333333333333334,
+  "designed_null_controls": {
+    "designed_null_control_false_alarm_rate": 0.0,
+    "designed_null_score_sd": 4.897488378161296e-06,
+    "mean_designed_null_score": 1.320773715480372e-06,
+    "mean_engineered_failure_score": 0.4384385828702013
+  },
+  "claim_boundary": "Software instrumentation diagnostic only. Material, motif, and metadata channels read engineered intervention variables; camera/background/lighting controls are not rerendered. This experiment does not validate Equation (1), the seven-criterion rubric, visual invariance, or cultural correctness."
+}

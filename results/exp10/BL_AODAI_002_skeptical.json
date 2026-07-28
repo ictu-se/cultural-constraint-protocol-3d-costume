@@ -1,0 +1,29 @@
+{
+  "variant_asset": "BL_AODAI_002",
+  "prompt_variant": "skeptical",
+  "intervention": "longer front/back panels",
+  "expected_criterion": "silhouette",
+  "elapsed_seconds": 6.443,
+  "detected": true,
+  "localized_expected_criterion": false,
+  "image_sha256": {
+    "BL_AODAI_001_front.png": "8aebc650aee56bfe453209257e5127fa42de75173498cd8c2a6864cb7e191338",
+    "BL_AODAI_001_side.png": "be1cc846a866de9c3f7469e70548161a9a71de68a6a3534f747e4361adbb2278",
+    "BL_AODAI_002_front.png": "790354fab7da095bf2d5266eec69d12e64d0dbac4d5f1f2a5c12bb5324350667",
+    "BL_AODAI_002_side.png": "77c391de38f7a2f6ae62d4e265e169d78c3778f92dcb82c7e1475c378625ff34"
+  },
+  "contact_sheet": "experiments/exp10_qwen3vl_pairwise_defects/BL_AODAI_002_comparison_sheet.png",
+  "contact_sheet_sha256": "b57fb902519fd23da2cf8402e5c07ec2c22d3b71b7e84cb31401c4eba99d6f53",
+  "assessment": {
+    "structural_change_detected": true,
+    "changed_criteria": [
+      "components"
+    ],
+    "visible_differences": [],
+    "possible_render_artifacts": [],
+    "confidence": "high",
+    "claim_boundary": "pairwise technical change detection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"structural_change_detected\": true,\n  \"changed_criteria\": [\"components\"],\n  \"visible_differences\": [],\n  \"possible_render_artifacts\": [],\n  \"confidence\": \"high\",\n  \"claim_boundary\": \"pairwise technical change detection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.564.832 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.03.397.416 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.04.103.979 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.04.104.022 W WARN: This is an experimental CLI for testing multimodal capability.\n0.04.104.022 W       For normal use cases, please use the standard llama-cli\n0.04.190.200 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 3)\n0.04.413.053 I mtmd batch encoding done in 223 ms\n"
+}

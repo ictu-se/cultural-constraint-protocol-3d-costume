@@ -1,0 +1,81 @@
+{
+  "asset_id": "TSR_AODAI_002",
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF",
+  "quantization": "Q4_K_M",
+  "vision_projector": "Q8_0",
+  "runtime": "llama.cpp b10103, Vulkan GPU offload requested",
+  "temperature": 0,
+  "prompt_variant": "evidence_first",
+  "image_views": [
+    "experiments/exp06_triposr_reconstruction_ultra/renders/TSR_AODAI_002_back.png",
+    "experiments/exp06_triposr_reconstruction_ultra/renders/TSR_AODAI_002_front.png",
+    "experiments/exp06_triposr_reconstruction_ultra/renders/TSR_AODAI_002_side.png"
+  ],
+  "image_sha256": {
+    "TSR_AODAI_002_back.png": "30fa7806ffe88c2ba34400e6e57f983d9dc365f49263357ff4859d4e44c09a5e",
+    "TSR_AODAI_002_front.png": "d2a895e7c6c88dc3c7cd1ce827a14c26d1746eeda6f6ae29625020289634d163",
+    "TSR_AODAI_002_side.png": "f1ff811afea485113d772321030e08027157266edfd0b31178899e1eef9bdbd9"
+  },
+  "elapsed_seconds": 13.639,
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [],
+      "limitations": [
+        "No visible evidence of component construction or assembly. The form appears as a single sculpted mass with no discernible seams, fastenings, or panel divisions. The 'components' criterion cannot be scored without evidence of construction."
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "The garment has a defined, elongated silhouette with a fitted bodice, wide sleeves, and a flowing skirt. The overall shape is consistent across views, suggesting a coherent design."
+      ],
+      "limitations": [
+        "The silhouette is abstract and lacks specific cultural or historical references. No evidence of regional-period consistency or wearing context is visible."
+      ]
+    },
+    "sewing_pattern": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No visible evidence of stitching, seams, or patterned construction. The surface appears continuous and smooth, with no discernible seams or panel lines. The criterion requires evidence of construction, which is absent."
+      ]
+    },
+    "material_drape": {
+      "score": 2,
+      "visible_evidence": [
+        "The garment exhibits soft, flowing folds, particularly in the skirt and sleeve areas, suggesting a drapey material. The surface has a translucent, marbled texture that implies a non-rigid material."
+      ],
+      "limitations": [
+        "The material's behavior is simulated, not physically observed. The drape is an artifact of the 3D model's surface properties, not a real-world material response."
+      ]
+    },
+    "motif_texture": {
+      "score": 1,
+      "visible_evidence": [
+        "The surface has a marbled, translucent texture with blue and green hues, suggesting a decorative or patterned finish. There are no clear, repeating motifs or designs."
+      ],
+      "limitations": [
+        "The texture is abstract and does not clearly represent a specific motif or pattern. The 'motif' criterion requires identifiable design elements, which are not clearly visible."
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No visual evidence to support any regional or historical period. The design is abstract and lacks cultural or historical markers."
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No visual evidence to support any specific wearing context. The figure is abstract and lacks contextual clues."
+      ]
+    },
+    "overall_uncertainty": "The object is a 3D digital asset with abstract, non-specific design. Visible evidence of construction, material, and pattern is limited and ambiguous. The object lacks cultural or historical context, making definitive assessment impossible without additional data.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [], \"limitations\": [\"No visible evidence of component construction or assembly. The form appears as a single sculpted mass with no discernible seams, fastenings, or panel divisions. The 'components' criterion cannot be scored without evidence of construction.\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"The garment has a defined, elongated silhouette with a fitted bodice, wide sleeves, and a flowing skirt. The overall shape is consistent across views, suggesting a coherent design.\"], \"limitations\": [\"The silhouette is abstract and lacks specific cultural or historical references. No evidence of regional-period consistency or wearing context is visible.\"]},\n  \"sewing_pattern\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No visible evidence of stitching, seams, or patterned construction. The surface appears continuous and smooth, with no discernible seams or panel lines. The criterion requires evidence of construction, which is absent.\"]},\n  \"material_drape\": {\"score\": 2, \"visible_evidence\": [\"The garment exhibits soft, flowing folds, particularly in the skirt and sleeve areas, suggesting a drapey material. The surface has a translucent, marbled texture that implies a non-rigid material.\"], \"limitations\": [\"The material's behavior is simulated, not physically observed. The drape is an artifact of the 3D model's surface properties, not a real-world material response.\"]},\n  \"motif_texture\": {\"score\": 1, \"visible_evidence\": [\"The surface has a marbled, translucent texture with blue and green hues, suggesting a decorative or patterned finish. There are no clear, repeating motifs or designs.\"], \"limitations\": [\"The texture is abstract and does not clearly represent a specific motif or pattern. The 'motif' criterion requires identifiable design elements, which are not clearly visible.\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No visual evidence to support any regional or historical period. The design is abstract and lacks cultural or historical markers.\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No visual evidence to support any specific wearing context. The figure is abstract and lacks contextual clues.\"]},\n  \"overall_uncertainty\": \"The object is a 3D digital asset with abstract, non-specific design. Visible evidence of construction, material, and pattern is limited and ambiguous. The object lacks cultural or historical context, making definitive assessment impossible without additional data.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.526.381 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.03.244.308 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.03.877.101 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.03.877.138 W WARN: This is an experimental CLI for testing multimodal capability.\n0.03.877.139 W       For normal use cases, please use the standard llama-cli\n0.04.508.200 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 5)\n0.04.743.022 I mtmd batch encoding done in 235 ms\n0.05.090.657 I encoding mtmd batch, n_chunks = 1 (done = 3, total = 5)\n0.05.297.714 I mtmd batch encoding done in 207 ms\n"
+}

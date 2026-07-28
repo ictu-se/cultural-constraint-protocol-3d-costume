@@ -1,0 +1,85 @@
+{
+  "asset_id": "BL_AODAI_003",
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF",
+  "quantization": "Q4_K_M",
+  "vision_projector": "Q8_0",
+  "runtime": "llama.cpp b10103, Vulkan GPU offload requested",
+  "temperature": 0,
+  "prompt_variant": "counterclaim",
+  "image_views": [
+    "experiments/exp05_named_tool_aodai_assets/renders/BL_AODAI_003_side.png",
+    "experiments/exp05_named_tool_aodai_assets/renders/BL_AODAI_003_back.png",
+    "experiments/exp05_named_tool_aodai_assets/renders/BL_AODAI_003_front.png"
+  ],
+  "image_sha256": {
+    "BL_AODAI_003_side.png": "33952565856bcc603d516568c81c55afff59abb1eb3d08ce31d1caaf39417fde",
+    "BL_AODAI_003_back.png": "b29cf58dcc55048eb027013ef3c2efdd90540a1b5e8bb5f984daf3b4115fbafc",
+    "BL_AODAI_003_front.png": "45a07f3833c379c39e4892674bb6b5ccf884cbc591d9440f5bb7d5dc65d999aa"
+  },
+  "elapsed_seconds": 13.731,
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment appears as a single, continuous blue form with no visible seams or panel divisions. The arms and torso are fused geometry, lacking articulation or construction lines. The red vertical lines may be render artifacts or texture overlays, not physical seams."
+      ],
+      "limitations": [
+        "No evidence of construction or paneling is visible. The blue form could be a single sculpted piece or a fused mesh. The red lines are ambiguous and could be texture or render artifacts."
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "The garment has a defined, flowing silhouette with a fitted bodice, flared skirt, and long sleeves. The shape is consistent across views, suggesting a cohesive design."
+      ],
+      "limitations": [
+        "The silhouette is stylized and abstract. Without cultural context, it cannot be verified as historically accurate or period-specific. The form could be a render artifact."
+      ]
+    },
+    "sewing_pattern": {
+      "score": 1,
+      "visible_evidence": [
+        "No visible seams, stitching, or panel lines are present. The blue surface appears continuous. The red lines may be decorative or texture elements, not sewing patterns."
+      ],
+      "limitations": [
+        "The absence of visible seams is a render artifact or fused geometry. No evidence of stitching or panel construction is visible."
+      ]
+    },
+    "material_drape": {
+      "score": 1,
+      "visible_evidence": [
+        "The material appears smooth and uniformly colored, with no visible folds, creases, or draping effects. The form is rigid and sculpted, not suggesting fabric behavior."
+      ],
+      "limitations": [
+        "The lack of draping suggests the material is not simulated as fabric. It could be a solid or fused geometry, not a draped textile."
+      ]
+    },
+    "motif_texture": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment has two small, gold-colored circular elements with V-shaped extensions, resembling clock hands or abstract motifs. The red vertical lines may be texture or render artifacts, not motifs."
+      ],
+      "limitations": [
+        "The gold elements could be render artifacts or decorative elements. The red lines are ambiguous and could be texture or render artifacts, not motifs."
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No documentary or cultural profile is supplied. The design is abstract and cannot be verified as belonging to any specific region or period."
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No wearing context is implied or visible. The object is a stylized 3D asset without cultural or historical context."
+      ]
+    },
+    "overall_uncertainty": "The object is a stylized 3D asset with ambiguous construction and material properties. Visible features could be render artifacts or fused geometry. No evidence of cultural authenticity or historical context is present.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [\"The garment appears as a single, continuous blue form with no visible seams or panel divisions. The arms and torso are fused geometry, lacking articulation or construction lines. The red vertical lines may be render artifacts or texture overlays, not physical seams.\"], \"limitations\": [\"No evidence of construction or paneling is visible. The blue form could be a single sculpted piece or a fused mesh. The red lines are ambiguous and could be texture or render artifacts.\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"The garment has a defined, flowing silhouette with a fitted bodice, flared skirt, and long sleeves. The shape is consistent across views, suggesting a cohesive design.\"], \"limitations\": [\"The silhouette is stylized and abstract. Without cultural context, it cannot be verified as historically accurate or period-specific. The form could be a render artifact.\"]},\n  \"sewing_pattern\": {\"score\": 1, \"visible_evidence\": [\"No visible seams, stitching, or panel lines are present. The blue surface appears continuous. The red lines may be decorative or texture elements, not sewing patterns.\"], \"limitations\": [\"The absence of visible seams is a render artifact or fused geometry. No evidence of stitching or panel construction is visible.\"]},\n  \"material_drape\": {\"score\": 1, \"visible_evidence\": [\"The material appears smooth and uniformly colored, with no visible folds, creases, or draping effects. The form is rigid and sculpted, not suggesting fabric behavior.\"], \"limitations\": [\"The lack of draping suggests the material is not simulated as fabric. It could be a solid or fused geometry, not a draped textile.\"]},\n  \"motif_texture\": {\"score\": 1, \"visible_evidence\": [\"The garment has two small, gold-colored circular elements with V-shaped extensions, resembling clock hands or abstract motifs. The red vertical lines may be texture or render artifacts, not motifs.\"], \"limitations\": [\"The gold elements could be render artifacts or decorative elements. The red lines are ambiguous and could be texture or render artifacts, not motifs.\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No documentary or cultural profile is supplied. The design is abstract and cannot be verified as belonging to any specific region or period.\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No wearing context is implied or visible. The object is a stylized 3D asset without cultural or historical context.\"]},\n  \"overall_uncertainty\": \"The object is a stylized 3D asset with ambiguous construction and material properties. Visible features could be render artifacts or fused geometry. No evidence of cultural authenticity or historical context is present.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.525.856 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.03.276.127 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.03.786.620 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.03.786.652 W WARN: This is an experimental CLI for testing multimodal capability.\n0.03.786.653 W       For normal use cases, please use the standard llama-cli\n0.03.869.352 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 5)\n0.04.118.016 I mtmd batch encoding done in 249 ms\n0.04.501.714 I encoding mtmd batch, n_chunks = 1 (done = 3, total = 5)\n0.04.734.576 I mtmd batch encoding done in 233 ms\n"
+}

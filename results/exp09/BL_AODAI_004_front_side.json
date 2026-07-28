@@ -1,0 +1,77 @@
+{
+  "asset_id": "BL_AODAI_004",
+  "view_config": "front_side",
+  "views": [
+    "front",
+    "side"
+  ],
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF Q4_K_M",
+  "temperature": 0,
+  "schema_attempts": 1,
+  "elapsed_seconds": 13.916,
+  "image_sha256": {
+    "BL_AODAI_004_front.png": "6183f2f56756a0c2eb232a6b5a3eb1ebfd589ac85ccd18ba4797657f6e56f57e",
+    "BL_AODAI_004_side.png": "7c8d34e9b84ebaaaee461d2a0b572b3cb3b68ed3c2a168b1a2d5626833b48aa3"
+  },
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment has a central torso section with two distinct horizontal divisions, suggesting a layered or segmented construction. The arms are attached to the upper torso, and the lower section appears to be a skirt or lower body piece. The neck and head are separate components attached to the upper torso."
+      ],
+      "limitations": [
+        "No evidence of fasteners, seams, or construction details to confirm how components are joined. The form is abstract and lacks contextual clues for assembly."
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "The garment has a flowing, draped silhouette with a fitted upper body and a flared lower section. The shoulders are broad and the arms are short, suggesting a stylized or avant-garde design. The overall shape is symmetrical and elongated."
+      ],
+      "limitations": [
+        "No evidence of historical or cultural context to validate the silhouette's intended use or period. The form is abstract and could be interpreted in multiple ways."
+      ]
+    },
+    "sewing_pattern": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No visible seams, stitching, or pattern lines are present. The surface is smooth and uniform, suggesting a single molded or digitally rendered piece rather than a sewn garment."
+      ]
+    },
+    "material_drape": {
+      "score": 2,
+      "visible_evidence": [
+        "The garment exhibits smooth, flowing contours with subtle undulations, suggesting a lightweight, fluid material. The way the fabric appears to wrap around the form indicates drape, though no texture or fiber detail is visible."
+      ],
+      "limitations": [
+        "No visible texture or material properties to confirm the actual fabric type. The drape is simulated, not physically rendered."
+      ]
+    },
+    "motif_texture": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No visible patterns, textures, or decorative elements are present. The surface is uniformly shaded and lacks any motif or surface detail."
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No cultural, historical, or stylistic markers are visible to identify a specific region or period. The design is abstract and lacks contextual cues."
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No evidence of how or why the garment would be worn. The form is abstract and lacks contextual clues for wearing context."
+      ]
+    },
+    "overall_uncertainty": "The object is a stylized, abstract 3D model with no visible evidence of construction, material, or cultural context. The silhouette and drape are simulated, not physically rendered. No seams, patterns, or textures are visible. The object cannot be validated as a real garment without additional evidence.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [\"The garment has a central torso section with two distinct horizontal divisions, suggesting a layered or segmented construction. The arms are attached to the upper torso, and the lower section appears to be a skirt or lower body piece. The neck and head are separate components attached to the upper torso.\"], \"limitations\": [\"No evidence of fasteners, seams, or construction details to confirm how components are joined. The form is abstract and lacks contextual clues for assembly.\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"The garment has a flowing, draped silhouette with a fitted upper body and a flared lower section. The shoulders are broad and the arms are short, suggesting a stylized or avant-garde design. The overall shape is symmetrical and elongated.\"], \"limitations\": [\"No evidence of historical or cultural context to validate the silhouette's intended use or period. The form is abstract and could be interpreted in multiple ways.\"]},\n  \"sewing_pattern\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No visible seams, stitching, or pattern lines are present. The surface is smooth and uniform, suggesting a single molded or digitally rendered piece rather than a sewn garment.\"]},\n  \"material_drape\": {\"score\": 2, \"visible_evidence\": [\"The garment exhibits smooth, flowing contours with subtle undulations, suggesting a lightweight, fluid material. The way the fabric appears to wrap around the form indicates drape, though no texture or fiber detail is visible.\"], \"limitations\": [\"No visible texture or material properties to confirm the actual fabric type. The drape is simulated, not physically rendered.\"]},\n  \"motif_texture\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No visible patterns, textures, or decorative elements are present. The surface is uniformly shaded and lacks any motif or surface detail.\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No cultural, historical, or stylistic markers are visible to identify a specific region or period. The design is abstract and lacks contextual cues.\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No evidence of how or why the garment would be worn. The form is abstract and lacks contextual clues for wearing context.\"]},\n  \"overall_uncertainty\": \"The object is a stylized, abstract 3D model with no visible evidence of construction, material, or cultural context. The silhouette and drape are simulated, not physically rendered. No seams, patterns, or textures are visible. The object cannot be validated as a real garment without additional evidence.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.534.417 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.04.128.992 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.04.772.484 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.04.772.521 W WARN: This is an experimental CLI for testing multimodal capability.\n0.04.772.522 W       For normal use cases, please use the standard llama-cli\n0.04.872.894 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 3)\n0.05.140.294 I mtmd batch encoding done in 267 ms\n"
+}

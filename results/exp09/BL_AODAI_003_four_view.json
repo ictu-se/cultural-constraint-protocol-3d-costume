@@ -1,0 +1,81 @@
+{
+  "asset_id": "BL_AODAI_003",
+  "view_config": "four_view",
+  "views": [
+    "front",
+    "three_quarter",
+    "side",
+    "back"
+  ],
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF Q4_K_M",
+  "temperature": 0,
+  "schema_attempts": 1,
+  "elapsed_seconds": 13.21,
+  "image_sha256": {
+    "BL_AODAI_003_front.png": "45a07f3833c379c39e4892674bb6b5ccf884cbc591d9440f5bb7d5dc65d999aa",
+    "BL_AODAI_003_three_quarter.png": "491bb4ba40f27399f6bd2a74fa064574c42baabc952891de540f15ccf5c5ef49",
+    "BL_AODAI_003_side.png": "33952565856bcc603d516568c81c55afff59abb1eb3d08ce31d1caaf39417fde",
+    "BL_AODAI_003_back.png": "b29cf58dcc55048eb027013ef3c2efdd90540a1b5e8bb5f984daf3b4115fbafc"
+  },
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment has a distinct upper torso section, a lower skirt section, and arm pieces, but the connection points and construction method are not visually verifiable."
+      ],
+      "limitations": [
+        "No evidence of seams, fasteners, or structural joints is visible. The form appears as a single sculpted piece."
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "The garment has a defined, elongated form with a fitted bodice, a flared skirt, and structured shoulders, consistent across front and back views."
+      ],
+      "limitations": [
+        "The silhouette is stylized and abstract; no evidence of historical or cultural context is visible."
+      ]
+    },
+    "sewing_pattern": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No visible stitching, seam lines, or patterned construction is present. The surface is uniformly shaded, suggesting a single molded or textured surface."
+      ]
+    },
+    "material_drape": {
+      "score": 1,
+      "visible_evidence": [
+        "The material appears smooth and rigid, with no visible folds, creases, or natural draping that would indicate fabric behavior."
+      ],
+      "limitations": [
+        "The surface is uniformly shaded and lacks texture or shading cues that would suggest material physics or drape."
+      ]
+    },
+    "motif_texture": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No discernible patterns, textures, or surface embellishments are visible. The surface is uniformly blue with gold accents that appear as applied elements, not inherent texture."
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No cultural, historical, or stylistic markers are visible to support any regional or period attribution."
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No contextual elements (e.g., accessories, environment, posture) are visible to infer a specific wearing context."
+      ]
+    },
+    "overall_uncertainty": "The object is a stylized 3D model with no visible evidence of construction, material behavior, or cultural context. The score reflects the absence of verifiable physical evidence for each criterion.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [\"The garment has a distinct upper torso section, a lower skirt section, and arm pieces, but the connection points and construction method are not visually verifiable.\"], \"limitations\": [\"No evidence of seams, fasteners, or structural joints is visible. The form appears as a single sculpted piece.\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"The garment has a defined, elongated form with a fitted bodice, a flared skirt, and structured shoulders, consistent across front and back views.\"], \"limitations\": [\"The silhouette is stylized and abstract; no evidence of historical or cultural context is visible.\"]},\n  \"sewing_pattern\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No visible stitching, seam lines, or patterned construction is present. The surface is uniformly shaded, suggesting a single molded or textured surface.\"]},\n  \"material_drape\": {\"score\": 1, \"visible_evidence\": [\"The material appears smooth and rigid, with no visible folds, creases, or natural draping that would indicate fabric behavior.\"], \"limitations\": [\"The surface is uniformly shaded and lacks texture or shading cues that would suggest material physics or drape.\"]},\n  \"motif_texture\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No discernible patterns, textures, or surface embellishments are visible. The surface is uniformly blue with gold accents that appear as applied elements, not inherent texture.\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No cultural, historical, or stylistic markers are visible to support any regional or period attribution.\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No contextual elements (e.g., accessories, environment, posture) are visible to infer a specific wearing context.\"]},\n  \"overall_uncertainty\": \"The object is a stylized 3D model with no visible evidence of construction, material behavior, or cultural context. The score reflects the absence of verifiable physical evidence for each criterion.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.548.088 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.03.878.314 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.04.576.551 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.04.576.576 W WARN: This is an experimental CLI for testing multimodal capability.\n0.04.576.577 W       For normal use cases, please use the standard llama-cli\n0.04.762.520 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 5)\n0.05.074.996 I mtmd batch encoding done in 313 ms\n0.05.457.183 I encoding mtmd batch, n_chunks = 1 (done = 3, total = 5)\n0.05.708.718 I mtmd batch encoding done in 251 ms\n"
+}

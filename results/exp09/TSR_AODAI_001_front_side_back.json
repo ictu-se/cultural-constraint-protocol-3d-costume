@@ -1,0 +1,81 @@
+{
+  "asset_id": "TSR_AODAI_001",
+  "view_config": "front_side_back",
+  "views": [
+    "front",
+    "side",
+    "back"
+  ],
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF Q4_K_M",
+  "temperature": 0,
+  "schema_attempts": 1,
+  "elapsed_seconds": 15.452,
+  "image_sha256": {
+    "TSR_AODAI_001_front.png": "37ea514f380f0e2117bf4af52badce49515c0df573d913ab169f7c56fbabeab0",
+    "TSR_AODAI_001_side.png": "509419921115a30b5a0a799162371d3551756493facdbe4f2a1ba05f4d116a81",
+    "TSR_AODAI_001_back.png": "5c1ff98ab6546ebc680123fa2be469ddbbc1af9fda2ace8e4e1d26c5c2181341"
+  },
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [
+        "The figure's garment appears to be a single-piece, flowing robe with no visible seams, closures, or distinct panel construction. The form is continuous from the shoulders to the hem."
+      ],
+      "limitations": [
+        "No internal structure or joinery is visible in the render. The 'components' criterion requires evidence of construction, which is absent."
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "The figure presents a consistent, flowing silhouette with a draped robe that extends to the ankles, a defined waist, and a head with curly hair. The form is coherent across all views."
+      ],
+      "limitations": [
+        "The silhouette is rendered with smooth shading and lacks fine detail that might indicate specific garment construction or regional style."
+      ]
+    },
+    "sewing_pattern": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No visible stitching, seam lines, or patterned fabric is present. The render shows a continuous surface, making it impossible to assess sewing patterns."
+      ]
+    },
+    "material_drape": {
+      "score": 2,
+      "visible_evidence": [
+        "The fabric exhibits natural folds and flow, particularly around the hips, legs, and shoulders, suggesting a lightweight, draping material. The drape is consistent with a robe or cloak."
+      ],
+      "limitations": [
+        "The material's physical properties are simulated, not observed. The drape is plausible but not verifiable as real-world fabric behavior."
+      ]
+    },
+    "motif_texture": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment has a textured surface with raised, circular patterns on the lower portion, resembling embroidery or appliquÃ©. The upper torso has a smoother, orange-brown area with subtle variations."
+      ],
+      "limitations": [
+        "The texture is ambiguous and may be part of the material's surface rendering rather than an actual motif. The texture is not clearly defined as a cultural or historical motif."
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No documentary or cultural context is provided to identify a specific region or period. The render is stylized and lacks historical markers."
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No context for how or why the garment is worn is provided. The figure is isolated and posed, making wearing context impossible to assess."
+      ]
+    },
+    "overall_uncertainty": "The render shows a coherent, flowing garment with plausible drape and some surface texture, but lacks evidence of construction details, historical context, or material authenticity. The visual evidence is consistent with a 3D model, not a physical artifact.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [\"The figure's garment appears to be a single-piece, flowing robe with no visible seams, closures, or distinct panel construction. The form is continuous from the shoulders to the hem.\"], \"limitations\": [\"No internal structure or joinery is visible in the render. The 'components' criterion requires evidence of construction, which is absent.\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"The figure presents a consistent, flowing silhouette with a draped robe that extends to the ankles, a defined waist, and a head with curly hair. The form is coherent across all views.\"], \"limitations\": [\"The silhouette is rendered with smooth shading and lacks fine detail that might indicate specific garment construction or regional style.\"]},\n  \"sewing_pattern\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No visible stitching, seam lines, or patterned fabric is present. The render shows a continuous surface, making it impossible to assess sewing patterns.\"]},\n  \"material_drape\": {\"score\": 2, \"visible_evidence\": [\"The fabric exhibits natural folds and flow, particularly around the hips, legs, and shoulders, suggesting a lightweight, draping material. The drape is consistent with a robe or cloak.\"], \"limitations\": [\"The material's physical properties are simulated, not observed. The drape is plausible but not verifiable as real-world fabric behavior.\"]},\n  \"motif_texture\": {\"score\": 1, \"visible_evidence\": [\"The garment has a textured surface with raised, circular patterns on the lower portion, resembling embroidery or appliquÃ©. The upper torso has a smoother, orange-brown area with subtle variations.\"], \"limitations\": [\"The texture is ambiguous and may be part of the material's surface rendering rather than an actual motif. The texture is not clearly defined as a cultural or historical motif.\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No documentary or cultural context is provided to identify a specific region or period. The render is stylized and lacks historical markers.\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No context for how or why the garment is worn is provided. The figure is isolated and posed, making wearing context impossible to assess.\"]},\n  \"overall_uncertainty\": \"The render shows a coherent, flowing garment with plausible drape and some surface texture, but lacks evidence of construction details, historical context, or material authenticity. The visual evidence is consistent with a 3D model, not a physical artifact.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.606.448 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.03.955.337 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.04.778.950 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.04.778.984 W WARN: This is an experimental CLI for testing multimodal capability.\n0.04.778.985 W       For normal use cases, please use the standard llama-cli\n0.05.549.327 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 5)\n0.05.784.971 I mtmd batch encoding done in 236 ms\n0.06.138.964 I encoding mtmd batch, n_chunks = 1 (done = 3, total = 5)\n0.06.339.853 I mtmd batch encoding done in 200 ms\n"
+}

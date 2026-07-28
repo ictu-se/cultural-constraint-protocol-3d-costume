@@ -1,0 +1,13 @@
+{
+  "asset_count": 7,
+  "pipelines": [
+    "Blender 5.1.2 procedural generation",
+    "TripoSR single-image reconstruction"
+  ],
+  "assessment_type": "author technical assessment",
+  "missing_by_design": [
+    "regional_period_consistency",
+    "wearing_context"
+  ],
+  "claim_boundary": "No expert or community cultural validation."
+}

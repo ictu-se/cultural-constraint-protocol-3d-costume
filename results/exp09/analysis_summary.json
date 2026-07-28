@@ -1,0 +1,36 @@
+{
+  "assets": 7,
+  "view_configurations": 4,
+  "assessment_count": 28,
+  "criterion_records": 196,
+  "exact_view_stability_rate": 0.7347,
+  "cultural_NA_preservation_rate": 1.0,
+  "first_pass_schema_validity_rate": 0.9286,
+  "by_view_config": {
+    "front": {
+      "criterion_records": 49,
+      "numeric_records": 29,
+      "NA_rate": 0.4082,
+      "mean_numeric_score": 1.2759
+    },
+    "front_side": {
+      "criterion_records": 49,
+      "numeric_records": 32,
+      "NA_rate": 0.3469,
+      "mean_numeric_score": 1.3125
+    },
+    "front_side_back": {
+      "criterion_records": 49,
+      "numeric_records": 30,
+      "NA_rate": 0.3878,
+      "mean_numeric_score": 1.3333
+    },
+    "four_view": {
+      "criterion_records": 49,
+      "numeric_records": 31,
+      "NA_rate": 0.3673,
+      "mean_numeric_score": 1.3548
+    }
+  },
+  "interpretation": "View sensitivity of one VLM; not human cultural validation."
+}

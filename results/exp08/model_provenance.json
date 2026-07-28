@@ -1,0 +1,16 @@
+{
+  "model_id": "Qwen/Qwen3-VL-8B-Instruct-GGUF",
+  "model_file": "Qwen3VL-8B-Instruct-Q4_K_M.gguf",
+  "vision_projector_file": "mmproj-Qwen3VL-8B-Instruct-Q8_0.gguf",
+  "source_url": "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct-GGUF",
+  "upstream_model": "Qwen/Qwen3-VL-8B-Instruct",
+  "license": "Apache-2.0",
+  "model_sha256": "67d1659bfe71b89d50b45a4ad1a9e5b997e5bb16ce5da66a6a6167abd569e9e2",
+  "vision_projector_sha256": "c6ba85508d82f42590e6eb77d5340369ab6fecf107a7561d809523d8aa5f3bfd",
+  "runtime": "llama.cpp b10103",
+  "backend": "Vulkan",
+  "gpu": "NVIDIA GeForce RTX 5080 Laptop GPU, 16303 MiB",
+  "gpu_layers_requested": 99,
+  "model_files_redistributed": false,
+  "redistribution_note": "The archive records identifiers and hashes but excludes the multi-gigabyte checkpoint; obtain it from the official source URL."
+}

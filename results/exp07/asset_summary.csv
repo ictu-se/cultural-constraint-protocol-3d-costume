@@ -1,0 +1,8 @@
+asset_id,tool,assessable_criteria,NA_criteria,audit_score_assessable_only,hard_flags_score_below_2,public_cultural_approval
+BL_AODAI_001,Blender 5.1.2,5,2,47.3,3,not permitted
+BL_AODAI_002,Blender 5.1.2,5,2,47.3,3,not permitted
+BL_AODAI_003,Blender 5.1.2,5,2,40.54,4,not permitted
+BL_AODAI_004,Blender 5.1.2,5,2,40.09,4,not permitted
+BL_AODAI_005,Blender 5.1.2,5,2,40.54,4,not permitted
+TSR_AODAI_001,TripoSR commit 107cefd,5,2,32.88,4,not permitted
+TSR_AODAI_002,TripoSR commit 107cefd,5,2,32.88,4,not permitted

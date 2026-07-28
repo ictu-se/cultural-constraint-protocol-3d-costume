@@ -1,0 +1,78 @@
+{
+  "asset_id": "BL_AODAI_002",
+  "view_config": "front",
+  "views": [
+    "front"
+  ],
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF Q4_K_M",
+  "temperature": 0,
+  "elapsed_seconds": 11.891,
+  "image_sha256": {
+    "BL_AODAI_002_front.png": "790354fab7da095bf2d5266eec69d12e64d0dbac4d5f1f2a5c12bb5324350667"
+  },
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [
+        "two gold-colored fasteners visible on the front"
+      ],
+      "limitations": [
+        "no side or back views to confirm closure continuity or panel construction"
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "smooth, continuous form from shoulders to hem with no visible seams or panel breaks"
+      ],
+      "limitations": [
+        "no side or back views to confirm silhouette consistency"
+      ]
+    },
+    "sewing_pattern": {
+      "score": 1,
+      "visible_evidence": [
+        "two gold-colored fasteners visible on the front"
+      ],
+      "limitations": [
+        "no visible seams, stitching, or panel lines to confirm sewing pattern"
+      ]
+    },
+    "material_drape": {
+      "score": 1,
+      "visible_evidence": [
+        "smooth surface with no visible folds or creases"
+      ],
+      "limitations": [
+        "no side or back views to confirm drape consistency; no evidence of material physics"
+      ]
+    },
+    "motif_texture": {
+      "score": 1,
+      "visible_evidence": [
+        "two gold-colored fasteners visible on the front"
+      ],
+      "limitations": [
+        "no visible patterns, textures, or surface details beyond color and fasteners"
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "no documentary profile or qualified human assessment supplied"
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "no documentary profile or qualified human assessment supplied"
+      ]
+    },
+    "overall_uncertainty": "The object appears as a stylized garment with visible fasteners but lacks evidence of seams, panel construction, or material behavior. No views confirm consistency across all angles. No cultural or contextual evidence is provided.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [\"two gold-colored fasteners visible on the front\"], \"limitations\": [\"no side or back views to confirm closure continuity or panel construction\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"smooth, continuous form from shoulders to hem with no visible seams or panel breaks\"], \"limitations\": [\"no side or back views to confirm silhouette consistency\"]},\n  \"sewing_pattern\": {\"score\": 1, \"visible_evidence\": [\"two gold-colored fasteners visible on the front\"], \"limitations\": [\"no visible seams, stitching, or panel lines to confirm sewing pattern\"]},\n  \"material_drape\": {\"score\": 1, \"visible_evidence\": [\"smooth surface with no visible folds or creases\"], \"limitations\": [\"no side or back views to confirm drape consistency; no evidence of material physics\"]},\n  \"motif_texture\": {\"score\": 1, \"visible_evidence\": [\"two gold-colored fasteners visible on the front\"], \"limitations\": [\"no visible patterns, textures, or surface details beyond color and fasteners\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"no documentary profile or qualified human assessment supplied\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"no documentary profile or qualified human assessment supplied\"]},\n  \"overall_uncertainty\": \"The object appears as a stylized garment with visible fasteners but lacks evidence of seams, panel construction, or material behavior. No views confirm consistency across all angles. No cultural or contextual evidence is provided.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.549.112 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.04.287.279 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.05.068.578 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.05.068.619 W WARN: This is an experimental CLI for testing multimodal capability.\n0.05.068.619 W       For normal use cases, please use the standard llama-cli\n0.05.242.771 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 3)\n0.05.659.060 I mtmd batch encoding done in 417 ms\n"
+}

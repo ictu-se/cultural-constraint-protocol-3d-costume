@@ -1,0 +1,79 @@
+{
+  "asset_id": "BL_AODAI_003",
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF",
+  "quantization": "Q4_K_M",
+  "vision_projector": "Q8_0",
+  "runtime": "llama.cpp b10103, Vulkan GPU offload requested",
+  "temperature": 0,
+  "prompt_variant": "evidence_first",
+  "image_views": [
+    "experiments/exp05_named_tool_aodai_assets/renders/BL_AODAI_003_back.png",
+    "experiments/exp05_named_tool_aodai_assets/renders/BL_AODAI_003_front.png",
+    "experiments/exp05_named_tool_aodai_assets/renders/BL_AODAI_003_side.png"
+  ],
+  "image_sha256": {
+    "BL_AODAI_003_back.png": "b29cf58dcc55048eb027013ef3c2efdd90540a1b5e8bb5f984daf3b4115fbafc",
+    "BL_AODAI_003_front.png": "45a07f3833c379c39e4892674bb6b5ccf884cbc591d9440f5bb7d5dc65d999aa",
+    "BL_AODAI_003_side.png": "33952565856bcc603d516568c81c55afff59abb1eb3d08ce31d1caaf39417fde"
+  },
+  "elapsed_seconds": 13.9,
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [
+        "The object has a head, neck, torso, arms, and legs, but the construction is abstract and lacks realistic articulation or joint definition. The arms appear as solid cylinders, and the legs are not clearly defined as separate limbs but rather as part of a continuous form."
+      ],
+      "limitations": [
+        "No evidence of seams, fastenings, or construction details that would confirm the object's assembly. The form is stylized and does not resemble a real garment or wearable item."
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "The silhouette is vertically elongated with a defined waist and a flared lower section. The arms are long and cylindrical, and the head is a simple sphere on a neck collar. The overall shape is consistent across views, suggesting a unified design."
+      ],
+      "limitations": [
+        "The silhouette is abstract and does not correspond to any real-world garment or human form. The proportions are exaggerated and non-functional."
+      ]
+    },
+    "sewing_pattern": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No visible seams, stitching, or pattern lines are present. The object appears as a single, solid form with no indication of panels or construction methods."
+      ]
+    },
+    "material_drape": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "There is no evidence of fabric, texture, or drape. The surface is uniformly shaded and smooth, suggesting a solid or molded object rather than a draped material."
+      ]
+    },
+    "motif_texture": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No decorative motifs, patterns, or textures are visible. The surface is monochromatic and featureless, with only the gold-colored clock hands as the only distinct markings."
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No cultural, historical, or regional indicators are present. The object is abstract and lacks any context that would allow for period or regional identification."
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No evidence of how or why the object would be worn. The form is not designed for human wear and lacks any functional or contextual cues for wearing."
+      ]
+    },
+    "overall_uncertainty": "The object is a stylized, abstract 3D model with no evidence of real-world garment construction, material properties, or cultural context. It appears to be a conceptual or artistic rendering rather than a functional or historically accurate representation.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [\"The object has a head, neck, torso, arms, and legs, but the construction is abstract and lacks realistic articulation or joint definition. The arms appear as solid cylinders, and the legs are not clearly defined as separate limbs but rather as part of a continuous form.\"], \"limitations\": [\"No evidence of seams, fastenings, or construction details that would confirm the object's assembly. The form is stylized and does not resemble a real garment or wearable item.\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"The silhouette is vertically elongated with a defined waist and a flared lower section. The arms are long and cylindrical, and the head is a simple sphere on a neck collar. The overall shape is consistent across views, suggesting a unified design.\"], \"limitations\": [\"The silhouette is abstract and does not correspond to any real-world garment or human form. The proportions are exaggerated and non-functional.\"]},\n  \"sewing_pattern\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No visible seams, stitching, or pattern lines are present. The object appears as a single, solid form with no indication of panels or construction methods.\"]},\n  \"material_drape\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"There is no evidence of fabric, texture, or drape. The surface is uniformly shaded and smooth, suggesting a solid or molded object rather than a draped material.\"]},\n  \"motif_texture\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No decorative motifs, patterns, or textures are visible. The surface is monochromatic and featureless, with only the gold-colored clock hands as the only distinct markings.\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No cultural, historical, or regional indicators are present. The object is abstract and lacks any context that would allow for period or regional identification.\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No evidence of how or why the object would be worn. The form is not designed for human wear and lacks any functional or contextual cues for wearing.\"]},\n  \"overall_uncertainty\": \"The object is a stylized, abstract 3D model with no evidence of real-world garment construction, material properties, or cultural context. It appears to be a conceptual or artistic rendering rather than a functional or historically accurate representation.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.554.782 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.03.833.726 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.04.438.246 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.04.438.280 W WARN: This is an experimental CLI for testing multimodal capability.\n0.04.438.280 W       For normal use cases, please use the standard llama-cli\n0.04.585.980 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 5)\n0.04.883.778 I mtmd batch encoding done in 297 ms\n0.05.279.867 I encoding mtmd batch, n_chunks = 1 (done = 3, total = 5)\n0.05.512.763 I mtmd batch encoding done in 233 ms\n"
+}

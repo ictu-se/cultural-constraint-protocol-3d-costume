@@ -1,0 +1,31 @@
+{
+  "variant_asset": "BL_AODAI_005",
+  "prompt_variant": "direct",
+  "intervention": "slimmer body and higher side slit",
+  "expected_criterion": "silhouette",
+  "elapsed_seconds": 6.877,
+  "detected": true,
+  "localized_expected_criterion": false,
+  "image_sha256": {
+    "BL_AODAI_001_front.png": "8aebc650aee56bfe453209257e5127fa42de75173498cd8c2a6864cb7e191338",
+    "BL_AODAI_001_side.png": "be1cc846a866de9c3f7469e70548161a9a71de68a6a3534f747e4361adbb2278",
+    "BL_AODAI_005_front.png": "81a2c98a78b0a958b5b778bd82fc3aaf7b6dcdb9e344607d2ffe248ff78053b4",
+    "BL_AODAI_005_side.png": "b3a215bebbf2fafdc775ebafc862ef5bd4f434164d8cbcacfb2abf3e7363668c"
+  },
+  "contact_sheet": "experiments/exp10_qwen3vl_pairwise_defects/BL_AODAI_005_comparison_sheet.png",
+  "contact_sheet_sha256": "52345981ee7936be232b4a37f728656839a89fb1f69d6ad77f78747172ce67fa",
+  "assessment": {
+    "structural_change_detected": true,
+    "changed_criteria": [
+      "components"
+    ],
+    "visible_differences": [
+      "The variant front view shows three gold-colored fasteners (buttons or snaps) along the center front, whereas the baseline front view shows only two."
+    ],
+    "possible_render_artifacts": [],
+    "confidence": "high",
+    "claim_boundary": "pairwise technical change detection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"structural_change_detected\": true,\n  \"changed_criteria\": [\"components\"],\n  \"visible_differences\": [\n    \"The variant front view shows three gold-colored fasteners (buttons or snaps) along the center front, whereas the baseline front view shows only two.\"\n  ],\n  \"possible_render_artifacts\": [],\n  \"confidence\": \"high\",\n  \"claim_boundary\": \"pairwise technical change detection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.572.602 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.03.461.129 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.04.152.454 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.04.152.507 W WARN: This is an experimental CLI for testing multimodal capability.\n0.04.152.507 W       For normal use cases, please use the standard llama-cli\n0.04.237.714 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 3)\n0.04.458.518 I mtmd batch encoding done in 221 ms\n"
+}

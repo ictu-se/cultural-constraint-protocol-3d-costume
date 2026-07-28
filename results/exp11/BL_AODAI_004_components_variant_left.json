@@ -1,0 +1,30 @@
+{
+  "case_id": "BL_AODAI_004",
+  "intervention": "short sleeves",
+  "target_criterion": "components",
+  "criterion": "components",
+  "atomic_proposition": "The candidate visibly has this controlled change: short sleeves.",
+  "order": "variant_left",
+  "expected_changed": true,
+  "predicted_changed": false,
+  "correct": false,
+  "schema_attempts": 1,
+  "elapsed_seconds": 6.962,
+  "sheet_sha256": "fee9b37919f5589fdb1b3a2b61cf0b804d79abe87d5dde941214a7e462d069a9",
+  "source_sha256": {
+    "BL_AODAI_004_front.png": "6183f2f56756a0c2eb232a6b5a3eb1ebfd589ac85ccd18ba4797657f6e56f57e",
+    "BL_AODAI_004_side.png": "7c8d34e9b84ebaaaee461d2a0b572b3cb3b68ed3c2a168b1a2d5626833b48aa3",
+    "BL_AODAI_001_front.png": "8aebc650aee56bfe453209257e5127fa42de75173498cd8c2a6864cb7e191338",
+    "BL_AODAI_001_side.png": "be1cc846a866de9c3f7469e70548161a9a71de68a6a3534f747e4361adbb2278"
+  },
+  "assessment": {
+    "criterion": "components",
+    "criterion_changed": false,
+    "visible_evidence": [],
+    "alternative_artifact_explanation": [],
+    "confidence": "high",
+    "claim_boundary": "atomic technical comparison; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"criterion\": \"components\",\n  \"criterion_changed\": false,\n  \"visible_evidence\": [],\n  \"alternative_artifact_explanation\": [],\n  \"confidence\": \"high\",\n  \"claim_boundary\": \"atomic technical comparison; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.558.570 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.03.526.549 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.04.304.475 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.04.304.517 W WARN: This is an experimental CLI for testing multimodal capability.\n0.04.304.518 W       For normal use cases, please use the standard llama-cli\n0.04.455.294 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 3)\n0.04.780.441 I mtmd batch encoding done in 325 ms\n"
+}

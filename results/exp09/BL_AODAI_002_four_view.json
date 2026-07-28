@@ -1,0 +1,84 @@
+{
+  "asset_id": "BL_AODAI_002",
+  "view_config": "four_view",
+  "views": [
+    "front",
+    "three_quarter",
+    "side",
+    "back"
+  ],
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF Q4_K_M",
+  "temperature": 0,
+  "elapsed_seconds": 13.888,
+  "image_sha256": {
+    "BL_AODAI_002_front.png": "790354fab7da095bf2d5266eec69d12e64d0dbac4d5f1f2a5c12bb5324350667",
+    "BL_AODAI_002_three_quarter.png": "0ee5d29a9c8cb3e80384a441d52688720254d6b916afd676f0b4c07d1da22d00",
+    "BL_AODAI_002_side.png": "77c391de38f7a2f6ae62d4e265e169d78c3778f92dcb82c7e1475c378625ff34",
+    "BL_AODAI_002_back.png": "ea93f25ae2184134a9e5cf5c0172faada812ab4d327602f5ca67de33b68f965e"
+  },
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment appears to be a single, continuous piece with no visible seams or panel divisions on the front or back views."
+      ],
+      "limitations": [
+        "No side or interior view is provided to confirm construction; the visible seams are likely render artifacts or lack of detail."
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "The garment has a fitted bodice with a defined waist, flaring slightly at the hips, and a long, flowing skirt that reaches the floor."
+      ],
+      "limitations": [
+        "The silhouette is stylized and abstract; no evidence of historical or cultural context is visible."
+      ]
+    },
+    "sewing_pattern": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment appears to be constructed as a single piece with no visible seams or panel divisions on the front or back views."
+      ],
+      "limitations": [
+        "No side or interior view is provided to confirm construction; the visible seams are likely render artifacts or lack of detail."
+      ]
+    },
+    "material_drape": {
+      "score": 2,
+      "visible_evidence": [
+        "The material appears smooth and flows in a continuous, draped manner from the shoulders to the hem, with no visible creases or folds that suggest a specific fabric type."
+      ],
+      "limitations": [
+        "The material is rendered with a uniform surface; no texture or physical properties are visible to confirm drape behavior."
+      ]
+    },
+    "motif_texture": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment has a uniform deep red color with no visible patterns, textures, or motifs."
+      ],
+      "limitations": [
+        "The surface is rendered as a single color; no evidence of texture or pattern is visible."
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No documentary profile or qualified human assessment is supplied to determine regional or period context."
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No documentary profile or qualified human assessment is supplied to determine wearing context."
+      ]
+    },
+    "overall_uncertainty": "The garment is a stylized 3D model with no visible evidence of seams, patterns, or contextual details. The silhouette and material drape are consistent with a single-piece garment, but the lack of side or interior views introduces uncertainty about its construction. The uniform color and absence of texture or motif suggest a minimalist design, but no cultural or historical context is visible.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [\"The garment appears to be a single, continuous piece with no visible seams or panel divisions on the front or back views.\"], \"limitations\": [\"No side or interior view is provided to confirm construction; the visible seams are likely render artifacts or lack of detail.\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"The garment has a fitted bodice with a defined waist, flaring slightly at the hips, and a long, flowing skirt that reaches the floor.\"], \"limitations\": [\"The silhouette is stylized and abstract; no evidence of historical or cultural context is visible.\"]},\n  \"sewing_pattern\": {\"score\": 1, \"visible_evidence\": [\"The garment appears to be constructed as a single piece with no visible seams or panel divisions on the front or back views.\"], \"limitations\": [\"No side or interior view is provided to confirm construction; the visible seams are likely render artifacts or lack of detail.\"]},\n  \"material_drape\": {\"score\": 2, \"visible_evidence\": [\"The material appears smooth and flows in a continuous, draped manner from the shoulders to the hem, with no visible creases or folds that suggest a specific fabric type.\"], \"limitations\": [\"The material is rendered with a uniform surface; no texture or physical properties are visible to confirm drape behavior.\"]},\n  \"motif_texture\": {\"score\": 1, \"visible_evidence\": [\"The garment has a uniform deep red color with no visible patterns, textures, or motifs.\"], \"limitations\": [\"The surface is rendered as a single color; no evidence of texture or pattern is visible.\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No documentary profile or qualified human assessment is supplied to determine regional or period context.\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No documentary profile or qualified human assessment is supplied to determine wearing context.\"]},\n  \"overall_uncertainty\": \"The garment is a stylized 3D model with no visible evidence of seams, patterns, or contextual details. The silhouette and material drape are consistent with a single-piece garment, but the lack of side or interior views introduces uncertainty about its construction. The uniform color and absence of texture or motif suggest a minimalist design, but no cultural or historical context is visible.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.558.267 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.03.848.080 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.04.558.109 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.04.558.149 W WARN: This is an experimental CLI for testing multimodal capability.\n0.04.558.150 W       For normal use cases, please use the standard llama-cli\n0.04.707.677 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 5)\n0.04.960.764 I mtmd batch encoding done in 253 ms\n0.05.378.402 I encoding mtmd batch, n_chunks = 1 (done = 3, total = 5)\n0.05.617.760 I mtmd batch encoding done in 239 ms\n"
+}

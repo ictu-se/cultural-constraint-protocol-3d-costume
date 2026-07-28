@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Preliminary declared-constraint audit record",
+  "type": "object",
+  "required": [
+    "asset_id",
+    "profile_id",
+    "profile_status",
+    "record_status",
+    "criteria"
+  ],
+  "properties": {
+    "asset_id": {"type": "string"},
+    "profile_id": {"type": "string"},
+    "profile_status": {
+      "enum": ["documentary", "source_sensitive_placeholder", "invalid"]
+    },
+    "record_status": {
+      "enum": ["assessable", "partially_assessable", "rejected_profile"]
+    },
+    "rejection_reason": {"type": ["string", "null"]},
+    "audit_score": {
+      "description": "Optional navigation summary; not an authenticity probability.",
+      "type": ["number", "null"],
+      "minimum": 0,
+      "maximum": 100
+    },
+    "assessable_count": {"type": "integer", "minimum": 0, "maximum": 7},
+    "na_count": {"type": "integer", "minimum": 0, "maximum": 7},
+    "hard_flag_count": {"type": "integer", "minimum": 0, "maximum": 7},
+    "criteria": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["criterion", "state", "score", "evidence", "limitation"],
+        "properties": {
+          "criterion": {"type": "string"},
+          "state": {"enum": ["assessable", "NA"]},
+          "score": {
+            "description": "Must be null when state is NA.",
+            "type": ["integer", "null"],
+            "enum": [0, 1, 2, 3, null]
+          },
+          "na_reason": {"type": ["string", "null"]},
+          "hard_flag": {"type": "boolean"},
+          "evidence": {"type": "array", "items": {"type": "string"}},
+          "source_locator": {"type": ["string", "null"]},
+          "limitation": {"type": "string"}
+        }
+      }
+    }
+  }
+}

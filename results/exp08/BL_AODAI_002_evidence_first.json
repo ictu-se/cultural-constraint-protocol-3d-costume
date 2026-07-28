@@ -1,0 +1,81 @@
+{
+  "asset_id": "BL_AODAI_002",
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF",
+  "quantization": "Q4_K_M",
+  "vision_projector": "Q8_0",
+  "runtime": "llama.cpp b10103, Vulkan GPU offload requested",
+  "temperature": 0,
+  "prompt_variant": "evidence_first",
+  "image_views": [
+    "experiments/exp05_named_tool_aodai_assets/renders/BL_AODAI_002_back.png",
+    "experiments/exp05_named_tool_aodai_assets/renders/BL_AODAI_002_front.png",
+    "experiments/exp05_named_tool_aodai_assets/renders/BL_AODAI_002_side.png"
+  ],
+  "image_sha256": {
+    "BL_AODAI_002_back.png": "ea93f25ae2184134a9e5cf5c0172faada812ab4d327602f5ca67de33b68f965e",
+    "BL_AODAI_002_front.png": "790354fab7da095bf2d5266eec69d12e64d0dbac4d5f1f2a5c12bb5324350667",
+    "BL_AODAI_002_side.png": "77c391de38f7a2f6ae62d4e265e169d78c3778f92dcb82c7e1475c378625ff34"
+  },
+  "elapsed_seconds": 15.519,
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment has a distinct upper torso section, long sleeves, and a lower body section that appears to be a skirt or dress portion. The neck and head are separate components, suggesting a mannequin or stylized figure. The arms are attached to the torso, and the garment appears to be a single continuous form with no visible seams or panel divisions."
+      ],
+      "limitations": [
+        "No evidence of construction methods, seams, or panel joins is visible. The form is abstract and stylized, making it impossible to confirm if it is a single piece or assembled from multiple parts. The presence of the head and neck as separate elements suggests it is not a wearable garment in the traditional sense."
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "The garment has a defined, flowing silhouette with a fitted bodice, long sleeves, and a flared lower section. The overall shape is consistent across the front and side views, suggesting a cohesive design. The form is stylized and abstract, lacking realistic human proportions."
+      ],
+      "limitations": [
+        "The silhouette is abstract and does not correspond to any real-world garment type. The lack of realistic proportions and the presence of the head as a separate component make it impossible to assess the silhouette in a real-world context."
+      ]
+    },
+    "sewing_pattern": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No visible evidence of sewing lines, seams, or stitching is present. The form is smooth and continuous, suggesting it is either a single molded piece or a digitally rendered object without physical construction details."
+      ]
+    },
+    "material_drape": {
+      "score": 1,
+      "visible_evidence": [
+        "The material appears to be a smooth, continuous surface with no visible folds, creases, or draping effects. The form is rigid and stylized, lacking the natural drape of fabric."
+      ],
+      "limitations": [
+        "The absence of any draping or folding suggests the material is not fabric or that it is not rendered to simulate fabric behavior. The form is more akin to a solid sculpture or a 3D model with a smooth surface."
+      ]
+    },
+    "motif_texture": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No visible patterns, textures, or motifs are present on the garment. The surface is uniformly colored and smooth, with no decorative elements or surface details."
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No evidence of regional or period-specific design elements is visible. The form is abstract and stylized, making it impossible to assign a cultural or historical context."
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No evidence of a wearing context is visible. The object is presented on a stylized mannequin-like form, which is not a real human body, making it impossible to assess how it would be worn."
+      ]
+    },
+    "overall_uncertainty": "The object is a stylized, abstract 3D model with no visible evidence of construction, material behavior, or cultural context. It appears to be a single, smooth form with no seams or draping, making it impossible to assess as a real garment.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [\"The garment has a distinct upper torso section, long sleeves, and a lower body section that appears to be a skirt or dress portion. The neck and head are separate components, suggesting a mannequin or stylized figure. The arms are attached to the torso, and the garment appears to be a single continuous form with no visible seams or panel divisions.\"], \"limitations\": [\"No evidence of construction methods, seams, or panel joins is visible. The form is abstract and stylized, making it impossible to confirm if it is a single piece or assembled from multiple parts. The presence of the head and neck as separate elements suggests it is not a wearable garment in the traditional sense.\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"The garment has a defined, flowing silhouette with a fitted bodice, long sleeves, and a flared lower section. The overall shape is consistent across the front and side views, suggesting a cohesive design. The form is stylized and abstract, lacking realistic human proportions.\"], \"limitations\": [\"The silhouette is abstract and does not correspond to any real-world garment type. The lack of realistic proportions and the presence of the head as a separate component make it impossible to assess the silhouette in a real-world context.\"]},\n  \"sewing_pattern\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No visible evidence of sewing lines, seams, or stitching is present. The form is smooth and continuous, suggesting it is either a single molded piece or a digitally rendered object without physical construction details.\"]},\n  \"material_drape\": {\"score\": 1, \"visible_evidence\": [\"The material appears to be a smooth, continuous surface with no visible folds, creases, or draping effects. The form is rigid and stylized, lacking the natural drape of fabric.\"], \"limitations\": [\"The absence of any draping or folding suggests the material is not fabric or that it is not rendered to simulate fabric behavior. The form is more akin to a solid sculpture or a 3D model with a smooth surface.\"]},\n  \"motif_texture\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No visible patterns, textures, or motifs are present on the garment. The surface is uniformly colored and smooth, with no decorative elements or surface details.\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No evidence of regional or period-specific design elements is visible. The form is abstract and stylized, making it impossible to assign a cultural or historical context.\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No evidence of a wearing context is visible. The object is presented on a stylized mannequin-like form, which is not a real human body, making it impossible to assess how it would be worn.\"]},\n  \"overall_uncertainty\": \"The object is a stylized, abstract 3D model with no visible evidence of construction, material behavior, or cultural context. It appears to be a single, smooth form with no seams or draping, making it impossible to assess as a real garment.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.592.653 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.03.962.468 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.04.505.653 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.04.505.685 W WARN: This is an experimental CLI for testing multimodal capability.\n0.04.505.686 W       For normal use cases, please use the standard llama-cli\n0.04.589.299 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 5)\n0.04.838.064 I mtmd batch encoding done in 249 ms\n0.05.228.298 I encoding mtmd batch, n_chunks = 1 (done = 3, total = 5)\n0.05.458.268 I mtmd batch encoding done in 230 ms\n"
+}

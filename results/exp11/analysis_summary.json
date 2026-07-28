@@ -1,0 +1,22 @@
+{
+  "cases": 4,
+  "criteria_per_case": 5,
+  "position_orders": 2,
+  "judgement_count": 40,
+  "confusion": {
+    "TP": 2,
+    "FP": 2,
+    "TN": 30,
+    "FN": 6
+  },
+  "accuracy": 0.8,
+  "precision": 0.5,
+  "recall": 0.25,
+  "specificity": 0.9375,
+  "f1": 0.3333,
+  "position_consistency_rate": 0.8,
+  "first_pass_schema_validity_rate": 1.0,
+  "model_sha256": "67d1659bfe71b89d50b45a4ad1a9e5b997e5bb16ce5da66a6a6167abd569e9e2",
+  "mmproj_sha256": "c6ba85508d82f42590e6eb77d5340369ab6fecf107a7561d809523d8aa5f3bfd",
+  "claim_boundary": "Atomic technical comparison; not cultural validation."
+}

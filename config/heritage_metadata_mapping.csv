@@ -1,0 +1,18 @@
+local_field,definition,cidoc_crm_or_related_mapping,europeana_style_mapping,required
+asset_id,Persistent identifier for the local digital asset,E42 Identifier,dc:identifier,yes
+parent_asset_id,Identifier of the unmodified parent asset,P67 refers to,dc:relation,yes
+source_record,Persistent source dataset or collection record,E73 Information Object / P67 refers to,dcterms:source,yes
+source_institution,Custodian or publishing institution,E39 Actor / P50 has current keeper,edm:dataProvider,no
+license,Reuse license applying to the source or derivative,E30 Right,dc:rights,yes
+sha256,Content integrity checksum,E42 Identifier,edm:hasMet,no
+asset_type,Mesh image texture metadata or pattern,E55 Type,dc:type,yes
+units,Coordinate and measurement units,E58 Measurement Unit,edm:hasMet,no
+software,Software and version used for transformation,E7 Activity / P14 carried out by,dc:creator,yes
+generation_command,Reproducible command for producing the derivative,E7 Activity,dc:description,yes
+intervention_type,Controlled failure or nuisance transformation,E55 Type,dc:subject,yes
+intervention_severity,Normalized intervention magnitude,E54 Dimension,dc:description,yes
+target_criterion,Rubric criterion targeted by the intervention,E55 Type,dc:subject,yes
+claim_status,Documented placeholder stress prompt or technical,E55 Type,dc:type,yes
+documentary_source,Source supporting an evidence field,E31 Document,dcterms:references,no
+uncertainty,Known uncertainty and unsupported claims,E13 Attribute Assignment,dc:description,yes
+created_at,Timestamp of derivative creation,E52 Time-Span,dcterms:created,yes

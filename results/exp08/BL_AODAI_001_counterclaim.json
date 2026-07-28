@@ -1,0 +1,85 @@
+{
+  "asset_id": "BL_AODAI_001",
+  "model": "Qwen/Qwen3-VL-8B-Instruct-GGUF",
+  "quantization": "Q4_K_M",
+  "vision_projector": "Q8_0",
+  "runtime": "llama.cpp b10103, Vulkan GPU offload requested",
+  "temperature": 0,
+  "prompt_variant": "counterclaim",
+  "image_views": [
+    "experiments/exp05_named_tool_aodai_assets/renders/BL_AODAI_001_side.png",
+    "experiments/exp05_named_tool_aodai_assets/renders/BL_AODAI_001_back.png",
+    "experiments/exp05_named_tool_aodai_assets/renders/BL_AODAI_001_front.png"
+  ],
+  "image_sha256": {
+    "BL_AODAI_001_side.png": "be1cc846a866de9c3f7469e70548161a9a71de68a6a3534f747e4361adbb2278",
+    "BL_AODAI_001_back.png": "5dda690a69afa42c005a576bda47d4e2b21c44c0cbd2fe0282209aff3381dd4a",
+    "BL_AODAI_001_front.png": "8aebc650aee56bfe453209257e5127fa42de75173498cd8c2a6864cb7e191338"
+  },
+  "elapsed_seconds": 13.192,
+  "assessment": {
+    "components": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment appears as a single, continuous form with no visible seams or panel divisions. The arms and torso are fused geometry, not separate components. The neck and head are separate but appear to be part of the same rigid structure."
+      ],
+      "limitations": [
+        "No evidence of construction or assembly is visible. Render artifacts may simulate seams or panel lines."
+      ]
+    },
+    "silhouette": {
+      "score": 2,
+      "visible_evidence": [
+        "The silhouette is a stylized, elongated human form with a defined bust, waist, and hips. The overall shape is consistent across views, suggesting a unified design."
+      ],
+      "limitations": [
+        "The form is abstract and lacks specific cultural or historical references. The smooth, seamless appearance may be a render artifact."
+      ]
+    },
+    "sewing_pattern": {
+      "score": 1,
+      "visible_evidence": [
+        "No visible stitching, seam lines, or patterned construction is apparent. The surface appears uniformly shaded."
+      ],
+      "limitations": [
+        "The absence of visible seams could be due to fused geometry or render shading, not actual construction."
+      ]
+    },
+    "material_drape": {
+      "score": 1,
+      "visible_evidence": [
+        "The material appears smooth and rigid, with no folds, creases, or draping effects. The surface is uniformly shaded with no texture variation."
+      ],
+      "limitations": [
+        "The lack of drape could be due to the object being a rigid 3D model, not a fabric garment. Render artifacts may simulate drape."
+      ]
+    },
+    "motif_texture": {
+      "score": 1,
+      "visible_evidence": [
+        "The garment has two small, gold-colored circular elements that resemble clock hands or decorative motifs. These are not clearly identifiable as traditional patterns or textures."
+      ],
+      "limitations": [
+        "The motifs could be render artifacts or decorative elements without cultural or historical context. No texture or pattern is visible beyond these elements."
+      ]
+    },
+    "regional_period": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No documentary or cultural profile is supplied. The object is abstract and lacks period-specific features."
+      ]
+    },
+    "wearing_context": {
+      "score": "NA",
+      "visible_evidence": [],
+      "limitations": [
+        "No evidence of wearing context is visible. The object is presented as a standalone 3D asset."
+      ]
+    },
+    "overall_uncertainty": "The object appears to be a stylized, abstract 3D model with fused geometry and render artifacts. Visible features such as motifs and silhouette are not confirmed as physical construction or cultural elements. The lack of texture, drape, and seams suggests a digital creation rather than a physical garment.",
+    "claim_boundary": "AI-assisted technical inspection; not cultural validation"
+  },
+  "raw_stdout": "\n{\n  \"components\": {\"score\": 1, \"visible_evidence\": [\"The garment appears as a single, continuous form with no visible seams or panel divisions. The arms and torso are fused geometry, not separate components. The neck and head are separate but appear to be part of the same rigid structure.\"], \"limitations\": [\"No evidence of construction or assembly is visible. Render artifacts may simulate seams or panel lines.\"]},\n  \"silhouette\": {\"score\": 2, \"visible_evidence\": [\"The silhouette is a stylized, elongated human form with a defined bust, waist, and hips. The overall shape is consistent across views, suggesting a unified design.\"], \"limitations\": [\"The form is abstract and lacks specific cultural or historical references. The smooth, seamless appearance may be a render artifact.\"]},\n  \"sewing_pattern\": {\"score\": 1, \"visible_evidence\": [\"No visible stitching, seam lines, or patterned construction is apparent. The surface appears uniformly shaded.\"], \"limitations\": [\"The absence of visible seams could be due to fused geometry or render shading, not actual construction.\"]},\n  \"material_drape\": {\"score\": 1, \"visible_evidence\": [\"The material appears smooth and rigid, with no folds, creases, or draping effects. The surface is uniformly shaded with no texture variation.\"], \"limitations\": [\"The lack of drape could be due to the object being a rigid 3D model, not a fabric garment. Render artifacts may simulate drape.\"]},\n  \"motif_texture\": {\"score\": 1, \"visible_evidence\": [\"The garment has two small, gold-colored circular elements that resemble clock hands or decorative motifs. These are not clearly identifiable as traditional patterns or textures.\"], \"limitations\": [\"The motifs could be render artifacts or decorative elements without cultural or historical context. No texture or pattern is visible beyond these elements.\"]},\n  \"regional_period\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No documentary or cultural profile is supplied. The object is abstract and lacks period-specific features.\"]},\n  \"wearing_context\": {\"score\": \"NA\", \"visible_evidence\": [], \"limitations\": [\"No evidence of wearing context is visible. The object is presented as a standalone 3D asset.\"]},\n  \"overall_uncertainty\": \"The object appears to be a stylized, abstract 3D model with fused geometry and render artifacts. Visible features such as motifs and silhouette are not confirmed as physical construction or cultural elements. The lack of texture, drape, and seams suggests a digital creation rather than a physical garment.\",\n  \"claim_boundary\": \"AI-assisted technical inspection; not cultural validation\"\n}\n\n\n",
+  "runtime_stderr": "0.00.525.582 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden\n0.03.319.389 I mtmd_cli_context: chat template example:\n<|im_start|>system\nYou are a helpful assistant<|im_end|>\n<|im_start|>user\nHello<|im_end|>\n<|im_start|>assistant\nHi there<|im_end|>\n<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n\n0.03.849.602 I main: loading model: D:\\3d modeling\\tools\\Qwen3-VL-8B-Instruct-GGUF\\Qwen3VL-8B-Instruct-Q4_K_M.gguf\n0.03.849.622 W WARN: This is an experimental CLI for testing multimodal capability.\n0.03.849.622 W       For normal use cases, please use the standard llama-cli\n0.03.932.641 I encoding mtmd batch, n_chunks = 1 (done = 1, total = 5)\n0.04.179.025 I mtmd batch encoding done in 247 ms\n0.04.562.166 I encoding mtmd batch, n_chunks = 1 (done = 3, total = 5)\n0.04.790.579 I mtmd batch encoding done in 228 ms\n"
+}
