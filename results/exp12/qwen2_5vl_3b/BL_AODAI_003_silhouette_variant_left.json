@@ -1,0 +1,35 @@
+{
+  "model": "qwen2.5vl:3b",
+  "case_id": "BL_AODAI_003",
+  "intervention": "flared hem",
+  "target_criterion": "silhouette",
+  "criterion": "silhouette",
+  "atomic_proposition": "The candidate visibly has this controlled change: flared hem.",
+  "order": "variant_left",
+  "expected_changed": true,
+  "predicted_changed": true,
+  "correct": true,
+  "schema_attempts": 1,
+  "elapsed_seconds": 1.266,
+  "sheet_sha256": "0005aa0214cc62d95f91af9c65d7fdaf1497752f275eae07ff96385b47a30932",
+  "source_sha256": {
+    "BL_AODAI_003_front.png": "45a07f3833c379c39e4892674bb6b5ccf884cbc591d9440f5bb7d5dc65d999aa",
+    "BL_AODAI_003_side.png": "33952565856bcc603d516568c81c55afff59abb1eb3d08ce31d1caaf39417fde",
+    "BL_AODAI_001_front.png": "8aebc650aee56bfe453209257e5127fa42de75173498cd8c2a6864cb7e191338",
+    "BL_AODAI_001_side.png": "be1cc846a866de9c3f7469e70548161a9a71de68a6a3534f747e4361adbb2278"
+  },
+  "assessment": {
+    "criterion": "silhouette",
+    "criterion_changed": true,
+    "visible_evidence": [
+      "The candidate view shows a flared hem on the dress, which is not present in the reference view.",
+      "The flared hem in the candidate view is more pronounced and visually noticeable compared to the reference view."
+    ],
+    "alternative_artifact_explanation": [],
+    "confidence": "high",
+    "claim_boundary": "atomic technical comparison; not cultural validation"
+  },
+  "raw_response": "{\n  \"criterion\": \"silhouette\",\n  \"criterion_changed\": true,\n  \"visible_evidence\": [\n    \"The candidate view shows a flared hem on the dress, which is not present in the reference view.\",\n    \"The flared hem in the candidate view is more pronounced and visually noticeable compared to the reference view.\"\n  ],\n  \"alternative_artifact_explanation\": [],\n  \"confidence\": \"high\",\n  \"claim_boundary\": \"atomic technical comparison; not cultural validation\"\n}",
+  "errors_before_success": [],
+  "claim_boundary": "Technical visual discrimination only; not cultural validation."
+}

@@ -1,0 +1,48 @@
+{
+  "model": "minicpm-v:latest",
+  "case_id": "BL_AODAI_003",
+  "intervention": "flared hem",
+  "target_criterion": "silhouette",
+  "criterion": "motif_texture",
+  "atomic_proposition": "The candidate visibly changes ornament, motif placement, texture identity, or surface pattern.",
+  "order": "baseline_left",
+  "expected_changed": false,
+  "predicted_changed": true,
+  "correct": false,
+  "schema_attempts": 1,
+  "elapsed_seconds": 3.882,
+  "sheet_sha256": "df6dda0368a177dd138b83e1077e945da7625355b41824be2bbacb2cce72acfb",
+  "source_sha256": {
+    "BL_AODAI_001_front.png": "8aebc650aee56bfe453209257e5127fa42de75173498cd8c2a6864cb7e191338",
+    "BL_AODAI_001_side.png": "be1cc846a866de9c3f7469e70548161a9a71de68a6a3534f747e4361adbb2278",
+    "BL_AODAI_003_front.png": "45a07f3833c379c39e4892674bb6b5ccf884cbc591d9440f5bb7d5dc65d999aa",
+    "BL_AODAI_003_side.png": "33952565856bcc603d516568c81c55afff59abb1eb3d08ce31d1caaf39417fde"
+  },
+  "assessment": {
+    "criterion": "motif_texture",
+    "criterion_changed": true,
+    "visible_evidence": [
+      {
+        "reference": "REFERENCE FRONT",
+        "candidate": "CANDIDATE FRONT",
+        "difference": [
+          "the gold motifs on the dress are different in shape and placement"
+        ]
+      },
+      {
+        "reference": "REFERENCE SIDE",
+        "candidate": "CANDIDATE SIDE",
+        "difference": [
+          {
+            "type": "motif",
+            "location": "left arm, right leg"
+          }
+        ]
+      }
+    ],
+    "confidence": "medium"
+  },
+  "raw_response": "{\n  \"criterion\": \"motif_texture\",\n  \"criterion_changed\": true,\n  \"visible_evidence\": [\n    {\n      \"reference\": \"REFERENCE FRONT\",\n      \"candidate\": \"CANDIDATE FRONT\",\n      \"difference\": [\"the gold motifs on the dress are different in shape and placement\"]\n    },\n    {\n      \"reference\": \"REFERENCE SIDE\",\n      \"candidate\": \"CANDIDATE SIDE\",\n      \"difference\": [\n        {\"type\": \"motif\", \"location\": \"left arm, right leg\"}\n      ]\n    }\n  ],\n  \"confidence\": \"medium\"\n}",
+  "errors_before_success": [],
+  "claim_boundary": "Technical visual discrimination only; not cultural validation."
+}

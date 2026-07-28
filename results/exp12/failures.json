@@ -1,0 +1,65 @@
+[
+  {
+    "model": "moondream:latest",
+    "case_id": "BL_AODAI_002",
+    "criterion": "sewing_pattern",
+    "order": "baseline_left",
+    "error": "moondream:latest failed after two attempts: ['ValueError: criterion echo mismatch', 'ValueError: criterion echo mismatch']"
+  },
+  {
+    "model": "moondream:latest",
+    "case_id": "BL_AODAI_002",
+    "criterion": "sewing_pattern",
+    "order": "variant_left",
+    "error": "moondream:latest failed after two attempts: ['ValueError: criterion echo mismatch', 'ValueError: criterion echo mismatch']"
+  },
+  {
+    "model": "moondream:latest",
+    "case_id": "BL_AODAI_003",
+    "criterion": "sewing_pattern",
+    "order": "baseline_left",
+    "error": "moondream:latest failed after two attempts: ['ValueError: criterion echo mismatch', 'ValueError: criterion echo mismatch']"
+  },
+  {
+    "model": "moondream:latest",
+    "case_id": "BL_AODAI_003",
+    "criterion": "sewing_pattern",
+    "order": "variant_left",
+    "error": "moondream:latest failed after two attempts: ['ValueError: criterion echo mismatch', 'ValueError: criterion echo mismatch']"
+  },
+  {
+    "model": "moondream:latest",
+    "case_id": "BL_AODAI_004",
+    "criterion": "sewing_pattern",
+    "order": "baseline_left",
+    "error": "moondream:latest failed after two attempts: ['ValueError: criterion echo mismatch', 'ValueError: criterion echo mismatch']"
+  },
+  {
+    "model": "moondream:latest",
+    "case_id": "BL_AODAI_004",
+    "criterion": "material_drape",
+    "order": "baseline_left",
+    "error": "moondream:latest failed after two attempts: ['JSONDecodeError: Expecting value: line 1 column 788 (char 787)', 'JSONDecodeError: Expecting value: line 1 column 787 (char 786)']"
+  },
+  {
+    "model": "moondream:latest",
+    "case_id": "BL_AODAI_004",
+    "criterion": "sewing_pattern",
+    "order": "variant_left",
+    "error": "moondream:latest failed after two attempts: ['ValueError: criterion echo mismatch', 'ValueError: criterion echo mismatch']"
+  },
+  {
+    "model": "moondream:latest",
+    "case_id": "BL_AODAI_005",
+    "criterion": "sewing_pattern",
+    "order": "baseline_left",
+    "error": "moondream:latest failed after two attempts: ['ValueError: criterion echo mismatch', 'ValueError: criterion echo mismatch']"
+  },
+  {
+    "model": "moondream:latest",
+    "case_id": "BL_AODAI_005",
+    "criterion": "sewing_pattern",
+    "order": "variant_left",
+    "error": "moondream:latest failed after two attempts: ['ValueError: criterion echo mismatch', 'ValueError: criterion echo mismatch']"
+  }
+]

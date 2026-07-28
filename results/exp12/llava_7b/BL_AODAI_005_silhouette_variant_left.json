@@ -1,0 +1,34 @@
+{
+  "model": "llava:7b",
+  "case_id": "BL_AODAI_005",
+  "intervention": "slimmer body and higher side slit",
+  "target_criterion": "silhouette",
+  "criterion": "silhouette",
+  "atomic_proposition": "The candidate visibly has this controlled change: slimmer body and higher side slit.",
+  "order": "variant_left",
+  "expected_changed": true,
+  "predicted_changed": true,
+  "correct": true,
+  "schema_attempts": 1,
+  "elapsed_seconds": 1.169,
+  "sheet_sha256": "01a411bacdae59570913fb3663aede423aa87c9c6e213b15e19854b4ef16ddd4",
+  "source_sha256": {
+    "BL_AODAI_005_front.png": "81a2c98a78b0a958b5b778bd82fc3aaf7b6dcdb9e344607d2ffe248ff78053b4",
+    "BL_AODAI_005_side.png": "b3a215bebbf2fafdc775ebafc862ef5bd4f434164d8cbcacfb2abf3e7363668c",
+    "BL_AODAI_001_front.png": "8aebc650aee56bfe453209257e5127fa42de75173498cd8c2a6864cb7e191338",
+    "BL_AODAI_001_side.png": "be1cc846a866de9c3f7469e70548161a9a71de68a6a3534f747e4361adbb2278"
+  },
+  "assessment": {
+    "criterion": "silhouette",
+    "criterion_changed": true,
+    "visible_evidence": [
+      "The candidate has a higher side slit compared to the reference."
+    ],
+    "alternative_artifact_explanation": [],
+    "confidence": "medium",
+    "claim_boundary": "Atomic technical comparison; not cultural validation"
+  },
+  "raw_response": "{\n  \"criterion\": \"silhouette\",\n  \"criterion_changed\": true,\n  \"visible_evidence\": [\"The candidate has a higher side slit compared to the reference.\"],\n  \"alternative_artifact_explanation\": [],\n  \"confidence\": \"medium\",\n  \"claim_boundary\": \"Atomic technical comparison; not cultural validation\"\n}",
+  "errors_before_success": [],
+  "claim_boundary": "Technical visual discrimination only; not cultural validation."
+}

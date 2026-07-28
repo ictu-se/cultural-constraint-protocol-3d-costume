@@ -1,0 +1,41 @@
+{
+  "model": "minicpm-v:latest",
+  "case_id": "BL_AODAI_004",
+  "intervention": "short sleeves",
+  "target_criterion": "components",
+  "criterion": "sewing_pattern",
+  "atomic_proposition": "The candidate visibly changes seams, closures, panel boundaries, joins, or sewable construction.",
+  "order": "baseline_left",
+  "expected_changed": false,
+  "predicted_changed": true,
+  "correct": false,
+  "schema_attempts": 1,
+  "elapsed_seconds": 3.369,
+  "sheet_sha256": "e91b804d5961f8df4979ab0773daac1da97f38ff41322ab1c74f78fd57677342",
+  "source_sha256": {
+    "BL_AODAI_001_front.png": "8aebc650aee56bfe453209257e5127fa42de75173498cd8c2a6864cb7e191338",
+    "BL_AODAI_001_side.png": "be1cc846a866de9c3f7469e70548161a9a71de68a6a3534f747e4361adbb2278",
+    "BL_AODAI_004_front.png": "6183f2f56756a0c2eb232a6b5a3eb1ebfd589ac85ccd18ba4797657f6e56f57e",
+    "BL_AODAI_004_side.png": "7c8d34e9b84ebaaaee461d2a0b572b3cb3b68ed3c2a168b1a2d5626833b48aa3"
+  },
+  "assessment": {
+    "criterion": "sewing_pattern",
+    "criterion_changed": true,
+    "visible_evidence": [
+      {
+        "type": "seam",
+        "location": "shoulder area on candidate front view"
+      },
+      {
+        "type": "seam",
+        "location": "waistline on candidate side view"
+      }
+    ],
+    "alternative_artifact_explanation": [],
+    "confidence": "medium",
+    "claim_boundary": "atomic technical comparison; not cultural validation"
+  },
+  "raw_response": "{\n  \"criterion\": \"sewing_pattern\",\n  \"criterion_changed\": true,\n  \"visible_evidence\": [\n    {\n      \"type\": \"seam\",\n      \"location\": \"shoulder area on candidate front view\"\n    },\n    {\n      \"type\": \"seam\",\n      \"location\": \"waistline on candidate side view\"\n    }\n  ],\n  \"alternative_artifact_explanation\": [],\n  \"confidence\": \"medium\",\n  \"claim_boundary\": \"atomic technical comparison; not cultural validation\"\n}",
+  "errors_before_success": [],
+  "claim_boundary": "Technical visual discrimination only; not cultural validation."
+}

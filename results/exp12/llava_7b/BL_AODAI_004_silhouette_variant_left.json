@@ -1,0 +1,37 @@
+{
+  "model": "llava:7b",
+  "case_id": "BL_AODAI_004",
+  "intervention": "short sleeves",
+  "target_criterion": "components",
+  "criterion": "silhouette",
+  "atomic_proposition": "The candidate visibly changes tunic length, body width, hem flare, fittedness, or side-slit height.",
+  "order": "variant_left",
+  "expected_changed": false,
+  "predicted_changed": true,
+  "correct": false,
+  "schema_attempts": 1,
+  "elapsed_seconds": 1.727,
+  "sheet_sha256": "fee9b37919f5589fdb1b3a2b61cf0b804d79abe87d5dde941214a7e462d069a9",
+  "source_sha256": {
+    "BL_AODAI_004_front.png": "6183f2f56756a0c2eb232a6b5a3eb1ebfd589ac85ccd18ba4797657f6e56f57e",
+    "BL_AODAI_004_side.png": "7c8d34e9b84ebaaaee461d2a0b572b3cb3b68ed3c2a168b1a2d5626833b48aa3",
+    "BL_AODAI_001_front.png": "8aebc650aee56bfe453209257e5127fa42de75173498cd8c2a6864cb7e191338",
+    "BL_AODAI_001_side.png": "be1cc846a866de9c3f7469e70548161a9a71de68a6a3534f747e4361adbb2278"
+  },
+  "assessment": {
+    "criterion": "silhouette",
+    "criterion_changed": true,
+    "visible_evidence": [
+      "Candidate 1 has a longer tunic length compared to the reference. ",
+      "Candidate 2 has a wider body width compared to the reference. ",
+      "Candidate 3 has a different hem flare compared to the reference. ",
+      "Candidate 4 has a different fittedness compared to the reference."
+    ],
+    "alternative_artifact_explanation": [],
+    "confidence": "medium",
+    "claim_boundary": "atomic technical comparison; not cultural validation"
+  },
+  "raw_response": "{\n  \"criterion\": \"silhouette\",\n  \"criterion_changed\": true,\n  \"visible_evidence\": [\"Candidate 1 has a longer tunic length compared to the reference. \", \"Candidate 2 has a wider body width compared to the reference. \", \"Candidate 3 has a different hem flare compared to the reference. \", \"Candidate 4 has a different fittedness compared to the reference.\"],\n  \"alternative_artifact_explanation\": [],\n  \"confidence\": \"medium\",\n  \"claim_boundary\": \"atomic technical comparison; not cultural validation\"\n}",
+  "errors_before_success": [],
+  "claim_boundary": "Technical visual discrimination only; not cultural validation."
+}

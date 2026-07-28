@@ -18,3 +18,6 @@ scripts, figure scripts, environment specifications, and checksums.
 `SHA256SUMS.txt` is the machine-readable file-completeness and integrity
 manifest. No completed specialist/community ratings are included. The archive
 does not claim cultural construct validity or an immutable public release DOI.
+
+Experiment `exp12` adds a multi-model atomic technical-discrimination
+benchmark. Its VLM outputs are not cultural validation.

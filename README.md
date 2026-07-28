@@ -45,6 +45,9 @@ parameters are researcher-authored. Its rankings are not empirical comparisons.
 - `results/exp11/`: 40 atomic, reference-anchored Qwen3-VL judgements over
   four controlled variants, five criteria, and two position orders, with a
   confusion matrix, class-aware metrics, position consistency, and prompts.
+- `results/exp12/`: multi-model atomic VLM benchmark with three complete
+  40-decision matrices, two documented runtime/schema failures, and explicit
+  technical-only claim boundaries.
 - `SHA256SUMS.txt`: integrity checks for every archived file.
 - `RELEASE_MANIFEST.md`: experiment-group and claim-boundary inventory.
 - `tests/test_revised_simulator.py`: regression tests for ordinal cut points,
@@ -68,6 +71,7 @@ python scripts/run_qwen3vl_view_ablation.py
 python scripts/analyze_qwen3vl_view_ablation.py
 python scripts/run_qwen3vl_pairwise_defects.py
 python scripts/run_qwen3vl_atomic_pairwise.py
+python scripts/run_multimodel_vlm_atomic_benchmark.py
 python scripts/regenerate_manuscript_figures.py
 python scripts/make_graphical_abstract.py
 pytest -q

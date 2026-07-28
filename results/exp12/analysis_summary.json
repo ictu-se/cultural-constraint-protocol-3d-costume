@@ -1,0 +1,132 @@
+{
+  "experiment": "multi-model atomic technical visual discrimination",
+  "requested_models": [
+    "qwen3-vl:4b",
+    "qwen2.5vl:3b",
+    "minicpm-v:latest",
+    "llava:7b",
+    "moondream:latest"
+  ],
+  "cases": 4,
+  "criteria_per_case": 5,
+  "position_orders": 2,
+  "expected_judgements_per_model": 40,
+  "metrics_by_model": {
+    "llava:7b": {
+      "judgement_count": 40,
+      "expected_judgement_count": 40,
+      "completion_rate": 1.0,
+      "confusion": {
+        "TP": 7,
+        "FP": 28,
+        "TN": 4,
+        "FN": 1
+      },
+      "accuracy": 0.275,
+      "precision": 0.2,
+      "recall": 0.875,
+      "specificity": 0.125,
+      "f1": 0.3256,
+      "balanced_accuracy": 0.5,
+      "matthews_correlation_coefficient": 0.0,
+      "positive_prediction_rate": 0.875,
+      "position_consistency_rate": 0.95,
+      "complete_position_pairs": 20,
+      "first_pass_schema_validity_rate": 1.0,
+      "mean_elapsed_seconds": 1.661
+    },
+    "minicpm-v:latest": {
+      "judgement_count": 40,
+      "expected_judgement_count": 40,
+      "completion_rate": 1.0,
+      "confusion": {
+        "TP": 8,
+        "FP": 32,
+        "TN": 0,
+        "FN": 0
+      },
+      "accuracy": 0.2,
+      "precision": 0.2,
+      "recall": 1.0,
+      "specificity": 0.0,
+      "f1": 0.3333,
+      "balanced_accuracy": 0.5,
+      "matthews_correlation_coefficient": 0,
+      "positive_prediction_rate": 1.0,
+      "position_consistency_rate": 1.0,
+      "complete_position_pairs": 20,
+      "first_pass_schema_validity_rate": 1.0,
+      "mean_elapsed_seconds": 4.671
+    },
+    "moondream:latest": {
+      "judgement_count": 31,
+      "expected_judgement_count": 40,
+      "completion_rate": 0.775,
+      "confusion": {
+        "TP": 8,
+        "FP": 23,
+        "TN": 0,
+        "FN": 0
+      },
+      "accuracy": 0.2581,
+      "precision": 0.2581,
+      "recall": 1.0,
+      "specificity": 0.0,
+      "f1": 0.4103,
+      "balanced_accuracy": 0.5,
+      "matthews_correlation_coefficient": 0,
+      "positive_prediction_rate": 1.0,
+      "position_consistency_rate": 1.0,
+      "complete_position_pairs": 15,
+      "first_pass_schema_validity_rate": 0.9355,
+      "mean_elapsed_seconds": 1.54
+    },
+    "qwen2.5vl:3b": {
+      "judgement_count": 40,
+      "expected_judgement_count": 40,
+      "completion_rate": 1.0,
+      "confusion": {
+        "TP": 6,
+        "FP": 32,
+        "TN": 0,
+        "FN": 2
+      },
+      "accuracy": 0.15,
+      "precision": 0.1579,
+      "recall": 0.75,
+      "specificity": 0.0,
+      "f1": 0.2609,
+      "balanced_accuracy": 0.375,
+      "matthews_correlation_coefficient": -0.4588,
+      "positive_prediction_rate": 0.95,
+      "position_consistency_rate": 1.0,
+      "complete_position_pairs": 20,
+      "first_pass_schema_validity_rate": 1.0,
+      "mean_elapsed_seconds": 3.156
+    },
+    "qwen3-vl:4b": {
+      "judgement_count": 7,
+      "expected_judgement_count": 40,
+      "completion_rate": 0.175,
+      "confusion": {
+        "TP": 1,
+        "FP": 0,
+        "TN": 6,
+        "FN": 0
+      },
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "specificity": 1.0,
+      "f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "matthews_correlation_coefficient": 1.0,
+      "positive_prediction_rate": 0.1429,
+      "position_consistency_rate": 1.0,
+      "complete_position_pairs": 2,
+      "first_pass_schema_validity_rate": 0.8571,
+      "mean_elapsed_seconds": 16.208
+    }
+  },
+  "claim_boundary": "VLM outputs are evaluated against programmatic intervention labels; they are not cultural validation and do not replace specialists."
+}

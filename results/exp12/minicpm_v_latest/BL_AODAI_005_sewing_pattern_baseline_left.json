@@ -1,0 +1,44 @@
+{
+  "model": "minicpm-v:latest",
+  "case_id": "BL_AODAI_005",
+  "intervention": "slimmer body and higher side slit",
+  "target_criterion": "silhouette",
+  "criterion": "sewing_pattern",
+  "atomic_proposition": "The candidate visibly changes seams, closures, panel boundaries, joins, or sewable construction.",
+  "order": "baseline_left",
+  "expected_changed": false,
+  "predicted_changed": true,
+  "correct": false,
+  "schema_attempts": 1,
+  "elapsed_seconds": 5.225,
+  "sheet_sha256": "4ce23c765e34597d1675b1523af0d193c7d59070c1f740ad74ab648bad2acdb8",
+  "source_sha256": {
+    "BL_AODAI_001_front.png": "8aebc650aee56bfe453209257e5127fa42de75173498cd8c2a6864cb7e191338",
+    "BL_AODAI_001_side.png": "be1cc846a866de9c3f7469e70548161a9a71de68a6a3534f747e4361adbb2278",
+    "BL_AODAI_005_front.png": "81a2c98a78b0a958b5b778bd82fc3aaf7b6dcdb9e344607d2ffe248ff78053b4",
+    "BL_AODAI_005_side.png": "b3a215bebbf2fafdc775ebafc862ef5bd4f434164d8cbcacfb2abf3e7363668c"
+  },
+  "assessment": {
+    "criterion": "sewing_pattern",
+    "criterion_changed": true,
+    "visible_evidence": [
+      {
+        "type": "seam",
+        "location": "shoulder area on the candidate's front view, where seams are visible and different from those in reference"
+      },
+      {
+        "type": "closure",
+        "location": "around neckline of both candidates' front views, showing a change in closure style or position compared to each other"
+      }
+    ],
+    "alternative_artifact_explanation": [
+      "The candidate's design includes additional seams and closures not present on the reference model.",
+      "Changes are visible along panel boundaries where different construction techniques have been applied."
+    ],
+    "confidence": "medium",
+    "claim_boundary": "atomic technical comparison; not cultural validation"
+  },
+  "raw_response": "{\n  \"criterion\": \"sewing_pattern\",\n  \"criterion_changed\": true,\n  \"visible_evidence\": [\n    {\n      \"type\": \"seam\",\n      \"location\": \"shoulder area on the candidate's front view, where seams are visible and different from those in reference\"\n    },\n    {\n      \"type\": \"closure\",\n      \"location\": \"around neckline of both candidates' front views, showing a change in closure style or position compared to each other\"\n    }\n  ],\n  \"alternative_artifact_explanation\": [\n    \"The candidate's design includes additional seams and closures not present on the reference model.\",\n    \"Changes are visible along panel boundaries where different construction techniques have been applied.\"\n  ],\n  \"confidence\": \"medium\",\n  \"claim_boundary\": \"atomic technical comparison; not cultural validation\"\n}",
+  "errors_before_success": [],
+  "claim_boundary": "Technical visual discrimination only; not cultural validation."
+}

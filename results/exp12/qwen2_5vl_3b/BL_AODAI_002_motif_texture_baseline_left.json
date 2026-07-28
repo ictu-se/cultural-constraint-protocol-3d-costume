@@ -1,0 +1,38 @@
+{
+  "model": "qwen2.5vl:3b",
+  "case_id": "BL_AODAI_002",
+  "intervention": "longer front/back panels",
+  "target_criterion": "silhouette",
+  "criterion": "motif_texture",
+  "atomic_proposition": "The candidate visibly changes ornament, motif placement, texture identity, or surface pattern.",
+  "order": "baseline_left",
+  "expected_changed": false,
+  "predicted_changed": true,
+  "correct": false,
+  "schema_attempts": 1,
+  "elapsed_seconds": 1.471,
+  "sheet_sha256": "8a837590ffc43c3eb0323f55f54e48438fbb64ce96762156e2abfdbf20db83fd",
+  "source_sha256": {
+    "BL_AODAI_001_front.png": "8aebc650aee56bfe453209257e5127fa42de75173498cd8c2a6864cb7e191338",
+    "BL_AODAI_001_side.png": "be1cc846a866de9c3f7469e70548161a9a71de68a6a3534f747e4361adbb2278",
+    "BL_AODAI_002_front.png": "790354fab7da095bf2d5266eec69d12e64d0dbac4d5f1f2a5c12bb5324350667",
+    "BL_AODAI_002_side.png": "77c391de38f7a2f6ae62d4e265e169d78c3778f92dcb82c7e1475c378625ff34"
+  },
+  "assessment": {
+    "criterion": "motif_texture",
+    "criterion_changed": true,
+    "visible_evidence": [
+      "The candidate front view has a different texture compared to the reference front view.",
+      "The candidate side view has a different texture compared to the reference side view."
+    ],
+    "alternative_artifact_explanation": [
+      "The candidate front view has a different texture compared to the reference front view.",
+      "The candidate side view has a different texture compared to the reference side view."
+    ],
+    "confidence": "medium",
+    "claim_boundary": "atomic technical comparison; not cultural validation"
+  },
+  "raw_response": "{\n  \"criterion\": \"motif_texture\",\n  \"criterion_changed\": true,\n  \"visible_evidence\": [\n    \"The candidate front view has a different texture compared to the reference front view.\",\n    \"The candidate side view has a different texture compared to the reference side view.\"\n  ],\n  \"alternative_artifact_explanation\": [\n    \"The candidate front view has a different texture compared to the reference front view.\",\n    \"The candidate side view has a different texture compared to the reference side view.\"\n  ],\n  \"confidence\": \"medium\",\n  \"claim_boundary\": \"atomic technical comparison; not cultural validation\"\n}",
+  "errors_before_success": [],
+  "claim_boundary": "Technical visual discrimination only; not cultural validation."
+}

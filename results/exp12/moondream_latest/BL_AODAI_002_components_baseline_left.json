@@ -1,0 +1,41 @@
+{
+  "model": "moondream:latest",
+  "case_id": "BL_AODAI_002",
+  "intervention": "longer front/back panels",
+  "target_criterion": "silhouette",
+  "criterion": "components",
+  "atomic_proposition": "The candidate visibly changes sleeve length, collar type, component inventory, or the presence of an opening.",
+  "order": "baseline_left",
+  "expected_changed": false,
+  "predicted_changed": true,
+  "correct": false,
+  "schema_attempts": 1,
+  "elapsed_seconds": 6.252,
+  "sheet_sha256": "8a837590ffc43c3eb0323f55f54e48438fbb64ce96762156e2abfdbf20db83fd",
+  "source_sha256": {
+    "BL_AODAI_001_front.png": "8aebc650aee56bfe453209257e5127fa42de75173498cd8c2a6864cb7e191338",
+    "BL_AODAI_001_side.png": "be1cc846a866de9c3f7469e70548161a9a71de68a6a3534f747e4361adbb2278",
+    "BL_AODAI_002_front.png": "790354fab7da095bf2d5266eec69d12e64d0dbac4d5f1f2a5c12bb5324350667",
+    "BL_AODAI_002_side.png": "77c391de38f7a2f6ae62d4e265e169d78c3778f92dcb82c7e1475c378625ff34"
+  },
+  "assessment": {
+    "criterion": "components",
+    "criterion_changed": true,
+    "visible_evidence": [
+      0.39,
+      0.5,
+      0.48,
+      0.58
+    ],
+    "alternative_artifact_explanation": [
+      0.4,
+      0.51,
+      0.49,
+      0.57
+    ],
+    "confidence": "low"
+  },
+  "raw_response": "{\"criterion\": \"components\", \"criterion_changed\": true, \"visible_evidence\": [0.39, 0.5, 0.48, 0.58],\"alternative_artifact_explanation\": [0.4, 0.51, 0.49, 0.57],\"confidence\": \"low\"}",
+  "errors_before_success": [],
+  "claim_boundary": "Technical visual discrimination only; not cultural validation."
+}
