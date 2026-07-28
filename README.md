@@ -48,6 +48,8 @@ parameters are researcher-authored. Its rankings are not empirical comparisons.
 - `results/exp12/`: multi-model atomic VLM benchmark with three complete
   40-decision matrices, two documented runtime/schema failures, and explicit
   technical-only claim boundaries.
+- `results/exp13/`: independent exported-mesh geometry/topology measurements
+  and baseline deltas for four controlled interventions.
 - `SHA256SUMS.txt`: integrity checks for every archived file.
 - `RELEASE_MANIFEST.md`: experiment-group and claim-boundary inventory.
 - `tests/test_revised_simulator.py`: regression tests for ordinal cut points,
@@ -72,6 +74,7 @@ python scripts/analyze_qwen3vl_view_ablation.py
 python scripts/run_qwen3vl_pairwise_defects.py
 python scripts/run_qwen3vl_atomic_pairwise.py
 python scripts/run_multimodel_vlm_atomic_benchmark.py
+python scripts/run_mesh_geometry_detector.py
 python scripts/regenerate_manuscript_figures.py
 python scripts/make_graphical_abstract.py
 pytest -q

@@ -21,3 +21,5 @@ does not claim cultural construct validity or an immutable public release DOI.
 
 Experiment `exp12` adds a multi-model atomic technical-discrimination
 benchmark. Its VLM outputs are not cultural validation.
+
+Experiment `exp13` adds independent exported-mesh geometry instrumentation.
