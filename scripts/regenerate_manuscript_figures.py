@@ -77,10 +77,10 @@ oracle=piv['expert_reference_upper_bound']; best=piv.drop(columns='expert_refere
 fig,ax=plt.subplots(figsize=(5.0,4.2)); yy=np.arange(12); ax.barh(yy,gap.values,color=['#d62828' if v>22 else '#f77f00' if v>20 else '#2a9d8f' for v in gap]); ax.set_yticks(yy); ax.set_yticklabels([plabel[x] for x in gap.index],fontsize=7); ax.invert_yaxis(); ax.set_xlabel('Gap to simulated-oracle score'); ax.set_title('Best non-oracle gap by profile'); save(fig,'profile_gap_to_expert')
 
 # Rebuild technical validation with safe labels.
-a=pd.read_csv(VAL/'ablation.csv'); ss=pd.read_csv(VAL/'seed_stability.csv'); rec=pd.read_csv(VAL/'injected_failure_recovery.csv')
-fig,axes=plt.subplots(1,3,figsize=(12,3.5)); full=a[a.variant=='full']
+a=pd.read_csv(VAL/'ablation.csv'); ss=pd.read_csv(VAL/'seed_stability.csv')
+fig,axes=plt.subplots(1,2,figsize=(8.2,3.5)); full=a[a.variant=='full']
 for v in ['no_profile_difficulty','single_regime','no_failure_events','no_interactions']:
     z=a[a.variant==v].set_index('method').reindex(methods); axes[0].plot(range(8),z.score_change_from_full,marker='o',label=v.replace('_',' '))
 axes[0].axhline(0,color='black',lw=.7); axes[0].set_xticks(range(8)); axes[0].set_xticklabels([mlabel[x] for x in methods],rotation=45,ha='right',fontsize=7); axes[0].set_ylabel('Points vs. full'); axes[0].set_title('Ablation: score change'); axes[0].legend(fontsize=6)
 sm=ss.groupby('method').mean_score.agg(['mean','std']).reindex(methods); axes[1].bar(range(8),sm['mean'],yerr=sm['std'],color='#2a9d8f'); axes[1].set_xticks(range(8)); axes[1].set_xticklabels([mlabel[x] for x in methods],rotation=45,ha='right',fontsize=7); axes[1].set_title('Ten-seed stability'); axes[1].set_ylabel('Mean score ± SD')
-axes[2].barh(range(7),rec.f1,color='#e76f51'); axes[2].set_yticks(range(7)); axes[2].set_yticklabels(clabel,fontsize=7); axes[2].set_xlim(0,1); axes[2].set_xlabel('F1'); axes[2].set_title('Injected-failure recovery'); save(fig,'technical_validation')
+save(fig,'technical_validation')
